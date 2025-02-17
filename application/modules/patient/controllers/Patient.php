@@ -305,7 +305,7 @@ class Patient extends MX_Controller {
                 
             }
             $this->patient_model->updatePatient($id_from_data, $data); // Usar $id_from_data siempre
-            $this->session->set_flashdata('feedback', lang('updated')); // Mostrar mensaje de éxito
+            $this->session->set_flashdata('feedback', lang('updated')); // Mostrar mensaje de éxitooo
         }
 
         // Este bloque de código maneja la redirección después de una operación, 
