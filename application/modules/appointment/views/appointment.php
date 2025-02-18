@@ -517,7 +517,7 @@
             </div>
             <div class="modal-body row">
                 <form role="form" id="editAppointmentForm" action="appointment/addNew" class="clearfix" method="post" enctype="multipart/form-data">
-                <div class="col-md-6 panel">
+                    <div class="col-md-6 panel">
                         <label for="exampleInputEmail1"> <?php echo lang('patient'); ?></label>
                         <select class="form-control m-bot15  pos_select1 patient" id="pos_select1" name="patient" value=''>
 
@@ -540,7 +540,7 @@
                             <label for="exampleInputEmail1"> <?php echo lang('patient'); ?> <?php echo lang('age'); ?></label>
                             <input type="text" class="form-control pay_in" name="p_age" value='' placeholder="">
                         </div>
-                        <div class="payment pad_bot">
+                        <div class="payment pad_bot pull-right">
                             <label for="exampleInputEmail1"> <?php echo lang('patient'); ?> <?php echo lang('gender'); ?></label>
                             <select class="form-control" name="p_gender" value=''>
 
@@ -550,21 +550,21 @@
                                         echo 'selected';
                                     }
                                 }
-                                ?>> Male </option>
+                                ?>> <?php echo lang('male'); ?> </option>
                                 <option value="Female" <?php
                                 if (!empty($patient->sex)) {
                                     if ($patient->sex == 'Female') {
                                         echo 'selected';
                                     }
                                 }
-                                ?>> Female </option>
+                                ?>><?php echo lang('female'); ?>  </option>
                                 <option value="Others" <?php
                                 if (!empty($patient->sex)) {
                                     if ($patient->sex == 'Others') {
                                         echo 'selected';
                                     }
                                 }
-                                ?>> Others </option>
+                                ?>><?php echo lang('others'); ?>  </option>
                             </select>
                         </div>
                     </div>
@@ -580,7 +580,7 @@
                         <input type="text" class="form-control default-date-picker" id="date1" required="" onkeypress="return false;" name="date" id="exampleInputEmail1" value='' placeholder="">
                     </div>
                     <div class="col-md-6 panel">
-                        <label for="exampleInputEmail1">Available Slots</label>
+                        <label for="exampleInputEmail1"> <?php echo lang('available_slots'); ?></label>
                         <select class="form-control m-bot15" name="time_slot" id="aslots1" value=''>
 
                         </select>

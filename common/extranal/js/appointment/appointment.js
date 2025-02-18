@@ -123,6 +123,7 @@ $(document).ready(function () {
               },
             ]);
         }
+         // Las siguientes líneas cargan los horarios disponibles.
         var date = $("#date1").val();
         var doctorr = $("#adoctors1").val();
         var appointment_id = $("#appointment_id").val();
