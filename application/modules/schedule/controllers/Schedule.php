@@ -73,7 +73,7 @@ class Schedule extends MX_Controller {
             die();
         }
 
-        
+        //slot horarios
         $all_slot = array(
             '0' => '12:00 AM',
             '1' => '12:05 AM',
@@ -549,7 +549,7 @@ class Schedule extends MX_Controller {
             redirect('schedule/timeSlots?doctor=' . $doctor);
             die();
         }
-
+        //segundo array con los horarios
         $all_slot = array(
             '0' => '12:00 AM',
             '1' => '12:05 AM',
@@ -902,11 +902,11 @@ class Schedule extends MX_Controller {
 
 
 
-// Validating Starting Time Field
+        // Validating Starting Time Field
         $this->form_validation->set_rules('s_time', 'Start Time', 'trim|required|min_length[5]|max_length[100]|xss_clean');
-// Validating End Time Field   
+        // Validating End Time Field   
         $this->form_validation->set_rules('e_time', 'End Time', 'trim|required|min_length[5]|max_length[500]|xss_clean');
-// Validating Week Day Field   
+        // Validating Week Day Field   
         $this->form_validation->set_rules('e_time', 'End Time', 'trim|required|min_length[5]|max_length[500]|xss_clean');
 
         if ($this->form_validation->run() == FALSE) {
@@ -957,6 +957,47 @@ class Schedule extends MX_Controller {
     }
 
     function getAvailableSlotByDoctorByDateByAppointmentIdByJason() {
+        // Inicializa un array vacío llamado $data. Este array se utilizará para almacenar
+        // los datos que se enviarán como respuesta JSON.
+        $data = array();
+    
+        // Obtiene el valor del parámetro 'appointment_id' enviado a través de la URL
+        // usando $this->input->get('appointment_id') (probablemente una función de un framework como CodeIgniter).
+        // Este valor representa el ID de la cita.
+        $appointment_id = $this->input->get('appointment_id');
+    
+        // Obtiene el valor del parámetro 'date' enviado a través de la URL.
+        // Este valor representa la fecha para la que se buscan horarios disponibles.
+        $date = $this->input->get('date');
+    
+        // Verifica si la variable $date no está vacía.
+        if (!empty($date)) {
+            // Si la fecha no está vacía, la convierte a un timestamp Unix
+            // usando la función strtotime(). Esto facilita el manejo de fechas en bases de datos y cálculos.
+            $date = strtotime($date);
+        }
+    
+        // Obtiene el valor del parámetro 'doctor' enviado a través de la URL.
+        // Este valor representa el ID del doctor.
+        $doctor = $this->input->get('doctor');
+    
+        // Llama a la función getAvailableSlotByDoctorByDateByAppointmentId del modelo schedule_model.
+        // Esta función probablemente realiza una consulta a la base de datos para obtener
+        // las franjas horarias disponibles para el doctor, la fecha y la cita especificados.
+        // El resultado de esta función (un array de horarios) se guarda en el campo 'aslots' del array $data.
+        $data['aslots'] = $this->schedule_model->getAvailableSlotByDoctorByDateByAppointmentId($date, $doctor, $appointment_id);
+    
+        // Llama a la función getAppointmentById del modelo appointment_model para obtener los detalles de la cita.
+        // Luego, accede a la propiedad 'time_slot' del objeto de cita devuelto.
+        // Este valor (la franja horaria actual de la cita) se guarda en el campo 'current_value' del array $data.
+        $data['current_value'] = $this->appointment_model->getAppointmentById($appointment_id)->time_slot;
+    
+        // Codifica el array $data a formato JSON usando json_encode().
+        // Este JSON se enviará como respuesta a la solicitud AJAX.
+        echo json_encode($data);
+    }
+
+    /* function getAvailableSlotByDoctorByDateByAppointmentIdByJason() {
         $data = array();
         $appointment_id = $this->input->get('appointment_id');
         $date = $this->input->get('date');
@@ -967,7 +1008,7 @@ class Schedule extends MX_Controller {
         $data['aslots'] = $this->schedule_model->getAvailableSlotByDoctorByDateByAppointmentId($date, $doctor, $appointment_id);
         $data['current_value'] = $this->appointment_model->getAppointmentById($appointment_id)->time_slot;
         echo json_encode($data);
-    }
+    } */
 
     function allHolidays() {
         $data['settings'] = $this->settings_model->getSettings();

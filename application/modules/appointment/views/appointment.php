@@ -296,21 +296,21 @@
                                         echo 'selected';
                                     }
                                 }
-                                ?>> Male </option>
+                                ?>><?php echo lang('male'); ?>  </option>
                                 <option value="Female" <?php
                                 if (!empty($patient->sex)) {
                                     if ($patient->sex == 'Female') {
                                         echo 'selected';
                                     }
                                 }
-                                ?>> Female </option>
+                                ?>><?php echo lang('female'); ?>  </option>
                                 <option value="Others" <?php
                                 if (!empty($patient->sex)) {
                                     if ($patient->sex == 'Others') {
                                         echo 'selected';
                                     }
                                 }
-                                ?>> Others </option>
+                                ?>><?php echo lang('others'); ?>  </option>
                             </select>
                         </div>
                     </div>
@@ -323,10 +323,10 @@
 
                     <div class="col-md-6 panel">
                         <label for="exampleInputEmail1"> <?php echo lang('date'); ?></label>
-                        <input type="text" class="form-control default-date-picker" id="date" required=""  onkeypress="return false;"  name="date" id="exampleInputEmail1" value='' placeholder="">
+                        <input type="text" class="form-control default-date-picker" id="date" required=""  onkeypress="return false;"  name="date" id="exampleInputEmail1" value='' placeholder="<?php echo lang('select_date'); ?>">
                     </div>
                     <div class="col-md-6 panel">
-                        <label for="exampleInputEmail1">Available Slots</label>
+                        <label for="exampleInputEmail1"><?php echo lang('available_slots'); ?></label>
                         <select class="form-control m-bot15" name="time_slot" id="aslots" value=''>
 
                         </select>

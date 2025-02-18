@@ -747,7 +747,7 @@ $lang['OUR_SERVICES'] = 'NUESTROS SERVICIOS';
 $lang['Feature_Doctors'] = 'Doctores destacadas';
 $lang['STAY_CONNECTED'] = 'MANTENTE CONECTADO';
 $lang['CONTACT_INFO'] = 'DATOS DE CONTACTO';
-$lang['welcome'] = 'Bievenido';
+$lang['welcome'] = 'Bievenido(a)';
 $lang['upload'] = 'Upload';
 $lang['view_files'] = 'View Files';
 $lang['folder'] = 'Folder';
@@ -867,5 +867,6 @@ $lang['forgot_password_identity_label'] = 'Olvidé mi contraseña y mi etiqueta 
 $lang['email_forgot_password_heading'] = 'Encabezado de correo electrónico de contraseña olvidada';
 $lang['email_forgot_password_subheading'] = 'Subtítulo del correo electrónico Olvidé mi contraseña';
 $lang['email_forgot_password_link'] = 'Enlace de correo electrónico de contraseña olvidada';
+$lang['select_date'] = 'Seleccione fecha';
 
 

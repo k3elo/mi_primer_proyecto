@@ -154,8 +154,8 @@ $(document).ready(function () {
               $("#aslots1")
                 .append(
                   $("<option>")
-                    .text("No Further Time Slots")
-                    .val("Not Selected")
+                    .text("No hay más franjas horarias")
+                    .val("No seleccionado")
                 )
                 .end();
             }
@@ -218,7 +218,7 @@ $(document).ready(function () {
           //if it is blank.
           $("#aslots")
             .append(
-              $("<option>").text("No Further Time Slots").val("Not Selected")
+              $("<option>").text("No hay más franjas horarias").val("No seleccionado")
             )
             .end();
         }
@@ -265,7 +265,7 @@ $(document).ready(function () {
         //if it is blank.
         $("#aslots")
           .append(
-            $("<option>").text("No Further Time Slots").val("Not Selected")
+            $("<option>").text("No hay más franjas horarias").val("No seleccionado ")
           )
           .end();
       }
@@ -311,7 +311,7 @@ function dateChanged() {
       if ($("#aslots").has("option").length == 0) {
         $("#aslots")
           .append(
-            $("<option>").text("No Further Time Slots").val("Not Selected")
+            $("<option>").text("No hay más franjas horarias").val("No seleccionado")
           )
           .end();
       }
@@ -352,7 +352,7 @@ $(document).ready(function () {
           //if it is blank.
           $("#aslots1")
             .append(
-              $("<option>").text("No Further Time Slots").val("Not Selected")
+              $("<option>").text("No hay más franjas horarias").val("No seleccionado")
             )
             .end();
         }
@@ -402,7 +402,7 @@ $(document).ready(function () {
         //if it is blank.
         $("#aslots1")
           .append(
-            $("<option>").text("No Further Time Slots").val("Not Selected")
+            $("<option>").text("No hay más franjas horarias").val("No seleccionado")
           )
           .end();
       }
@@ -452,7 +452,7 @@ function dateChanged1() {
         //if it is blank.
         $("#aslots1")
           .append(
-            $("<option>").text("No Further Time Slots").val("Not Selected")
+            $("<option>").text("No hay más franjas horarias").val("No seleccionado")
           )
           .end();
       }

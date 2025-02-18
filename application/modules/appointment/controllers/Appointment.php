@@ -876,6 +876,10 @@ class Appointment extends MX_Controller
     }
 
     function getArrayKey($s_time)
+    // Define un array asociativo llamado $all_slot que contiene una lista de horarios.
+    // Las claves del array son números (0, 1, 2, ...) y los valores son cadenas de texto
+    // que representan horarios en formato "HH:MM AM/PM".  Este array representa un conjunto
+    // de franjas horarias con intervalos de 5 minutos.
     {
 
         $all_slot = array(
@@ -1168,7 +1172,8 @@ class Appointment extends MX_Controller
             '286' => '11:50 PM',
             '287' => '11:55 PM',
         );
-
+        // Busca la clave (índice) del horario $s_time dentro del array $all_slot.
+        // La función array_search() devuelve la clave si encuentra el valor, o FALSE si no lo encuentra.
         $key = array_search($s_time, $all_slot);
         return $key;
     }
