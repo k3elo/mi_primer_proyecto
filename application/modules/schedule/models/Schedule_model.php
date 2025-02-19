@@ -105,7 +105,7 @@ class Schedule_model extends CI_model {
             $bookedTimeSlot = array();
 
             foreach ($query1 as $timeslot) {
-                $availabletimeSlot[] = $timeslot->s_time . ' To ' . $timeslot->e_time;
+                $availabletimeSlot[] = $timeslot->s_time . ' a ' . $timeslot->e_time;
             }
             foreach ($query as $bookedTime) {
                 if ($bookedTime->status != 'Cancelled') {
@@ -145,7 +145,7 @@ class Schedule_model extends CI_model {
             $bookedTimeSlot = array();
 
             foreach ($query1 as $timeslot) {
-                $availabletimeSlot[] = $timeslot->s_time . ' To ' . $timeslot->e_time;
+                $availabletimeSlot[] = $timeslot->s_time . ' A ' . $timeslot->e_time;
             }
             foreach ($query as $bookedTime) {
                 if ($bookedTime->status != 'Cancelled') {
