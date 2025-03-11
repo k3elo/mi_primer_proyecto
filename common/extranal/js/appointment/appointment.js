@@ -275,49 +275,112 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   "use strict";
-  $("#date")
-    .datepicker({
+  console.log("Documento listo");
+
+  // Declarar availableDays fuera de dateChanged1 para que esté disponible globalmente
+  let availableDays = [];
+
+  // 1. Verificar si el datepicker se inicializa
+  console.log("Inicializando datepicker");
+
+  $("#date1").datepicker({
       format: "dd-mm-yyyy",
       autoclose: true,
-    })
-    //Listen for the change even on the input
-    // .change(dateChanged)
-    .on("changeDate", dateChanged);
-});
+      beforeShowDay: function (date) {
+          // 2. Verificar si beforeShowDay se ejecuta
+          console.log("Ejecutando beforeShowDay");
+          const day = date.getDay();
 
-function dateChanged() {
-  "use strict";
-  var iid = $("#date").val();
-  var doctorr = $("#adoctors").val();
-  $("#aslots").find("option").remove();
+          // 1. Verificar el valor de 'availableDays' dentro de beforeShowDay
+          console.log("Día de la semana:", day);
+          console.log("Días disponibles:", availableDays);
+          console.log("¿Está el día disponible?", availableDays.includes(day));
 
-  $.ajax({
-    url:
-      "schedule/getAvailableSlotByDoctorByDateByJason?date=" +
-      iid +
-      "&doctor=" +
-      doctorr,
-    method: "GET",
-    data: "",
-    dataType: "json",
-    success: function (response) {
+          return availableDays.includes(day); // Usar includes() directamente
+          
+      },
+      // language: 'es', // Opcional: Para cambiar el idioma del datepicker
+      // weekStart: 1   // Opcional: Para empezar la semana en lunes
+  }).on("changeDate", dateChanged1);
+
+  // Llamar a dateChanged1 inicialmente para cargar los horarios del día actual (o el primero disponible)
+  dateChanged1();
+
+  // Evento change para el select de doctores
+  $("#adoctors1").change(dateChanged1);
+
+  function dateChanged1() {
       "use strict";
-      var slots = response.aslots;
-      $.each(slots, function (key, value) {
-        "use strict";
-        $("#aslots").append($("<option>").text(value).val(value)).end();
-      });
+      console.log("Evento changeDate disparado");
+      const id = $("#appointment_id").val();
+      const iid = $("#date1").val();
+      const doctorr = $("#adoctors1").val();
+      console.log("Fecha seleccionada:", iid);
+      console.log("Doctor seleccionado:", doctorr);
+      // Usar empty() para remover opciones más eficientemente
+      $("#aslots1").empty();
 
-      if ($("#aslots").has("option").length == 0) {
-        $("#aslots")
-          .append(
-            $("<option>").text("No hay más franjas horarias").val("No seleccionado")
-          )
-          .end();
-      }
-    },
-  });
-}
+      // Salir si fecha o doctor no están seleccionados para evitar llamadas AJAX innecesarias
+      if (!iid || !doctorr) return;
+
+      $.ajax({
+          url: "schedule/getAvailableSlotByDoctorByDateByAppointmentIdByJason", // URL más limpia
+          method: "GET",
+          data: { // Enviar datos como objeto para mayor claridad
+              date: iid,
+              doctor: doctorr,
+              appointment_id: id
+          },
+          dataType: "json",
+          success: function (response) {
+              "use strict";
+              // Manejar el caso de que response.aslots sea undefined
+              const slots = response.aslots || [];
+
+              if (slots.length === 0) {
+                  $("#aslots1").append($("<option>").text("No hay franjas horarias disponibles").val("No seleccionado"));
+              } else {
+                  $.each(slots, function (key, value) {
+                      $("#aslots1").append($("<option>").text(value).val(value));
+                  });
+              }
+
+              // Mantener la selección actual
+              $("#aslots1").val(response.current_value).trigger("change");
+
+              // 2. Verificar el valor de 'response.available_days' y 'availableDays' después de la llamada AJAX
+              console.log("Respuesta del servidor:", response.available_days);
+
+              const dayNameToNumber = {
+                'Sunday': 0,
+                'Monday': 1,
+                'Tuesday': 2,
+                'Wednesday': 3,
+                'Thursday': 4,
+                'Friday': 5,
+                'Saturday': 6
+            };
+
+            availableDays = (response.available_days || []).map(function (dayName) {
+                const dayNumber = dayNameToNumber[dayName];
+                return dayNumber !== undefined ? dayNumber : null;
+            }).filter(day => day !== null && !isNaN(day));
+
+              console.log("Días disponibles (después de procesar):", availableDays);
+
+              $("#date1").datepicker("update");
+               // 3. Verificar si se llama a 'update' del datepicker
+               console.log("Datepicker actualizado");
+
+          },
+          // Manejo de error en AJAX
+          error: function (jqXHR, textStatus, errorThrown) {
+              console.error("Error en la solicitud AJAX:", textStatus, errorThrown);
+              alert("Hubo un error al cargar los horarios. Por favor, inténtalo de nuevo.");
+          }
+      });
+  }
+});
 
 $(document).ready(function () {
   "use strict";
@@ -410,55 +473,7 @@ $(document).ready(function () {
   });
 });
 
-$(document).ready(function () {
-  "use strict";
-  $("#date1")
-    .datepicker({
-      format: "dd-mm-yyyy",
-      autoclose: true,
-    })
-    //Listen for the change even on the input
-    // .change(dateChanged1)
-    .on("changeDate", dateChanged1);
-});
-
-function dateChanged1() {
-  "use strict";
-  var id = $("#appointment_id").val();
-  var iid = $("#date1").val();
-  var doctorr = $("#adoctors1").val();
-  $("#aslots1").find("option").remove();
-
-  $.ajax({
-    url:
-      "schedule/getAvailableSlotByDoctorByDateByAppointmentIdByJason?date=" +
-      iid +
-      "&doctor=" +
-      doctorr +
-      "&appointment_id=" +
-      id,
-    method: "GET",
-    data: "",
-    dataType: "json",
-    success: function (response) {
-      "use strict";
-      var slots = response.aslots;
-      $.each(slots, function (key, value) {
-        "use strict";
-        $("#aslots1").append($("<option>").text(value).val(value)).end();
-      });
-
-      if ($("#aslots1").has("option").length == 0) {
-        //if it is blank.
-        $("#aslots1")
-          .append(
-            $("<option>").text("No hay más franjas horarias").val("No seleccionado")
-          )
-          .end();
-      }
-    },
-  });
-}
+//aqui saque el codigo de la funcion dateChanged1 para que no se repita
 
 $(document).ready(function () {
   "use strict";

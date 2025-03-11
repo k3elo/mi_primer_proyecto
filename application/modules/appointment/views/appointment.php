@@ -577,7 +577,7 @@
                     <input type="hidden" name="redirectlink" value="10">
                     <div class="col-md-6 panel">
                         <label for="exampleInputEmail1"> <?php echo lang('date'); ?></label>
-                        <input type="text" class="form-control default-date-picker" id="date1" required="" onkeypress="return false;" name="date" id="exampleInputEmail1" value='' placeholder="">
+                        <input type="text" class="form-control default-date-picker" id="date1" required="" onkeypress="return false;" name="date1" id="exampleInputEmail1" value='' placeholder="">
                     </div>
                     <div class="col-md-6 panel">
                         <label for="exampleInputEmail1"> <?php echo lang('available_slots'); ?></label>
