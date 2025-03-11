@@ -302,7 +302,17 @@ class Patient extends MX_Controller {
                 $this->patient_model->updatePatient($id, $data); // Actualizar los datos del paciente
         
             }
-            $this->patient_model->updatePatient($id_from_data, $data); // Usar $id_from_data siempre
+
+            // Actualizar los datos del paciente con id_from_data si está definido
+            if (isset($id_from_data)) {
+                // Usar $id_from_data aquí
+                $this->patient_model->updatePatient($id_from_data, $data);
+            } else {
+                // Manejar el caso en que $id_from_data no está definido
+                // Por ejemplo, usar el $id original o mostrar un error
+                $this->patient_model->updatePatient($id, $data); // Usar el $id original
+            }
+            //$this->patient_model->updatePatient($id_from_data, $data); // Usar $id_from_data siempre
             $this->session->set_flashdata('feedback', lang('updated')); // Mostrar mensaje de éxito
         }
 
