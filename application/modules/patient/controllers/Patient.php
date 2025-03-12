@@ -889,15 +889,16 @@ class Patient extends MX_Controller {
 
         $date = $this->input->post('date');
 
-        $title = $this->input->post('title');
-
         if (!empty($date)) {
             $date = strtotime($date);
         } else {
             $date = time();
         }
 
-        $description = $this->input->post('description');
+        $historia_clinica = $this->input->post('historia_clinica');//antes era el campo title
+        $examen_fisico = $this->input->post('examen_fisico');//antes era el campo description
+        $indicaciones = $this->input->post('indicaciones');
+        
         $this->load->library('form_validation');
         $this->form_validation->set_error_delimiters('<div class="error">', '</div>');
 
@@ -910,9 +911,11 @@ class Patient extends MX_Controller {
         $this->form_validation->set_rules('date', 'Date', 'trim|min_length[1]|max_length[100]|xss_clean');
 
 
-        $this->form_validation->set_rules('title', 'Title', 'trim|min_length[1]|max_length[100]|xss_clean');
+        $this->form_validation->set_rules('historia_clinica', 'Historia_clinica', 'trim|min_length[5]|max_length[10000]|xss_clean');
 
-        $this->form_validation->set_rules('description', 'Description', 'trim|min_length[5]|max_length[10000]|xss_clean');
+        $this->form_validation->set_rules('examen_fisico', 'Examen_fisico', 'trim|min_length[5]|max_length[10000]|xss_clean');
+
+        $this->form_validation->set_rules('indicaciones', 'Indicaciones', 'trim|min_length[5]|max_length[10000]|xss_clean');
 
 
         if ($this->form_validation->run() == FALSE) {
@@ -941,8 +944,9 @@ class Patient extends MX_Controller {
             $data = array(
                 'patient_id' => $patient_id,
                 'date' => $date,
-                'title' => $title,
-                'description' => $description,
+                'title' => $historia_clinica,  //esta campo de texto es de historia_clinica
+                'description' => $examen_fisico,
+                'indicaciones' => $indicaciones,
                 'patient_name' => $patient_name,
                 'patient_phone' => $patient_phone,
                 'patient_address' => $patient_address,

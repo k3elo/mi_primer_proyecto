@@ -1,6 +1,17 @@
 "use strict";
 
 $(document).ready(function () {
+  // Guardar el estado del menú activo en localStorage
+  $(".nav-tabs a").on("click", function () {
+    var activeTab = $(this).attr("href");
+    localStorage.setItem("activeTab", activeTab);
+  });
+
+  // Restaurar el estado del menú activo desde localStorage
+  var activeTab = localStorage.getItem("activeTab");
+  if (activeTab) {
+    $('.nav-tabs a[href="' + activeTab + '"]').tab("show");
+  }
   "use strict";
   $(".medical_history_button").on("click", ".editbutton", function () {
     "use strict";
@@ -14,6 +25,7 @@ $(document).ready(function () {
       success: function (response) {
         "use strict";
         var date = new Date(response.medical_history.date * 1000);
+        date.setDate(date.getDate() + 1); // Ajustar la fecha sumando un día
         var de =
           date.getDate() +
           "-" +
@@ -21,19 +33,17 @@ $(document).ready(function () {
           "-" +
           date.getFullYear();
 
-        $("#medical_historyEditForm")
-          .find('[name="id"]')
-          .val(response.medical_history.id)
-          .end();
+        $("#medical_historyEditForm").find('[name="id"]').val(response.medical_history.id).end();
         $("#medical_historyEditForm").find('[name="date"]').val(de).end();
-        $("#medical_historyEditForm")
-          .find('[name="title"]')
-          .val(response.medical_history.title)
-          .end();
-        myEditor.setData(response.medical_history.description);
+        //$("#medical_historyEditForm").find('[name="title"]').val(response.medical_history.title).end();
+        //myEditor.setData(response.medical_history.description);
+        myEditor_editor_clinical_history_editar.setData(response.medical_history.title);
+        myEditor_editor_physical_examination_editar.setData(response.medical_history.description);
+        myEditor_editor_indications_editar.setData(response.medical_history.indicaciones);
       },
     });
   });
+
   $(".vitalSignTable").on("click", ".editbutton", function () {
     "use strict";
     var iid = $(this).attr("data-id");
@@ -89,6 +99,9 @@ $(document).ready(function () {
 
 var myEditor;
 var myEditor1;
+var myEditor_editor_clinical_history_editar;
+var myEditor_editor_physical_examination_editar;
+var myEditor_editor_indications_editar
 
 $(document).ready(function () {
 
@@ -115,6 +128,81 @@ $(document).ready(function () {
 
         })
 
+        .catch(error => {
+            console.error(error);
+        });
+        // Inicializar CKEditor en cada textarea
+    ClassicEditor
+        .create(document.querySelector('#editor_clinical_history'))
+        .then(editor => {
+            editor.model.document.on('change:data', () => {
+                $("#editor_clinical_history").html(editor.getData());
+            });
+            editor.ui.view.editable.element.style.height = '100px';
+        })
+        .catch(error => {
+            console.error(error);
+        });
+
+    ClassicEditor
+        .create(document.querySelector('#editor_physical_examination'))
+        .then(editor => {
+            editor.model.document.on('change:data', () => {
+                $("#editor_physical_examination").html(editor.getData());
+            });
+            editor.ui.view.editable.element.style.height = '100px';
+        })
+        .catch(error => {
+            console.error(error);
+        });
+
+    ClassicEditor
+        .create(document.querySelector('#editor_indications'))
+        .then(editor => {
+            editor.model.document.on('change:data', () => {
+                $("#editor_indications").html(editor.getData());
+            });
+            editor.ui.view.editable.element.style.height = '100px';
+        })
+        .catch(error => {
+            console.error(error);
+        });
+        //modal editar 
+    ClassicEditor
+        .create(document.querySelector('#editor_clinical_history_editar'))
+        .then(editor => {
+            editor.model.document.on('change:data', () => {
+                $("#editor_clinical_history_editar").html(editor.getData());
+            });
+            editor.ui.view.editable.element.style.height = '100px';
+            myEditor_editor_clinical_history_editar = editor;
+        })
+        .catch(error => {
+            console.error(error);
+        });
+
+    ClassicEditor
+        .create(document.querySelector('#editor_physical_examination_editar'))
+        .then(editor => {
+            editor.model.document.on('change:data', () => {
+                $("#editor_physical_examination_editar").html(editor.getData());
+            });
+            editor.ui.view.editable.element.style.height = '100px';
+            myEditor_editor_physical_examination_editar = editor;
+        })
+        .catch(error => {
+            console.error(error);
+        });
+
+    ClassicEditor
+        .create(document.querySelector('#editor_indications_editar'))
+        .then(editor => {
+            editor.model.document.on('change:data', () => {
+                $("#editor_indications_editar").html(editor.getData());
+            });
+            editor.ui.view.editable.element.style.height = '100px';
+            myEditor_editor_indications_editar = editor;
+        })
         .catch(error => {
             console.error(error);
         });
