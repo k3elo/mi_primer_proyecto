@@ -188,7 +188,8 @@ $(document).ready(function () {
     $("#cmodal").modal("show");
   });
 });
-
+//seleccionar un médico y luego actualizar los horarios disponibles y los detalles de la .-
+// visita según el médico y la fecha seleccionados 
 $(document).ready(function () {
   "use strict";
   $(".doctor_div").on("change", "#adoctors", function () {
@@ -273,30 +274,136 @@ $(document).ready(function () {
   });
 });
 
+//datepicker
+
 $(document).ready(function () {
   "use strict";
-  $("#date")
+
+  // Arreglo para almacenar los días disponibles
+  var availableDates = [];
+
+  // Función para obtener los días disponibles desde el servidor
+  function fetchAvailableDates(doctorId) {
+    $.ajax({
+      url: "schedule/getAvailableDatesByDoctor?doctor=" + doctorId,
+      method: "GET",
+      dataType: "json",
+      success: function (response) {
+        console.log("Días disponibles:", response.availableDates);
+        availableDates = response.availableDates; // Almacenar los días disponibles
+        $("#date").datepicker("refresh"); // Refrescar el datepicker
+      },
+      error: function (xhr, status, error) {
+        console.error("Error al obtener los días disponibles:", error);
+      },
+    });
+  }
+  
+  function DisableDates(date) {
+    debugger;
+    console.log("beforeShowDay ejecutado");// Mostrar en la consola
+    // Formatear la fecha como "dd-mm-yyyy"
+    var dateString = $.datepicker.formatDate("yyyy-mm-dd", date);
+    console.log("Fecha en el calendario:", dateString);
+    console.log("¿Está disponible?", availableDates.includes(dateString));
+
+    // Verificar si la fecha está en la lista de días disponibles
+    if (availableDates.includes(dateString)) {
+      console.log("Día destacado:", dateString);
+      return [true, "available-day", "Día disponible"]; // Destacar el día
+    } else {
+      console.log("Día no disponible:", dateString);
+      return [false, "", "No disponible"]; // Deshabilitar el día
+    }
+  }
+  // Inicializar el datepicker
+  
+    console.log("datepicker ejecutado");
+    $("#date").datepicker({
+      format: "yyyy-mm-dd",
+      autoclose: true,
+      beforeShowDay: DisableDates,
+    }).on("changeDate", dateChanged);
+
+    $("#date").datepicker("refresh"); // Refrescar el datepicker
+  
+  // Función para manejar el cambio de fecha
+  function dateChanged() {
+    var iid = $("#date").val();
+    var doctorr = $("#adoctors").val();
+
+    if (!iid || !doctorr) {
+      alert("Por favor, seleccione una fecha y un médico.");
+      return;
+    }
+    console.log("Fecha seleccionada:", iid);
+    console.log("Doctor seleccionado:", doctorr);
+    $("#loading-spinner").show(); // Mostrar spinner
+    $("#aslots").find("option").remove(); // Limpiar opciones existentes
+
+    $.ajax({
+      url: "schedule/getAvailableSlotByDoctorByDateByJason?date=" + iid + "&doctor=" + doctorr,
+      method: "GET",
+      dataType: "json",
+      success: function (response) {
+        var slots = response.aslots;
+        if (slots && slots.length > 0) {
+          $.each(slots, function (key, value) {
+            $("#aslots").append($("<option>").text(value).val(value)).end();
+          });
+        } else {
+          $("#aslots").append($("<option>").text("No hay más franjas horarias").val("No seleccionado")).end();
+        }
+      },
+      error: function (xhr, status, error) {
+        console.error("Error en la solicitud AJAX:", error);
+        $("#aslots").append($("<option>").text("Error al cargar horarios").val("Error")).end();
+      },
+      complete: function () {
+        $("#loading-spinner").hide(); // Ocultar spinner
+      },
+    });
+  }
+
+  // Escuchar cambios en el médico seleccionado
+  $("#adoctors").on("change", function () {
+    var doctorId = $(this).val();
+    fetchAvailableDates(doctorId); // Obtener los días disponibles del médico
+  });
+
+  // Obtener los días disponibles al cargar la página
+  var initialDoctorId = $("#adoctors").val();
+  fetchAvailableDates(initialDoctorId);
+});
+//terminar el datepicker
+
+$(document).ready(function () {
+  "use strict";
+  $("#date1")
     .datepicker({
       format: "dd-mm-yyyy",
       autoclose: true,
     })
     //Listen for the change even on the input
-    // .change(dateChanged)
-    .on("changeDate", dateChanged);
+    // .change(dateChanged1)
+    .on("changeDate", dateChanged1);
 });
 
-function dateChanged() {
+function dateChanged1() {
   "use strict";
-  var iid = $("#date").val();
-  var doctorr = $("#adoctors").val();
-  $("#aslots").find("option").remove();
+  var id = $("#appointment_id").val();
+  var iid = $("#date1").val();
+  var doctorr = $("#adoctors1").val();
+  $("#aslots1").find("option").remove();
 
   $.ajax({
     url:
-      "schedule/getAvailableSlotByDoctorByDateByJason?date=" +
+      "schedule/getAvailableSlotByDoctorByDateByAppointmentIdByJason?date=" +
       iid +
       "&doctor=" +
-      doctorr,
+      doctorr +
+      "&appointment_id=" +
+      id,
     method: "GET",
     data: "",
     dataType: "json",
@@ -305,11 +412,12 @@ function dateChanged() {
       var slots = response.aslots;
       $.each(slots, function (key, value) {
         "use strict";
-        $("#aslots").append($("<option>").text(value).val(value)).end();
+        $("#aslots1").append($("<option>").text(value).val(value)).end();
       });
 
-      if ($("#aslots").has("option").length == 0) {
-        $("#aslots")
+      if ($("#aslots1").has("option").length == 0) {
+        //if it is blank.
+        $("#aslots1")
           .append(
             $("<option>").text("No hay más franjas horarias").val("No seleccionado")
           )
@@ -409,56 +517,6 @@ $(document).ready(function () {
     },
   });
 });
-
-$(document).ready(function () {
-  "use strict";
-  $("#date1")
-    .datepicker({
-      format: "dd-mm-yyyy",
-      autoclose: true,
-    })
-    //Listen for the change even on the input
-    // .change(dateChanged1)
-    .on("changeDate", dateChanged1);
-});
-
-function dateChanged1() {
-  "use strict";
-  var id = $("#appointment_id").val();
-  var iid = $("#date1").val();
-  var doctorr = $("#adoctors1").val();
-  $("#aslots1").find("option").remove();
-
-  $.ajax({
-    url:
-      "schedule/getAvailableSlotByDoctorByDateByAppointmentIdByJason?date=" +
-      iid +
-      "&doctor=" +
-      doctorr +
-      "&appointment_id=" +
-      id,
-    method: "GET",
-    data: "",
-    dataType: "json",
-    success: function (response) {
-      "use strict";
-      var slots = response.aslots;
-      $.each(slots, function (key, value) {
-        "use strict";
-        $("#aslots1").append($("<option>").text(value).val(value)).end();
-      });
-
-      if ($("#aslots1").has("option").length == 0) {
-        //if it is blank.
-        $("#aslots1")
-          .append(
-            $("<option>").text("No hay más franjas horarias").val("No seleccionado")
-          )
-          .end();
-      }
-    },
-  });
-}
 
 $(document).ready(function () {
   "use strict";

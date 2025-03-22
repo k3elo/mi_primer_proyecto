@@ -261,7 +261,7 @@
             </div>
             <div class="modal-body row">
                 <form role="form" action="appointment/addNew" id="addAppointmentForm" method="post" class="clearfix" enctype="multipart/form-data">
-                <div class="col-md-6 panel">
+                    <div class="col-md-6 panel">
                         <label for="exampleInputEmail1"> <?php echo lang('patient'); ?></label>
                         <select class="form-control m-bot15 pos_select" id="pos_select" name="patient" value=''>
 
@@ -320,10 +320,19 @@
 
                         </select>
                     </div>
-
+                     <!-- modificacion del datepicker -->                
                     <div class="col-md-6 panel">
                         <label for="exampleInputEmail1"> <?php echo lang('date'); ?></label>
-                        <input type="text" class="form-control default-date-picker" id="date" required=""  onkeypress="return false;"  name="date" id="exampleInputEmail1" value='' placeholder="<?php echo lang('select_date'); ?>">
+                        <input 
+                            type="text" 
+                            class="form-control default-date-picker" 
+                            id="date" 
+                            required 
+                            readonly 
+                            name="date" 
+                            value=""
+                            placeholder="<?php echo lang('select_date'); ?>"
+                        >
                     </div>
                     <div class="col-md-6 panel">
                         <label for="exampleInputEmail1"><?php echo lang('available_slots'); ?></label>

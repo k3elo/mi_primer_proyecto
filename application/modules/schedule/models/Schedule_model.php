@@ -15,6 +15,38 @@ class Schedule_model extends CI_model {
         return $query->result();
     }
 
+    public function getAvailableDatesByDoctor($doctor_id) {
+        // Obtener los días de la semana disponibles para el doctor
+        $this->db->select('DISTINCT(weekday)', false);
+        $this->db->from('time_slot');
+        $this->db->where('doctor', $doctor_id);
+        $query = $this->db->get();
+    
+        if (!$query) {
+            return false; // Retornar false si la consulta falla
+        }
+    
+        $available_weekdays = [];
+        foreach ($query->result() as $row) {
+            $available_weekdays[] = $row->weekday; // Agregar cada día de la semana al array
+        }
+    
+        // Calcular las fechas futuras basadas en los días de la semana disponibles
+        $available_dates = [];
+        $today = new DateTime();
+        for ($i = 0; $i < 30; $i++) { // Buscar fechas para los próximos 30 días
+            $date = clone $today;
+            $date->modify("+$i day");
+            $weekday = $date->format('l'); // Obtener el día de la semana (Monday, Tuesday, etc.)
+    
+            if (in_array($weekday, $available_weekdays)) {
+                $available_dates[] = $date->format('Y-m-d'); // Agregar la fecha al array
+            }
+        }
+    
+        return $available_dates; // Devolver las fechas disponibles
+    }
+
     function getAvailableDoctorByDate($date) {
 
         $weekday = strftime("%A", $date);

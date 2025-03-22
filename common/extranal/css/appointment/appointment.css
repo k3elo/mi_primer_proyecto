@@ -41,3 +41,8 @@ table {
 .info_message {
   color: red;
 }
+.available-day {
+  background-color: #d4edda; /* Fondo verde claro */
+  color: #155724; /* Texto verde oscuro */
+  border-radius: 50%; /* Opcional: hacer los días redondeados */
+}

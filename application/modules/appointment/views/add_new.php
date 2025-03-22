@@ -123,7 +123,7 @@
                             </div>
                         </div>
                     </div>
-
+                       <!-- campo doctor -->                     
                     <div class="col-md-12 panel">
                         <div class="col-md-3 payment_label"> 
                             <label for="exampleInputEmail1">  <?php echo lang('doctor'); ?> &#42;</label>

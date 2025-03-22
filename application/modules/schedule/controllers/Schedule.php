@@ -945,6 +945,26 @@ class Schedule extends MX_Controller {
         echo json_encode($data);
     }
 
+    public function getAvailableDatesByDoctor() {
+        $doctor_id = $this->input->get('doctor'); // Obtener el ID del doctor desde la solicitud GET
+        if (empty($doctor_id)) {
+            echo json_encode(['error' => 'Doctor ID is required']);
+            return;
+        }
+    
+        // Llamar al modelo para obtener las fechas disponibles
+        $available_dates = $this->schedule_model->getAvailableDatesByDoctor($doctor_id);
+    
+        // Verificar si el modelo devolvió resultados
+        if ($available_dates === false) {
+            echo json_encode(['error' => 'Error fetching available dates']);
+            return;
+        }
+    
+        // Devolver las fechas disponibles en formato JSON
+        echo json_encode(['availableDates' => $available_dates]);
+    }
+
     function getAvailableSlotByDoctorByDateByJason() {
         $data = array();
         $date = $this->input->get('date'); 

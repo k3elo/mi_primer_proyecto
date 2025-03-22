@@ -39,8 +39,8 @@
 <script src="common/js/advanced-form-components.js"></script>
 <script src="common/js/jquery.cookie.js"></script>
 <!--common script for all pages--> 
-<script src="common/js/jquery.nicescroll.js" type="text/javascript"></script> <!-- modifique esto -->
-<script src="common/js/jquery.nicescroll.min.js" type="text/javascript"></script> <!-- modifique esto -->
+<!-- <script src="common/js/jquery.nicescroll.js" type="text/javascript"></script> --> <!-- modifique esto -->
+<!-- <script src="common/js/jquery.nicescroll.min.js" type="text/javascript"></script>  --><!-- modifique esto -->
 <script src="common/js/common-scripts.js"></script>
 <script src="common/js/lightbox.js"></script>
 <script class="include" type="text/javascript" src="common/js/jquery.dcjqaccordion.2.7.js"></script>
