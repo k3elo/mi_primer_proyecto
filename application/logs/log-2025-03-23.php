@@ -7321,3 +7321,2811 @@ DEBUG - 2025-03-23 00:46:37 --> File loaded: C:\xampp\htdocs\synap\application\m
 DEBUG - 2025-03-23 00:46:37 --> File loaded: C:\xampp\htdocs\synap\application\modules/appointment/models/Appointment_model.php
 INFO - 2025-03-23 00:46:37 --> Final output sent to browser
 DEBUG - 2025-03-23 00:46:37 --> Total execution time: 0.1488
+INFO - 2025-03-23 00:55:24 --> Config Class Initialized
+INFO - 2025-03-23 00:55:24 --> Hooks Class Initialized
+DEBUG - 2025-03-23 00:55:24 --> UTF-8 Support Enabled
+INFO - 2025-03-23 00:55:24 --> Utf8 Class Initialized
+INFO - 2025-03-23 00:55:24 --> URI Class Initialized
+INFO - 2025-03-23 00:55:24 --> Router Class Initialized
+INFO - 2025-03-23 00:55:24 --> Output Class Initialized
+INFO - 2025-03-23 00:55:24 --> Security Class Initialized
+DEBUG - 2025-03-23 00:55:24 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-23 00:55:24 --> Input Class Initialized
+INFO - 2025-03-23 00:55:24 --> Language Class Initialized
+INFO - 2025-03-23 00:55:24 --> Language Class Initialized
+INFO - 2025-03-23 00:55:24 --> Config Class Initialized
+INFO - 2025-03-23 00:55:24 --> Loader Class Initialized
+INFO - 2025-03-23 00:55:24 --> Helper loaded: url_helper
+INFO - 2025-03-23 00:55:24 --> Helper loaded: file_helper
+INFO - 2025-03-23 00:55:24 --> Database Driver Class Initialized
+INFO - 2025-03-23 00:55:24 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-23 00:55:24 --> Controller Class Initialized
+DEBUG - 2025-03-23 00:55:24 --> Config file loaded: C:\xampp\htdocs\synap\application\config/ion_auth.php
+INFO - 2025-03-23 00:55:24 --> Language file loaded: language/english/ion_auth_lang.php
+INFO - 2025-03-23 00:55:24 --> Helper loaded: cookie_helper
+INFO - 2025-03-23 00:55:24 --> Helper loaded: language_helper
+INFO - 2025-03-23 00:55:24 --> Helper loaded: date_helper
+INFO - 2025-03-23 00:55:24 --> Model "Ion_auth_model" initialized
+DEBUG - 2025-03-23 00:55:24 --> File loaded: C:\xampp\htdocs\synap\application\modules/email/models/Email_model.php
+DEBUG - 2025-03-23 00:55:25 --> Email Class Initialized
+INFO - 2025-03-23 00:55:25 --> Helper loaded: form_helper
+INFO - 2025-03-23 00:55:25 --> Form Validation Class Initialized
+INFO - 2025-03-23 00:55:25 --> Upload Class Initialized
+INFO - 2025-03-23 00:55:25 --> Config Class Initialized
+INFO - 2025-03-23 00:55:25 --> Hooks Class Initialized
+DEBUG - 2025-03-23 00:55:25 --> UTF-8 Support Enabled
+INFO - 2025-03-23 00:55:25 --> Utf8 Class Initialized
+INFO - 2025-03-23 00:55:25 --> URI Class Initialized
+INFO - 2025-03-23 00:55:25 --> Router Class Initialized
+INFO - 2025-03-23 00:55:25 --> Output Class Initialized
+INFO - 2025-03-23 00:55:25 --> Security Class Initialized
+DEBUG - 2025-03-23 00:55:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-23 00:55:25 --> Input Class Initialized
+INFO - 2025-03-23 00:55:25 --> Language Class Initialized
+INFO - 2025-03-23 00:55:25 --> Language Class Initialized
+INFO - 2025-03-23 00:55:25 --> Config Class Initialized
+INFO - 2025-03-23 00:55:25 --> Loader Class Initialized
+INFO - 2025-03-23 00:55:25 --> Helper loaded: url_helper
+INFO - 2025-03-23 00:55:25 --> Helper loaded: file_helper
+INFO - 2025-03-23 00:55:25 --> Database Driver Class Initialized
+INFO - 2025-03-23 00:55:25 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-23 00:55:25 --> Controller Class Initialized
+DEBUG - 2025-03-23 00:55:25 --> Config file loaded: C:\xampp\htdocs\synap\application\config/ion_auth.php
+INFO - 2025-03-23 00:55:25 --> Language file loaded: language/english/ion_auth_lang.php
+INFO - 2025-03-23 00:55:25 --> Helper loaded: cookie_helper
+INFO - 2025-03-23 00:55:25 --> Helper loaded: language_helper
+INFO - 2025-03-23 00:55:25 --> Helper loaded: date_helper
+INFO - 2025-03-23 00:55:25 --> Model "Ion_auth_model" initialized
+DEBUG - 2025-03-23 00:55:25 --> File loaded: C:\xampp\htdocs\synap\application\modules/email/models/Email_model.php
+DEBUG - 2025-03-23 00:55:25 --> Email Class Initialized
+INFO - 2025-03-23 00:55:25 --> Helper loaded: form_helper
+INFO - 2025-03-23 00:55:25 --> Form Validation Class Initialized
+INFO - 2025-03-23 00:55:25 --> Upload Class Initialized
+INFO - 2025-03-23 00:55:25 --> Language file loaded: language/spanish/system_syntax_lang.php
+DEBUG - 2025-03-23 00:55:25 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/models/Home_model.php
+DEBUG - 2025-03-23 00:55:25 --> File loaded: C:\xampp\htdocs\synap\application\modules/settings/models/Settings_model.php
+DEBUG - 2025-03-23 00:55:25 --> File loaded: C:\xampp\htdocs\synap\application\modules/sms/models/Sms_model.php
+DEBUG - 2025-03-23 00:55:25 --> File loaded: C:\xampp\htdocs\synap\application\modules/logs/models/Logs_model.php
+INFO - 2025-03-23 00:55:25 --> Parser Class Initialized
+INFO - 2025-03-23 00:55:25 --> Helper loaded: security_helper
+DEBUG - 2025-03-23 00:55:25 --> Auth MX_Controller Initialized
+INFO - 2025-03-23 00:55:25 --> Language file loaded: language/english/auth_lang.php
+DEBUG - 2025-03-23 00:55:25 --> File loaded: C:\xampp\htdocs\synap\application\views\auth/login.php
+INFO - 2025-03-23 00:55:25 --> Final output sent to browser
+DEBUG - 2025-03-23 00:55:25 --> Total execution time: 0.1342
+INFO - 2025-03-23 00:55:26 --> Config Class Initialized
+INFO - 2025-03-23 00:55:26 --> Hooks Class Initialized
+DEBUG - 2025-03-23 00:55:26 --> UTF-8 Support Enabled
+INFO - 2025-03-23 00:55:26 --> Utf8 Class Initialized
+INFO - 2025-03-23 00:55:26 --> URI Class Initialized
+INFO - 2025-03-23 00:55:26 --> Router Class Initialized
+INFO - 2025-03-23 00:55:26 --> Output Class Initialized
+INFO - 2025-03-23 00:55:26 --> Security Class Initialized
+DEBUG - 2025-03-23 00:55:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-23 00:55:26 --> Input Class Initialized
+INFO - 2025-03-23 00:55:26 --> Language Class Initialized
+INFO - 2025-03-23 00:55:26 --> Language Class Initialized
+INFO - 2025-03-23 00:55:26 --> Config Class Initialized
+INFO - 2025-03-23 00:55:26 --> Loader Class Initialized
+INFO - 2025-03-23 00:55:26 --> Helper loaded: url_helper
+INFO - 2025-03-23 00:55:26 --> Helper loaded: file_helper
+INFO - 2025-03-23 00:55:26 --> Database Driver Class Initialized
+INFO - 2025-03-23 00:55:26 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-23 00:55:26 --> Controller Class Initialized
+DEBUG - 2025-03-23 00:55:26 --> Config file loaded: C:\xampp\htdocs\synap\application\config/ion_auth.php
+INFO - 2025-03-23 00:55:26 --> Language file loaded: language/english/ion_auth_lang.php
+INFO - 2025-03-23 00:55:26 --> Helper loaded: cookie_helper
+INFO - 2025-03-23 00:55:26 --> Helper loaded: language_helper
+INFO - 2025-03-23 00:55:26 --> Helper loaded: date_helper
+INFO - 2025-03-23 00:55:26 --> Model "Ion_auth_model" initialized
+DEBUG - 2025-03-23 00:55:26 --> File loaded: C:\xampp\htdocs\synap\application\modules/email/models/Email_model.php
+DEBUG - 2025-03-23 00:55:26 --> Email Class Initialized
+INFO - 2025-03-23 00:55:26 --> Helper loaded: form_helper
+INFO - 2025-03-23 00:55:26 --> Form Validation Class Initialized
+INFO - 2025-03-23 00:55:26 --> Upload Class Initialized
+INFO - 2025-03-23 00:55:26 --> Language file loaded: language/spanish/system_syntax_lang.php
+DEBUG - 2025-03-23 00:55:26 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/models/Home_model.php
+DEBUG - 2025-03-23 00:55:26 --> File loaded: C:\xampp\htdocs\synap\application\modules/settings/models/Settings_model.php
+DEBUG - 2025-03-23 00:55:26 --> File loaded: C:\xampp\htdocs\synap\application\modules/sms/models/Sms_model.php
+DEBUG - 2025-03-23 00:55:26 --> File loaded: C:\xampp\htdocs\synap\application\modules/logs/models/Logs_model.php
+INFO - 2025-03-23 00:55:26 --> Parser Class Initialized
+INFO - 2025-03-23 00:55:26 --> Helper loaded: security_helper
+DEBUG - 2025-03-23 00:55:26 --> Auth MX_Controller Initialized
+INFO - 2025-03-23 00:55:26 --> Language file loaded: language/english/auth_lang.php
+INFO - 2025-03-23 00:55:26 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2025-03-23 00:55:27 --> Config Class Initialized
+INFO - 2025-03-23 00:55:27 --> Hooks Class Initialized
+DEBUG - 2025-03-23 00:55:27 --> UTF-8 Support Enabled
+INFO - 2025-03-23 00:55:27 --> Utf8 Class Initialized
+INFO - 2025-03-23 00:55:27 --> URI Class Initialized
+INFO - 2025-03-23 00:55:27 --> Router Class Initialized
+INFO - 2025-03-23 00:55:27 --> Output Class Initialized
+INFO - 2025-03-23 00:55:27 --> Security Class Initialized
+DEBUG - 2025-03-23 00:55:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-23 00:55:27 --> Input Class Initialized
+INFO - 2025-03-23 00:55:27 --> Language Class Initialized
+INFO - 2025-03-23 00:55:27 --> Language Class Initialized
+INFO - 2025-03-23 00:55:27 --> Config Class Initialized
+INFO - 2025-03-23 00:55:27 --> Loader Class Initialized
+INFO - 2025-03-23 00:55:27 --> Helper loaded: url_helper
+INFO - 2025-03-23 00:55:27 --> Helper loaded: file_helper
+INFO - 2025-03-23 00:55:27 --> Database Driver Class Initialized
+INFO - 2025-03-23 00:55:27 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-23 00:55:27 --> Controller Class Initialized
+DEBUG - 2025-03-23 00:55:27 --> Config file loaded: C:\xampp\htdocs\synap\application\config/ion_auth.php
+INFO - 2025-03-23 00:55:27 --> Language file loaded: language/english/ion_auth_lang.php
+INFO - 2025-03-23 00:55:27 --> Helper loaded: cookie_helper
+INFO - 2025-03-23 00:55:27 --> Helper loaded: language_helper
+INFO - 2025-03-23 00:55:27 --> Helper loaded: date_helper
+INFO - 2025-03-23 00:55:27 --> Model "Ion_auth_model" initialized
+DEBUG - 2025-03-23 00:55:27 --> File loaded: C:\xampp\htdocs\synap\application\modules/email/models/Email_model.php
+DEBUG - 2025-03-23 00:55:27 --> Email Class Initialized
+INFO - 2025-03-23 00:55:27 --> Helper loaded: form_helper
+INFO - 2025-03-23 00:55:27 --> Form Validation Class Initialized
+INFO - 2025-03-23 00:55:27 --> Upload Class Initialized
+INFO - 2025-03-23 00:55:27 --> Language file loaded: language/spanish/system_syntax_lang.php
+DEBUG - 2025-03-23 00:55:27 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/models/Home_model.php
+DEBUG - 2025-03-23 00:55:27 --> File loaded: C:\xampp\htdocs\synap\application\modules/settings/models/Settings_model.php
+DEBUG - 2025-03-23 00:55:27 --> File loaded: C:\xampp\htdocs\synap\application\modules/sms/models/Sms_model.php
+DEBUG - 2025-03-23 00:55:27 --> File loaded: C:\xampp\htdocs\synap\application\modules/logs/models/Logs_model.php
+INFO - 2025-03-23 00:55:27 --> Parser Class Initialized
+INFO - 2025-03-23 00:55:27 --> Helper loaded: security_helper
+DEBUG - 2025-03-23 00:55:27 --> Home MX_Controller Initialized
+DEBUG - 2025-03-23 00:55:27 --> File loaded: C:\xampp\htdocs\synap\application\modules/finance/models/Finance_model.php
+DEBUG - 2025-03-23 00:55:27 --> File loaded: C:\xampp\htdocs\synap\application\modules/appointment/models/Appointment_model.php
+DEBUG - 2025-03-23 00:55:27 --> File loaded: C:\xampp\htdocs\synap\application\modules/notice/models/Notice_model.php
+ERROR - 2025-03-23 00:55:27 --> Could not find the language line ""
+ERROR - 2025-03-23 00:55:27 --> Could not find the language line "import"
+DEBUG - 2025-03-23 00:55:27 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/views/dashboard.php
+DEBUG - 2025-03-23 00:55:27 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/views/home.php
+DEBUG - 2025-03-23 00:55:27 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/views/footer.php
+INFO - 2025-03-23 00:55:27 --> Final output sent to browser
+DEBUG - 2025-03-23 00:55:27 --> Total execution time: 0.1771
+INFO - 2025-03-23 00:55:29 --> Config Class Initialized
+INFO - 2025-03-23 00:55:29 --> Config Class Initialized
+INFO - 2025-03-23 00:55:29 --> Hooks Class Initialized
+DEBUG - 2025-03-23 00:55:29 --> UTF-8 Support Enabled
+INFO - 2025-03-23 00:55:29 --> Utf8 Class Initialized
+INFO - 2025-03-23 00:55:29 --> URI Class Initialized
+INFO - 2025-03-23 00:55:29 --> Hooks Class Initialized
+DEBUG - 2025-03-23 00:55:29 --> UTF-8 Support Enabled
+INFO - 2025-03-23 00:55:29 --> Router Class Initialized
+INFO - 2025-03-23 00:55:29 --> Utf8 Class Initialized
+INFO - 2025-03-23 00:55:29 --> Output Class Initialized
+INFO - 2025-03-23 00:55:29 --> Security Class Initialized
+DEBUG - 2025-03-23 00:55:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-23 00:55:29 --> Input Class Initialized
+INFO - 2025-03-23 00:55:29 --> Language Class Initialized
+ERROR - 2025-03-23 00:55:29 --> 404 Page Not Found: /index
+INFO - 2025-03-23 00:55:29 --> URI Class Initialized
+INFO - 2025-03-23 00:55:29 --> Router Class Initialized
+INFO - 2025-03-23 00:55:29 --> Output Class Initialized
+INFO - 2025-03-23 00:55:29 --> Security Class Initialized
+DEBUG - 2025-03-23 00:55:29 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-23 00:55:29 --> Input Class Initialized
+INFO - 2025-03-23 00:55:29 --> Language Class Initialized
+INFO - 2025-03-23 00:55:29 --> Language Class Initialized
+INFO - 2025-03-23 00:55:29 --> Config Class Initialized
+INFO - 2025-03-23 00:55:29 --> Loader Class Initialized
+INFO - 2025-03-23 00:55:29 --> Helper loaded: url_helper
+INFO - 2025-03-23 00:55:29 --> Helper loaded: file_helper
+INFO - 2025-03-23 00:55:29 --> Database Driver Class Initialized
+INFO - 2025-03-23 00:55:29 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-23 00:55:29 --> Controller Class Initialized
+DEBUG - 2025-03-23 00:55:29 --> Config file loaded: C:\xampp\htdocs\synap\application\config/ion_auth.php
+INFO - 2025-03-23 00:55:29 --> Language file loaded: language/english/ion_auth_lang.php
+INFO - 2025-03-23 00:55:29 --> Helper loaded: cookie_helper
+INFO - 2025-03-23 00:55:29 --> Helper loaded: language_helper
+INFO - 2025-03-23 00:55:29 --> Helper loaded: date_helper
+INFO - 2025-03-23 00:55:29 --> Model "Ion_auth_model" initialized
+DEBUG - 2025-03-23 00:55:29 --> File loaded: C:\xampp\htdocs\synap\application\modules/email/models/Email_model.php
+DEBUG - 2025-03-23 00:55:29 --> Email Class Initialized
+INFO - 2025-03-23 00:55:29 --> Helper loaded: form_helper
+INFO - 2025-03-23 00:55:29 --> Form Validation Class Initialized
+INFO - 2025-03-23 00:55:29 --> Upload Class Initialized
+INFO - 2025-03-23 00:55:29 --> Language file loaded: language/spanish/system_syntax_lang.php
+DEBUG - 2025-03-23 00:55:29 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/models/Home_model.php
+DEBUG - 2025-03-23 00:55:29 --> File loaded: C:\xampp\htdocs\synap\application\modules/settings/models/Settings_model.php
+DEBUG - 2025-03-23 00:55:29 --> File loaded: C:\xampp\htdocs\synap\application\modules/sms/models/Sms_model.php
+DEBUG - 2025-03-23 00:55:29 --> File loaded: C:\xampp\htdocs\synap\application\modules/logs/models/Logs_model.php
+INFO - 2025-03-23 00:55:29 --> Parser Class Initialized
+INFO - 2025-03-23 00:55:29 --> Helper loaded: security_helper
+DEBUG - 2025-03-23 00:55:29 --> Appointment MX_Controller Initialized
+DEBUG - 2025-03-23 00:55:29 --> File loaded: C:\xampp\htdocs\synap\application\modules/appointment/models/Appointment_model.php
+DEBUG - 2025-03-23 00:55:29 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctor_model.php
+DEBUG - 2025-03-23 00:55:29 --> File loaded: C:\xampp\htdocs\synap\application\modules/patient/models/Patient_model.php
+DEBUG - 2025-03-23 00:55:29 --> File loaded: C:\xampp\htdocs\synap\application\modules/pgateway/models/Pgateway_model.php
+DEBUG - 2025-03-23 00:55:29 --> File loaded: C:\xampp\htdocs\synap\application\modules/finance/models/Finance_model.php
+DEBUG - 2025-03-23 00:55:29 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctorvisit_model.php
+DEBUG - 2025-03-23 00:55:29 --> File loaded: C:\xampp\htdocs\synap\application\controllers/../modules/sms/controllers/Sms.php
+DEBUG - 2025-03-23 00:55:29 --> Sms MX_Controller Initialized
+DEBUG - 2025-03-23 00:55:29 --> File loaded: C:\xampp\htdocs\synap\application\modules/donor/models/Donor_model.php
+DEBUG - 2025-03-23 00:55:29 --> File loaded: C:\xampp\htdocs\synap\application\controllers/../modules/paypal/controllers/Paypal.php
+DEBUG - 2025-03-23 00:55:29 --> Paypal MX_Controller Initialized
+ERROR - 2025-03-23 00:55:29 --> Severity: Warning --> Undefined array key 1 C:\xampp\htdocs\synap\application\modules\appointment\controllers\Appointment.php 1317
+ERROR - 2025-03-23 00:55:29 --> Severity: error --> Exception: Unsupported operand types: string * int C:\xampp\htdocs\synap\application\modules\appointment\controllers\Appointment.php 1331
+INFO - 2025-03-23 00:55:32 --> Config Class Initialized
+INFO - 2025-03-23 00:55:32 --> Hooks Class Initialized
+DEBUG - 2025-03-23 00:55:32 --> UTF-8 Support Enabled
+INFO - 2025-03-23 00:55:32 --> Utf8 Class Initialized
+INFO - 2025-03-23 00:55:32 --> URI Class Initialized
+INFO - 2025-03-23 00:55:32 --> Router Class Initialized
+INFO - 2025-03-23 00:55:32 --> Output Class Initialized
+INFO - 2025-03-23 00:55:32 --> Security Class Initialized
+DEBUG - 2025-03-23 00:55:32 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-23 00:55:32 --> Input Class Initialized
+INFO - 2025-03-23 00:55:32 --> Language Class Initialized
+INFO - 2025-03-23 00:55:32 --> Language Class Initialized
+INFO - 2025-03-23 00:55:32 --> Config Class Initialized
+INFO - 2025-03-23 00:55:32 --> Loader Class Initialized
+INFO - 2025-03-23 00:55:32 --> Helper loaded: url_helper
+INFO - 2025-03-23 00:55:32 --> Helper loaded: file_helper
+INFO - 2025-03-23 00:55:32 --> Database Driver Class Initialized
+INFO - 2025-03-23 00:55:32 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-23 00:55:32 --> Controller Class Initialized
+DEBUG - 2025-03-23 00:55:32 --> Config file loaded: C:\xampp\htdocs\synap\application\config/ion_auth.php
+INFO - 2025-03-23 00:55:32 --> Language file loaded: language/english/ion_auth_lang.php
+INFO - 2025-03-23 00:55:32 --> Helper loaded: cookie_helper
+INFO - 2025-03-23 00:55:32 --> Helper loaded: language_helper
+INFO - 2025-03-23 00:55:32 --> Helper loaded: date_helper
+INFO - 2025-03-23 00:55:32 --> Model "Ion_auth_model" initialized
+DEBUG - 2025-03-23 00:55:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/email/models/Email_model.php
+DEBUG - 2025-03-23 00:55:32 --> Email Class Initialized
+INFO - 2025-03-23 00:55:32 --> Helper loaded: form_helper
+INFO - 2025-03-23 00:55:32 --> Form Validation Class Initialized
+INFO - 2025-03-23 00:55:32 --> Upload Class Initialized
+INFO - 2025-03-23 00:55:32 --> Language file loaded: language/spanish/system_syntax_lang.php
+DEBUG - 2025-03-23 00:55:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/models/Home_model.php
+DEBUG - 2025-03-23 00:55:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/settings/models/Settings_model.php
+DEBUG - 2025-03-23 00:55:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/sms/models/Sms_model.php
+DEBUG - 2025-03-23 00:55:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/logs/models/Logs_model.php
+INFO - 2025-03-23 00:55:32 --> Parser Class Initialized
+INFO - 2025-03-23 00:55:32 --> Helper loaded: security_helper
+DEBUG - 2025-03-23 00:55:32 --> Appointment MX_Controller Initialized
+DEBUG - 2025-03-23 00:55:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/appointment/models/Appointment_model.php
+DEBUG - 2025-03-23 00:55:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctor_model.php
+DEBUG - 2025-03-23 00:55:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/patient/models/Patient_model.php
+DEBUG - 2025-03-23 00:55:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/pgateway/models/Pgateway_model.php
+DEBUG - 2025-03-23 00:55:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/finance/models/Finance_model.php
+DEBUG - 2025-03-23 00:55:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctorvisit_model.php
+DEBUG - 2025-03-23 00:55:32 --> File loaded: C:\xampp\htdocs\synap\application\controllers/../modules/sms/controllers/Sms.php
+DEBUG - 2025-03-23 00:55:32 --> Sms MX_Controller Initialized
+DEBUG - 2025-03-23 00:55:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/donor/models/Donor_model.php
+DEBUG - 2025-03-23 00:55:32 --> File loaded: C:\xampp\htdocs\synap\application\controllers/../modules/paypal/controllers/Paypal.php
+DEBUG - 2025-03-23 00:55:32 --> Paypal MX_Controller Initialized
+ERROR - 2025-03-23 00:55:32 --> Could not find the language line ""
+ERROR - 2025-03-23 00:55:32 --> Could not find the language line "import"
+DEBUG - 2025-03-23 00:55:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/views/dashboard.php
+ERROR - 2025-03-23 00:55:32 --> Could not find the language line "if_pay_now_checked_please_select_status_to_confirmed"
+ERROR - 2025-03-23 00:55:32 --> Could not find the language line "if_pay_now_checked_please_select_status_to_confirmed"
+DEBUG - 2025-03-23 00:55:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/appointment/views/appointment.php
+DEBUG - 2025-03-23 00:55:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/views/footer.php
+INFO - 2025-03-23 00:55:32 --> Final output sent to browser
+DEBUG - 2025-03-23 00:55:32 --> Total execution time: 0.2884
+INFO - 2025-03-23 00:55:33 --> Config Class Initialized
+INFO - 2025-03-23 00:55:33 --> Hooks Class Initialized
+DEBUG - 2025-03-23 00:55:33 --> UTF-8 Support Enabled
+INFO - 2025-03-23 00:55:33 --> Utf8 Class Initialized
+INFO - 2025-03-23 00:55:33 --> URI Class Initialized
+DEBUG - 2025-03-23 00:55:33 --> No URI present. Default controller set.
+INFO - 2025-03-23 00:55:33 --> Router Class Initialized
+INFO - 2025-03-23 00:55:33 --> Output Class Initialized
+INFO - 2025-03-23 00:55:33 --> Security Class Initialized
+DEBUG - 2025-03-23 00:55:33 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-23 00:55:33 --> Input Class Initialized
+INFO - 2025-03-23 00:55:33 --> Language Class Initialized
+INFO - 2025-03-23 00:55:33 --> Language Class Initialized
+INFO - 2025-03-23 00:55:33 --> Config Class Initialized
+INFO - 2025-03-23 00:55:33 --> Loader Class Initialized
+INFO - 2025-03-23 00:55:33 --> Helper loaded: url_helper
+INFO - 2025-03-23 00:55:33 --> Helper loaded: file_helper
+INFO - 2025-03-23 00:55:33 --> Database Driver Class Initialized
+INFO - 2025-03-23 00:55:33 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-23 00:55:33 --> Controller Class Initialized
+DEBUG - 2025-03-23 00:55:33 --> Config file loaded: C:\xampp\htdocs\synap\application\config/ion_auth.php
+INFO - 2025-03-23 00:55:33 --> Language file loaded: language/english/ion_auth_lang.php
+INFO - 2025-03-23 00:55:33 --> Helper loaded: cookie_helper
+INFO - 2025-03-23 00:55:33 --> Helper loaded: language_helper
+INFO - 2025-03-23 00:55:33 --> Helper loaded: date_helper
+INFO - 2025-03-23 00:55:33 --> Model "Ion_auth_model" initialized
+DEBUG - 2025-03-23 00:55:33 --> File loaded: C:\xampp\htdocs\synap\application\modules/email/models/Email_model.php
+DEBUG - 2025-03-23 00:55:33 --> Email Class Initialized
+INFO - 2025-03-23 00:55:33 --> Helper loaded: form_helper
+INFO - 2025-03-23 00:55:33 --> Form Validation Class Initialized
+INFO - 2025-03-23 00:55:33 --> Upload Class Initialized
+INFO - 2025-03-23 00:55:33 --> Language file loaded: language/spanish/system_syntax_lang.php
+DEBUG - 2025-03-23 00:55:33 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/models/Home_model.php
+DEBUG - 2025-03-23 00:55:33 --> File loaded: C:\xampp\htdocs\synap\application\modules/settings/models/Settings_model.php
+DEBUG - 2025-03-23 00:55:33 --> File loaded: C:\xampp\htdocs\synap\application\modules/sms/models/Sms_model.php
+DEBUG - 2025-03-23 00:55:33 --> File loaded: C:\xampp\htdocs\synap\application\modules/logs/models/Logs_model.php
+INFO - 2025-03-23 00:55:33 --> Parser Class Initialized
+INFO - 2025-03-23 00:55:33 --> Helper loaded: security_helper
+DEBUG - 2025-03-23 00:55:33 --> Frontend MX_Controller Initialized
+DEBUG - 2025-03-23 00:55:33 --> File loaded: C:\xampp\htdocs\synap\application\modules/frontend/models/Frontend_model.php
+DEBUG - 2025-03-23 00:55:33 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctor_model.php
+DEBUG - 2025-03-23 00:55:33 --> File loaded: C:\xampp\htdocs\synap\application\modules/patient/models/Patient_model.php
+DEBUG - 2025-03-23 00:55:33 --> File loaded: C:\xampp\htdocs\synap\application\modules/slide/models/Slide_model.php
+DEBUG - 2025-03-23 00:55:33 --> File loaded: C:\xampp\htdocs\synap\application\modules/service/models/Service_model.php
+DEBUG - 2025-03-23 00:55:33 --> File loaded: C:\xampp\htdocs\synap\application\modules/featured/models/Featured_model.php
+DEBUG - 2025-03-23 00:55:33 --> File loaded: C:\xampp\htdocs\synap\application\modules/review/models/Review_model.php
+DEBUG - 2025-03-23 00:55:33 --> File loaded: C:\xampp\htdocs\synap\application\modules/gallery/models/Gallery_model.php
+DEBUG - 2025-03-23 00:55:33 --> File loaded: C:\xampp\htdocs\synap\application\modules/gridsection/models/Gridsection_model.php
+DEBUG - 2025-03-23 00:55:34 --> File loaded: C:\xampp\htdocs\synap\application\modules/appointment/models/Appointment_model.php
+DEBUG - 2025-03-23 00:55:34 --> File loaded: C:\xampp\htdocs\synap\application\modules/finance/models/Finance_model.php
+DEBUG - 2025-03-23 00:55:34 --> File loaded: C:\xampp\htdocs\synap\application\modules/pgateway/models/Pgateway_model.php
+DEBUG - 2025-03-23 00:55:34 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctorvisit_model.php
+DEBUG - 2025-03-23 00:55:34 --> File loaded: C:\xampp\htdocs\synap\application\modules/frontend/views/frontend.php
+INFO - 2025-03-23 00:55:34 --> Final output sent to browser
+DEBUG - 2025-03-23 00:55:34 --> Total execution time: 0.2087
+INFO - 2025-03-23 00:55:34 --> Config Class Initialized
+INFO - 2025-03-23 00:55:34 --> Hooks Class Initialized
+DEBUG - 2025-03-23 00:55:34 --> UTF-8 Support Enabled
+INFO - 2025-03-23 00:55:34 --> Utf8 Class Initialized
+INFO - 2025-03-23 00:55:34 --> URI Class Initialized
+INFO - 2025-03-23 00:55:34 --> Router Class Initialized
+INFO - 2025-03-23 00:55:34 --> Output Class Initialized
+INFO - 2025-03-23 00:55:34 --> Security Class Initialized
+DEBUG - 2025-03-23 00:55:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-23 00:55:34 --> Input Class Initialized
+INFO - 2025-03-23 00:55:34 --> Language Class Initialized
+ERROR - 2025-03-23 00:55:34 --> 404 Page Not Found: /index
+INFO - 2025-03-23 00:55:34 --> Config Class Initialized
+INFO - 2025-03-23 00:55:34 --> Hooks Class Initialized
+DEBUG - 2025-03-23 00:55:34 --> UTF-8 Support Enabled
+INFO - 2025-03-23 00:55:34 --> Utf8 Class Initialized
+INFO - 2025-03-23 00:55:34 --> URI Class Initialized
+INFO - 2025-03-23 00:55:34 --> Router Class Initialized
+INFO - 2025-03-23 00:55:34 --> Output Class Initialized
+INFO - 2025-03-23 00:55:34 --> Security Class Initialized
+DEBUG - 2025-03-23 00:55:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-23 00:55:34 --> Input Class Initialized
+INFO - 2025-03-23 00:55:34 --> Language Class Initialized
+ERROR - 2025-03-23 00:55:34 --> 404 Page Not Found: /index
+INFO - 2025-03-23 00:55:35 --> Config Class Initialized
+INFO - 2025-03-23 00:55:35 --> Hooks Class Initialized
+DEBUG - 2025-03-23 00:55:35 --> UTF-8 Support Enabled
+INFO - 2025-03-23 00:55:35 --> Config Class Initialized
+INFO - 2025-03-23 00:55:35 --> Hooks Class Initialized
+DEBUG - 2025-03-23 00:55:35 --> UTF-8 Support Enabled
+INFO - 2025-03-23 00:55:35 --> Utf8 Class Initialized
+INFO - 2025-03-23 00:55:35 --> URI Class Initialized
+INFO - 2025-03-23 00:55:35 --> Router Class Initialized
+INFO - 2025-03-23 00:55:35 --> Output Class Initialized
+INFO - 2025-03-23 00:55:35 --> Security Class Initialized
+INFO - 2025-03-23 00:55:35 --> Utf8 Class Initialized
+INFO - 2025-03-23 00:55:35 --> URI Class Initialized
+INFO - 2025-03-23 00:55:35 --> Router Class Initialized
+INFO - 2025-03-23 00:55:35 --> Output Class Initialized
+INFO - 2025-03-23 00:55:35 --> Security Class Initialized
+DEBUG - 2025-03-23 00:55:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-23 00:55:35 --> Input Class Initialized
+INFO - 2025-03-23 00:55:35 --> Language Class Initialized
+INFO - 2025-03-23 00:55:35 --> Language Class Initialized
+INFO - 2025-03-23 00:55:35 --> Config Class Initialized
+INFO - 2025-03-23 00:55:35 --> Loader Class Initialized
+INFO - 2025-03-23 00:55:35 --> Helper loaded: url_helper
+INFO - 2025-03-23 00:55:35 --> Helper loaded: file_helper
+DEBUG - 2025-03-23 00:55:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-23 00:55:35 --> Database Driver Class Initialized
+INFO - 2025-03-23 00:55:35 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-23 00:55:35 --> Controller Class Initialized
+INFO - 2025-03-23 00:55:35 --> Input Class Initialized
+INFO - 2025-03-23 00:55:35 --> Language Class Initialized
+DEBUG - 2025-03-23 00:55:35 --> Config file loaded: C:\xampp\htdocs\synap\application\config/ion_auth.php
+INFO - 2025-03-23 00:55:35 --> Language file loaded: language/english/ion_auth_lang.php
+INFO - 2025-03-23 00:55:35 --> Helper loaded: cookie_helper
+INFO - 2025-03-23 00:55:35 --> Helper loaded: language_helper
+INFO - 2025-03-23 00:55:35 --> Helper loaded: date_helper
+ERROR - 2025-03-23 00:55:35 --> 404 Page Not Found: /index
+INFO - 2025-03-23 00:55:35 --> Config Class Initialized
+INFO - 2025-03-23 00:55:35 --> Hooks Class Initialized
+INFO - 2025-03-23 00:55:35 --> Model "Ion_auth_model" initialized
+DEBUG - 2025-03-23 00:55:35 --> File loaded: C:\xampp\htdocs\synap\application\modules/email/models/Email_model.php
+DEBUG - 2025-03-23 00:55:35 --> UTF-8 Support Enabled
+INFO - 2025-03-23 00:55:35 --> Utf8 Class Initialized
+INFO - 2025-03-23 00:55:35 --> URI Class Initialized
+INFO - 2025-03-23 00:55:35 --> Router Class Initialized
+INFO - 2025-03-23 00:55:35 --> Output Class Initialized
+INFO - 2025-03-23 00:55:35 --> Security Class Initialized
+DEBUG - 2025-03-23 00:55:35 --> Email Class Initialized
+DEBUG - 2025-03-23 00:55:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-23 00:55:35 --> Input Class Initialized
+INFO - 2025-03-23 00:55:35 --> Language Class Initialized
+INFO - 2025-03-23 00:55:35 --> Helper loaded: form_helper
+INFO - 2025-03-23 00:55:35 --> Form Validation Class Initialized
+ERROR - 2025-03-23 00:55:35 --> 404 Page Not Found: /index
+INFO - 2025-03-23 00:55:35 --> Upload Class Initialized
+INFO - 2025-03-23 00:55:35 --> Language file loaded: language/spanish/system_syntax_lang.php
+DEBUG - 2025-03-23 00:55:35 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/models/Home_model.php
+DEBUG - 2025-03-23 00:55:35 --> File loaded: C:\xampp\htdocs\synap\application\modules/settings/models/Settings_model.php
+DEBUG - 2025-03-23 00:55:35 --> File loaded: C:\xampp\htdocs\synap\application\modules/sms/models/Sms_model.php
+DEBUG - 2025-03-23 00:55:35 --> File loaded: C:\xampp\htdocs\synap\application\modules/logs/models/Logs_model.php
+INFO - 2025-03-23 00:55:35 --> Parser Class Initialized
+INFO - 2025-03-23 00:55:35 --> Helper loaded: security_helper
+DEBUG - 2025-03-23 00:55:35 --> Frontend MX_Controller Initialized
+DEBUG - 2025-03-23 00:55:35 --> File loaded: C:\xampp\htdocs\synap\application\modules/frontend/models/Frontend_model.php
+DEBUG - 2025-03-23 00:55:35 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctor_model.php
+DEBUG - 2025-03-23 00:55:35 --> File loaded: C:\xampp\htdocs\synap\application\modules/patient/models/Patient_model.php
+DEBUG - 2025-03-23 00:55:35 --> File loaded: C:\xampp\htdocs\synap\application\modules/slide/models/Slide_model.php
+DEBUG - 2025-03-23 00:55:35 --> File loaded: C:\xampp\htdocs\synap\application\modules/service/models/Service_model.php
+DEBUG - 2025-03-23 00:55:35 --> File loaded: C:\xampp\htdocs\synap\application\modules/featured/models/Featured_model.php
+DEBUG - 2025-03-23 00:55:35 --> File loaded: C:\xampp\htdocs\synap\application\modules/review/models/Review_model.php
+DEBUG - 2025-03-23 00:55:35 --> File loaded: C:\xampp\htdocs\synap\application\modules/gallery/models/Gallery_model.php
+DEBUG - 2025-03-23 00:55:35 --> File loaded: C:\xampp\htdocs\synap\application\modules/gridsection/models/Gridsection_model.php
+DEBUG - 2025-03-23 00:55:36 --> File loaded: C:\xampp\htdocs\synap\application\modules/appointment/models/Appointment_model.php
+DEBUG - 2025-03-23 00:55:36 --> File loaded: C:\xampp\htdocs\synap\application\modules/finance/models/Finance_model.php
+DEBUG - 2025-03-23 00:55:36 --> File loaded: C:\xampp\htdocs\synap\application\modules/pgateway/models/Pgateway_model.php
+DEBUG - 2025-03-23 00:55:36 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctorvisit_model.php
+INFO - 2025-03-23 00:55:36 --> Final output sent to browser
+DEBUG - 2025-03-23 00:55:36 --> Total execution time: 0.8047
+INFO - 2025-03-23 00:55:36 --> Config Class Initialized
+INFO - 2025-03-23 00:55:36 --> Hooks Class Initialized
+DEBUG - 2025-03-23 00:55:36 --> UTF-8 Support Enabled
+INFO - 2025-03-23 00:55:36 --> Utf8 Class Initialized
+INFO - 2025-03-23 00:55:36 --> URI Class Initialized
+INFO - 2025-03-23 00:55:36 --> Router Class Initialized
+INFO - 2025-03-23 00:55:36 --> Output Class Initialized
+INFO - 2025-03-23 00:55:36 --> Security Class Initialized
+DEBUG - 2025-03-23 00:55:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-23 00:55:36 --> Input Class Initialized
+INFO - 2025-03-23 00:55:36 --> Language Class Initialized
+INFO - 2025-03-23 00:55:36 --> Language Class Initialized
+INFO - 2025-03-23 00:55:36 --> Config Class Initialized
+INFO - 2025-03-23 00:55:36 --> Loader Class Initialized
+INFO - 2025-03-23 00:55:36 --> Helper loaded: url_helper
+INFO - 2025-03-23 00:55:36 --> Helper loaded: file_helper
+INFO - 2025-03-23 00:55:36 --> Database Driver Class Initialized
+INFO - 2025-03-23 00:55:36 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-23 00:55:36 --> Controller Class Initialized
+DEBUG - 2025-03-23 00:55:36 --> Config file loaded: C:\xampp\htdocs\synap\application\config/ion_auth.php
+INFO - 2025-03-23 00:55:36 --> Language file loaded: language/english/ion_auth_lang.php
+INFO - 2025-03-23 00:55:36 --> Helper loaded: cookie_helper
+INFO - 2025-03-23 00:55:36 --> Helper loaded: language_helper
+INFO - 2025-03-23 00:55:36 --> Helper loaded: date_helper
+INFO - 2025-03-23 00:55:36 --> Model "Ion_auth_model" initialized
+DEBUG - 2025-03-23 00:55:36 --> File loaded: C:\xampp\htdocs\synap\application\modules/email/models/Email_model.php
+DEBUG - 2025-03-23 00:55:36 --> Email Class Initialized
+INFO - 2025-03-23 00:55:36 --> Helper loaded: form_helper
+INFO - 2025-03-23 00:55:36 --> Form Validation Class Initialized
+INFO - 2025-03-23 00:55:36 --> Upload Class Initialized
+INFO - 2025-03-23 00:55:36 --> Language file loaded: language/spanish/system_syntax_lang.php
+DEBUG - 2025-03-23 00:55:36 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/models/Home_model.php
+DEBUG - 2025-03-23 00:55:36 --> File loaded: C:\xampp\htdocs\synap\application\modules/settings/models/Settings_model.php
+DEBUG - 2025-03-23 00:55:36 --> File loaded: C:\xampp\htdocs\synap\application\modules/sms/models/Sms_model.php
+DEBUG - 2025-03-23 00:55:36 --> File loaded: C:\xampp\htdocs\synap\application\modules/logs/models/Logs_model.php
+INFO - 2025-03-23 00:55:36 --> Parser Class Initialized
+INFO - 2025-03-23 00:55:36 --> Helper loaded: security_helper
+DEBUG - 2025-03-23 00:55:36 --> Auth MX_Controller Initialized
+INFO - 2025-03-23 00:55:36 --> Language file loaded: language/english/auth_lang.php
+INFO - 2025-03-23 00:55:36 --> Config Class Initialized
+INFO - 2025-03-23 00:55:36 --> Hooks Class Initialized
+DEBUG - 2025-03-23 00:55:36 --> UTF-8 Support Enabled
+INFO - 2025-03-23 00:55:36 --> Utf8 Class Initialized
+INFO - 2025-03-23 00:55:36 --> URI Class Initialized
+INFO - 2025-03-23 00:55:36 --> Router Class Initialized
+INFO - 2025-03-23 00:55:36 --> Output Class Initialized
+INFO - 2025-03-23 00:55:36 --> Security Class Initialized
+DEBUG - 2025-03-23 00:55:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-23 00:55:36 --> Input Class Initialized
+INFO - 2025-03-23 00:55:36 --> Language Class Initialized
+INFO - 2025-03-23 00:55:36 --> Language Class Initialized
+INFO - 2025-03-23 00:55:36 --> Config Class Initialized
+INFO - 2025-03-23 00:55:36 --> Loader Class Initialized
+INFO - 2025-03-23 00:55:36 --> Helper loaded: url_helper
+INFO - 2025-03-23 00:55:36 --> Helper loaded: file_helper
+INFO - 2025-03-23 00:55:36 --> Database Driver Class Initialized
+INFO - 2025-03-23 00:55:36 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-23 00:55:36 --> Controller Class Initialized
+DEBUG - 2025-03-23 00:55:36 --> Config file loaded: C:\xampp\htdocs\synap\application\config/ion_auth.php
+INFO - 2025-03-23 00:55:36 --> Language file loaded: language/english/ion_auth_lang.php
+INFO - 2025-03-23 00:55:36 --> Helper loaded: cookie_helper
+INFO - 2025-03-23 00:55:36 --> Helper loaded: language_helper
+INFO - 2025-03-23 00:55:36 --> Helper loaded: date_helper
+INFO - 2025-03-23 00:55:36 --> Model "Ion_auth_model" initialized
+DEBUG - 2025-03-23 00:55:36 --> File loaded: C:\xampp\htdocs\synap\application\modules/email/models/Email_model.php
+DEBUG - 2025-03-23 00:55:36 --> Email Class Initialized
+INFO - 2025-03-23 00:55:36 --> Helper loaded: form_helper
+INFO - 2025-03-23 00:55:36 --> Form Validation Class Initialized
+INFO - 2025-03-23 00:55:36 --> Upload Class Initialized
+INFO - 2025-03-23 00:55:36 --> Language file loaded: language/spanish/system_syntax_lang.php
+DEBUG - 2025-03-23 00:55:36 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/models/Home_model.php
+DEBUG - 2025-03-23 00:55:36 --> File loaded: C:\xampp\htdocs\synap\application\modules/settings/models/Settings_model.php
+DEBUG - 2025-03-23 00:55:36 --> File loaded: C:\xampp\htdocs\synap\application\modules/sms/models/Sms_model.php
+DEBUG - 2025-03-23 00:55:36 --> File loaded: C:\xampp\htdocs\synap\application\modules/logs/models/Logs_model.php
+INFO - 2025-03-23 00:55:36 --> Parser Class Initialized
+INFO - 2025-03-23 00:55:36 --> Helper loaded: security_helper
+DEBUG - 2025-03-23 00:55:36 --> Home MX_Controller Initialized
+DEBUG - 2025-03-23 00:55:36 --> File loaded: C:\xampp\htdocs\synap\application\modules/finance/models/Finance_model.php
+DEBUG - 2025-03-23 00:55:36 --> File loaded: C:\xampp\htdocs\synap\application\modules/appointment/models/Appointment_model.php
+DEBUG - 2025-03-23 00:55:36 --> File loaded: C:\xampp\htdocs\synap\application\modules/notice/models/Notice_model.php
+ERROR - 2025-03-23 00:55:37 --> Could not find the language line ""
+ERROR - 2025-03-23 00:55:37 --> Could not find the language line "import"
+DEBUG - 2025-03-23 00:55:37 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/views/dashboard.php
+DEBUG - 2025-03-23 00:55:37 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/views/home.php
+DEBUG - 2025-03-23 00:55:37 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/views/footer.php
+INFO - 2025-03-23 00:55:37 --> Final output sent to browser
+DEBUG - 2025-03-23 00:55:37 --> Total execution time: 0.1757
+INFO - 2025-03-23 00:55:39 --> Config Class Initialized
+INFO - 2025-03-23 00:55:39 --> Hooks Class Initialized
+DEBUG - 2025-03-23 00:55:39 --> UTF-8 Support Enabled
+INFO - 2025-03-23 00:55:39 --> Utf8 Class Initialized
+INFO - 2025-03-23 00:55:39 --> URI Class Initialized
+INFO - 2025-03-23 00:55:39 --> Router Class Initialized
+INFO - 2025-03-23 00:55:39 --> Output Class Initialized
+INFO - 2025-03-23 00:55:39 --> Security Class Initialized
+DEBUG - 2025-03-23 00:55:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-23 00:55:39 --> Input Class Initialized
+INFO - 2025-03-23 00:55:39 --> Language Class Initialized
+INFO - 2025-03-23 00:55:39 --> Language Class Initialized
+INFO - 2025-03-23 00:55:39 --> Config Class Initialized
+INFO - 2025-03-23 00:55:39 --> Loader Class Initialized
+INFO - 2025-03-23 00:55:39 --> Helper loaded: url_helper
+INFO - 2025-03-23 00:55:39 --> Helper loaded: file_helper
+INFO - 2025-03-23 00:55:39 --> Database Driver Class Initialized
+INFO - 2025-03-23 00:55:39 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-23 00:55:39 --> Controller Class Initialized
+DEBUG - 2025-03-23 00:55:39 --> Config file loaded: C:\xampp\htdocs\synap\application\config/ion_auth.php
+INFO - 2025-03-23 00:55:39 --> Language file loaded: language/english/ion_auth_lang.php
+INFO - 2025-03-23 00:55:39 --> Helper loaded: cookie_helper
+INFO - 2025-03-23 00:55:39 --> Helper loaded: language_helper
+INFO - 2025-03-23 00:55:39 --> Helper loaded: date_helper
+INFO - 2025-03-23 00:55:39 --> Model "Ion_auth_model" initialized
+DEBUG - 2025-03-23 00:55:39 --> File loaded: C:\xampp\htdocs\synap\application\modules/email/models/Email_model.php
+DEBUG - 2025-03-23 00:55:39 --> Email Class Initialized
+INFO - 2025-03-23 00:55:39 --> Helper loaded: form_helper
+INFO - 2025-03-23 00:55:39 --> Form Validation Class Initialized
+INFO - 2025-03-23 00:55:39 --> Upload Class Initialized
+INFO - 2025-03-23 00:55:39 --> Language file loaded: language/spanish/system_syntax_lang.php
+DEBUG - 2025-03-23 00:55:39 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/models/Home_model.php
+DEBUG - 2025-03-23 00:55:39 --> File loaded: C:\xampp\htdocs\synap\application\modules/settings/models/Settings_model.php
+DEBUG - 2025-03-23 00:55:39 --> File loaded: C:\xampp\htdocs\synap\application\modules/sms/models/Sms_model.php
+DEBUG - 2025-03-23 00:55:39 --> File loaded: C:\xampp\htdocs\synap\application\modules/logs/models/Logs_model.php
+INFO - 2025-03-23 00:55:39 --> Parser Class Initialized
+INFO - 2025-03-23 00:55:39 --> Helper loaded: security_helper
+DEBUG - 2025-03-23 00:55:39 --> Appointment MX_Controller Initialized
+DEBUG - 2025-03-23 00:55:39 --> File loaded: C:\xampp\htdocs\synap\application\modules/appointment/models/Appointment_model.php
+DEBUG - 2025-03-23 00:55:39 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctor_model.php
+DEBUG - 2025-03-23 00:55:39 --> File loaded: C:\xampp\htdocs\synap\application\modules/patient/models/Patient_model.php
+DEBUG - 2025-03-23 00:55:39 --> File loaded: C:\xampp\htdocs\synap\application\modules/pgateway/models/Pgateway_model.php
+DEBUG - 2025-03-23 00:55:39 --> File loaded: C:\xampp\htdocs\synap\application\modules/finance/models/Finance_model.php
+DEBUG - 2025-03-23 00:55:39 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctorvisit_model.php
+DEBUG - 2025-03-23 00:55:39 --> File loaded: C:\xampp\htdocs\synap\application\controllers/../modules/sms/controllers/Sms.php
+DEBUG - 2025-03-23 00:55:39 --> Sms MX_Controller Initialized
+DEBUG - 2025-03-23 00:55:39 --> File loaded: C:\xampp\htdocs\synap\application\modules/donor/models/Donor_model.php
+DEBUG - 2025-03-23 00:55:39 --> File loaded: C:\xampp\htdocs\synap\application\controllers/../modules/paypal/controllers/Paypal.php
+DEBUG - 2025-03-23 00:55:39 --> Paypal MX_Controller Initialized
+INFO - 2025-03-23 00:55:39 --> Config Class Initialized
+INFO - 2025-03-23 00:55:39 --> Hooks Class Initialized
+DEBUG - 2025-03-23 00:55:39 --> UTF-8 Support Enabled
+INFO - 2025-03-23 00:55:39 --> Utf8 Class Initialized
+INFO - 2025-03-23 00:55:39 --> URI Class Initialized
+INFO - 2025-03-23 00:55:39 --> Router Class Initialized
+INFO - 2025-03-23 00:55:39 --> Output Class Initialized
+INFO - 2025-03-23 00:55:40 --> Security Class Initialized
+DEBUG - 2025-03-23 00:55:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-23 00:55:40 --> Input Class Initialized
+INFO - 2025-03-23 00:55:40 --> Language Class Initialized
+ERROR - 2025-03-23 00:55:40 --> 404 Page Not Found: /index
+INFO - 2025-03-23 00:55:40 --> Config Class Initialized
+INFO - 2025-03-23 00:55:40 --> Hooks Class Initialized
+DEBUG - 2025-03-23 00:55:40 --> UTF-8 Support Enabled
+INFO - 2025-03-23 00:55:40 --> Utf8 Class Initialized
+INFO - 2025-03-23 00:55:40 --> URI Class Initialized
+INFO - 2025-03-23 00:55:40 --> Router Class Initialized
+INFO - 2025-03-23 00:55:40 --> Output Class Initialized
+INFO - 2025-03-23 00:55:40 --> Security Class Initialized
+DEBUG - 2025-03-23 00:55:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-23 00:55:40 --> Input Class Initialized
+INFO - 2025-03-23 00:55:40 --> Language Class Initialized
+INFO - 2025-03-23 00:55:40 --> Language Class Initialized
+INFO - 2025-03-23 00:55:40 --> Config Class Initialized
+INFO - 2025-03-23 00:55:40 --> Loader Class Initialized
+ERROR - 2025-03-23 00:55:40 --> Severity: Warning --> Undefined array key 1 C:\xampp\htdocs\synap\application\modules\appointment\controllers\Appointment.php 1317
+INFO - 2025-03-23 00:55:40 --> Helper loaded: url_helper
+ERROR - 2025-03-23 00:55:40 --> Severity: error --> Exception: Unsupported operand types: string * int C:\xampp\htdocs\synap\application\modules\appointment\controllers\Appointment.php 1331
+INFO - 2025-03-23 00:55:40 --> Helper loaded: file_helper
+INFO - 2025-03-23 00:55:40 --> Database Driver Class Initialized
+INFO - 2025-03-23 00:55:40 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-23 00:55:40 --> Controller Class Initialized
+DEBUG - 2025-03-23 00:55:40 --> Config file loaded: C:\xampp\htdocs\synap\application\config/ion_auth.php
+INFO - 2025-03-23 00:55:40 --> Language file loaded: language/english/ion_auth_lang.php
+INFO - 2025-03-23 00:55:40 --> Helper loaded: cookie_helper
+INFO - 2025-03-23 00:55:40 --> Helper loaded: language_helper
+INFO - 2025-03-23 00:55:40 --> Helper loaded: date_helper
+INFO - 2025-03-23 00:55:40 --> Model "Ion_auth_model" initialized
+DEBUG - 2025-03-23 00:55:40 --> File loaded: C:\xampp\htdocs\synap\application\modules/email/models/Email_model.php
+DEBUG - 2025-03-23 00:55:40 --> Email Class Initialized
+INFO - 2025-03-23 00:55:40 --> Helper loaded: form_helper
+INFO - 2025-03-23 00:55:40 --> Form Validation Class Initialized
+INFO - 2025-03-23 00:55:40 --> Upload Class Initialized
+INFO - 2025-03-23 00:55:40 --> Language file loaded: language/spanish/system_syntax_lang.php
+DEBUG - 2025-03-23 00:55:40 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/models/Home_model.php
+DEBUG - 2025-03-23 00:55:40 --> File loaded: C:\xampp\htdocs\synap\application\modules/settings/models/Settings_model.php
+DEBUG - 2025-03-23 00:55:40 --> File loaded: C:\xampp\htdocs\synap\application\modules/sms/models/Sms_model.php
+DEBUG - 2025-03-23 00:55:40 --> File loaded: C:\xampp\htdocs\synap\application\modules/logs/models/Logs_model.php
+INFO - 2025-03-23 00:55:40 --> Parser Class Initialized
+INFO - 2025-03-23 00:55:40 --> Helper loaded: security_helper
+DEBUG - 2025-03-23 00:55:40 --> Appointment MX_Controller Initialized
+DEBUG - 2025-03-23 00:55:40 --> File loaded: C:\xampp\htdocs\synap\application\modules/appointment/models/Appointment_model.php
+DEBUG - 2025-03-23 00:55:40 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctor_model.php
+DEBUG - 2025-03-23 00:55:40 --> File loaded: C:\xampp\htdocs\synap\application\modules/patient/models/Patient_model.php
+DEBUG - 2025-03-23 00:55:40 --> File loaded: C:\xampp\htdocs\synap\application\modules/pgateway/models/Pgateway_model.php
+DEBUG - 2025-03-23 00:55:40 --> File loaded: C:\xampp\htdocs\synap\application\modules/finance/models/Finance_model.php
+DEBUG - 2025-03-23 00:55:40 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctorvisit_model.php
+DEBUG - 2025-03-23 00:55:40 --> File loaded: C:\xampp\htdocs\synap\application\controllers/../modules/sms/controllers/Sms.php
+DEBUG - 2025-03-23 00:55:40 --> Sms MX_Controller Initialized
+DEBUG - 2025-03-23 00:55:40 --> File loaded: C:\xampp\htdocs\synap\application\modules/donor/models/Donor_model.php
+DEBUG - 2025-03-23 00:55:40 --> File loaded: C:\xampp\htdocs\synap\application\controllers/../modules/paypal/controllers/Paypal.php
+DEBUG - 2025-03-23 00:55:40 --> Paypal MX_Controller Initialized
+ERROR - 2025-03-23 00:55:40 --> Could not find the language line ""
+ERROR - 2025-03-23 00:55:40 --> Could not find the language line "import"
+DEBUG - 2025-03-23 00:55:40 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/views/dashboard.php
+ERROR - 2025-03-23 00:55:40 --> Could not find the language line "if_pay_now_checked_please_select_status_to_confirmed"
+ERROR - 2025-03-23 00:55:40 --> Could not find the language line "if_pay_now_checked_please_select_status_to_confirmed"
+DEBUG - 2025-03-23 00:55:40 --> File loaded: C:\xampp\htdocs\synap\application\modules/appointment/views/appointment.php
+DEBUG - 2025-03-23 00:55:40 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/views/footer.php
+INFO - 2025-03-23 00:55:40 --> Final output sent to browser
+DEBUG - 2025-03-23 00:55:40 --> Total execution time: 0.4526
+INFO - 2025-03-23 00:55:42 --> Config Class Initialized
+INFO - 2025-03-23 00:55:42 --> Hooks Class Initialized
+INFO - 2025-03-23 00:55:42 --> Config Class Initialized
+INFO - 2025-03-23 00:55:42 --> Hooks Class Initialized
+DEBUG - 2025-03-23 00:55:42 --> UTF-8 Support Enabled
+INFO - 2025-03-23 00:55:42 --> Utf8 Class Initialized
+INFO - 2025-03-23 00:55:42 --> URI Class Initialized
+INFO - 2025-03-23 00:55:42 --> Config Class Initialized
+INFO - 2025-03-23 00:55:42 --> Config Class Initialized
+DEBUG - 2025-03-23 00:55:42 --> UTF-8 Support Enabled
+INFO - 2025-03-23 00:55:42 --> Hooks Class Initialized
+INFO - 2025-03-23 00:55:42 --> Utf8 Class Initialized
+INFO - 2025-03-23 00:55:42 --> Hooks Class Initialized
+INFO - 2025-03-23 00:55:42 --> URI Class Initialized
+DEBUG - 2025-03-23 00:55:42 --> UTF-8 Support Enabled
+INFO - 2025-03-23 00:55:42 --> Config Class Initialized
+INFO - 2025-03-23 00:55:42 --> Hooks Class Initialized
+INFO - 2025-03-23 00:55:42 --> Router Class Initialized
+INFO - 2025-03-23 00:55:42 --> Config Class Initialized
+INFO - 2025-03-23 00:55:42 --> Hooks Class Initialized
+INFO - 2025-03-23 00:55:42 --> Output Class Initialized
+DEBUG - 2025-03-23 00:55:42 --> UTF-8 Support Enabled
+INFO - 2025-03-23 00:55:42 --> Utf8 Class Initialized
+INFO - 2025-03-23 00:55:42 --> Utf8 Class Initialized
+INFO - 2025-03-23 00:55:42 --> URI Class Initialized
+INFO - 2025-03-23 00:55:42 --> Security Class Initialized
+DEBUG - 2025-03-23 00:55:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-23 00:55:42 --> Input Class Initialized
+INFO - 2025-03-23 00:55:42 --> Language Class Initialized
+INFO - 2025-03-23 00:55:42 --> URI Class Initialized
+INFO - 2025-03-23 00:55:42 --> Router Class Initialized
+INFO - 2025-03-23 00:55:42 --> Output Class Initialized
+INFO - 2025-03-23 00:55:42 --> Language Class Initialized
+INFO - 2025-03-23 00:55:42 --> Config Class Initialized
+INFO - 2025-03-23 00:55:42 --> Security Class Initialized
+INFO - 2025-03-23 00:55:42 --> Router Class Initialized
+DEBUG - 2025-03-23 00:55:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-23 00:55:42 --> Loader Class Initialized
+INFO - 2025-03-23 00:55:42 --> Input Class Initialized
+DEBUG - 2025-03-23 00:55:42 --> UTF-8 Support Enabled
+INFO - 2025-03-23 00:55:42 --> Language Class Initialized
+INFO - 2025-03-23 00:55:42 --> Router Class Initialized
+INFO - 2025-03-23 00:55:42 --> Output Class Initialized
+INFO - 2025-03-23 00:55:42 --> Helper loaded: url_helper
+INFO - 2025-03-23 00:55:42 --> Utf8 Class Initialized
+INFO - 2025-03-23 00:55:42 --> Helper loaded: file_helper
+INFO - 2025-03-23 00:55:42 --> Language Class Initialized
+INFO - 2025-03-23 00:55:42 --> Security Class Initialized
+INFO - 2025-03-23 00:55:42 --> Config Class Initialized
+DEBUG - 2025-03-23 00:55:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-23 00:55:42 --> URI Class Initialized
+INFO - 2025-03-23 00:55:42 --> Input Class Initialized
+INFO - 2025-03-23 00:55:42 --> Language Class Initialized
+INFO - 2025-03-23 00:55:42 --> Router Class Initialized
+INFO - 2025-03-23 00:55:42 --> Loader Class Initialized
+INFO - 2025-03-23 00:55:42 --> Language Class Initialized
+INFO - 2025-03-23 00:55:42 --> Config Class Initialized
+INFO - 2025-03-23 00:55:42 --> Database Driver Class Initialized
+INFO - 2025-03-23 00:55:42 --> Loader Class Initialized
+INFO - 2025-03-23 00:55:42 --> Helper loaded: url_helper
+INFO - 2025-03-23 00:55:42 --> Helper loaded: file_helper
+INFO - 2025-03-23 00:55:42 --> Output Class Initialized
+INFO - 2025-03-23 00:55:42 --> Security Class Initialized
+DEBUG - 2025-03-23 00:55:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-23 00:55:42 --> Input Class Initialized
+INFO - 2025-03-23 00:55:42 --> Language Class Initialized
+INFO - 2025-03-23 00:55:42 --> Database Driver Class Initialized
+INFO - 2025-03-23 00:55:42 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-23 00:55:42 --> Controller Class Initialized
+INFO - 2025-03-23 00:55:42 --> Language Class Initialized
+INFO - 2025-03-23 00:55:42 --> Config Class Initialized
+DEBUG - 2025-03-23 00:55:42 --> Config file loaded: C:\xampp\htdocs\synap\application\config/ion_auth.php
+INFO - 2025-03-23 00:55:42 --> Language file loaded: language/english/ion_auth_lang.php
+INFO - 2025-03-23 00:55:42 --> Helper loaded: cookie_helper
+INFO - 2025-03-23 00:55:42 --> Helper loaded: language_helper
+INFO - 2025-03-23 00:55:42 --> Helper loaded: date_helper
+INFO - 2025-03-23 00:55:42 --> Model "Ion_auth_model" initialized
+DEBUG - 2025-03-23 00:55:42 --> File loaded: C:\xampp\htdocs\synap\application\modules/email/models/Email_model.php
+INFO - 2025-03-23 00:55:42 --> Loader Class Initialized
+DEBUG - 2025-03-23 00:55:42 --> Email Class Initialized
+INFO - 2025-03-23 00:55:42 --> Helper loaded: url_helper
+INFO - 2025-03-23 00:55:42 --> Helper loaded: form_helper
+INFO - 2025-03-23 00:55:42 --> Form Validation Class Initialized
+INFO - 2025-03-23 00:55:42 --> Helper loaded: url_helper
+INFO - 2025-03-23 00:55:42 --> Helper loaded: file_helper
+INFO - 2025-03-23 00:55:42 --> Helper loaded: file_helper
+INFO - 2025-03-23 00:55:42 --> Upload Class Initialized
+INFO - 2025-03-23 00:55:42 --> Database Driver Class Initialized
+INFO - 2025-03-23 00:55:42 --> Database Driver Class Initialized
+INFO - 2025-03-23 00:55:42 --> Output Class Initialized
+DEBUG - 2025-03-23 00:55:42 --> UTF-8 Support Enabled
+INFO - 2025-03-23 00:55:42 --> Utf8 Class Initialized
+INFO - 2025-03-23 00:55:42 --> URI Class Initialized
+INFO - 2025-03-23 00:55:42 --> Router Class Initialized
+INFO - 2025-03-23 00:55:42 --> Output Class Initialized
+INFO - 2025-03-23 00:55:42 --> Security Class Initialized
+DEBUG - 2025-03-23 00:55:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-23 00:55:42 --> Input Class Initialized
+INFO - 2025-03-23 00:55:42 --> Language Class Initialized
+INFO - 2025-03-23 00:55:42 --> Language Class Initialized
+INFO - 2025-03-23 00:55:42 --> Config Class Initialized
+INFO - 2025-03-23 00:55:42 --> Security Class Initialized
+INFO - 2025-03-23 00:55:42 --> Loader Class Initialized
+INFO - 2025-03-23 00:55:42 --> Helper loaded: url_helper
+INFO - 2025-03-23 00:55:42 --> Helper loaded: file_helper
+DEBUG - 2025-03-23 00:55:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-23 00:55:42 --> Language file loaded: language/spanish/system_syntax_lang.php
+INFO - 2025-03-23 00:55:42 --> Input Class Initialized
+INFO - 2025-03-23 00:55:42 --> Language Class Initialized
+INFO - 2025-03-23 00:55:42 --> Database Driver Class Initialized
+DEBUG - 2025-03-23 00:55:42 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/models/Home_model.php
+INFO - 2025-03-23 00:55:42 --> Language Class Initialized
+DEBUG - 2025-03-23 00:55:42 --> File loaded: C:\xampp\htdocs\synap\application\modules/settings/models/Settings_model.php
+INFO - 2025-03-23 00:55:42 --> Config Class Initialized
+DEBUG - 2025-03-23 00:55:42 --> File loaded: C:\xampp\htdocs\synap\application\modules/sms/models/Sms_model.php
+DEBUG - 2025-03-23 00:55:42 --> File loaded: C:\xampp\htdocs\synap\application\modules/logs/models/Logs_model.php
+INFO - 2025-03-23 00:55:42 --> Parser Class Initialized
+INFO - 2025-03-23 00:55:42 --> Helper loaded: security_helper
+DEBUG - 2025-03-23 00:55:42 --> Appointment MX_Controller Initialized
+DEBUG - 2025-03-23 00:55:42 --> File loaded: C:\xampp\htdocs\synap\application\modules/appointment/models/Appointment_model.php
+DEBUG - 2025-03-23 00:55:42 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctor_model.php
+DEBUG - 2025-03-23 00:55:42 --> File loaded: C:\xampp\htdocs\synap\application\modules/patient/models/Patient_model.php
+INFO - 2025-03-23 00:55:42 --> Loader Class Initialized
+INFO - 2025-03-23 00:55:42 --> Helper loaded: url_helper
+INFO - 2025-03-23 00:55:42 --> Helper loaded: file_helper
+DEBUG - 2025-03-23 00:55:42 --> File loaded: C:\xampp\htdocs\synap\application\modules/pgateway/models/Pgateway_model.php
+DEBUG - 2025-03-23 00:55:42 --> File loaded: C:\xampp\htdocs\synap\application\modules/finance/models/Finance_model.php
+INFO - 2025-03-23 00:55:42 --> Database Driver Class Initialized
+DEBUG - 2025-03-23 00:55:42 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctorvisit_model.php
+DEBUG - 2025-03-23 00:55:42 --> File loaded: C:\xampp\htdocs\synap\application\controllers/../modules/sms/controllers/Sms.php
+DEBUG - 2025-03-23 00:55:42 --> Sms MX_Controller Initialized
+DEBUG - 2025-03-23 00:55:42 --> File loaded: C:\xampp\htdocs\synap\application\modules/donor/models/Donor_model.php
+DEBUG - 2025-03-23 00:55:42 --> File loaded: C:\xampp\htdocs\synap\application\controllers/../modules/paypal/controllers/Paypal.php
+DEBUG - 2025-03-23 00:55:42 --> Paypal MX_Controller Initialized
+INFO - 2025-03-23 00:55:42 --> Final output sent to browser
+DEBUG - 2025-03-23 00:55:42 --> Total execution time: 0.6940
+INFO - 2025-03-23 00:55:42 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-23 00:55:42 --> Controller Class Initialized
+DEBUG - 2025-03-23 00:55:43 --> Config file loaded: C:\xampp\htdocs\synap\application\config/ion_auth.php
+INFO - 2025-03-23 00:55:43 --> Language file loaded: language/english/ion_auth_lang.php
+INFO - 2025-03-23 00:55:43 --> Helper loaded: cookie_helper
+INFO - 2025-03-23 00:55:43 --> Helper loaded: language_helper
+INFO - 2025-03-23 00:55:43 --> Config Class Initialized
+INFO - 2025-03-23 00:55:43 --> Hooks Class Initialized
+DEBUG - 2025-03-23 00:55:43 --> UTF-8 Support Enabled
+INFO - 2025-03-23 00:55:43 --> Utf8 Class Initialized
+INFO - 2025-03-23 00:55:43 --> URI Class Initialized
+INFO - 2025-03-23 00:55:43 --> Router Class Initialized
+INFO - 2025-03-23 00:55:43 --> Output Class Initialized
+INFO - 2025-03-23 00:55:43 --> Helper loaded: date_helper
+INFO - 2025-03-23 00:55:43 --> Security Class Initialized
+INFO - 2025-03-23 00:55:43 --> Model "Ion_auth_model" initialized
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\modules/email/models/Email_model.php
+DEBUG - 2025-03-23 00:55:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-23 00:55:43 --> Input Class Initialized
+INFO - 2025-03-23 00:55:43 --> Language Class Initialized
+DEBUG - 2025-03-23 00:55:43 --> Email Class Initialized
+INFO - 2025-03-23 00:55:43 --> Helper loaded: form_helper
+INFO - 2025-03-23 00:55:43 --> Form Validation Class Initialized
+INFO - 2025-03-23 00:55:43 --> Upload Class Initialized
+INFO - 2025-03-23 00:55:43 --> Language Class Initialized
+INFO - 2025-03-23 00:55:43 --> Config Class Initialized
+INFO - 2025-03-23 00:55:43 --> Loader Class Initialized
+INFO - 2025-03-23 00:55:43 --> Helper loaded: url_helper
+INFO - 2025-03-23 00:55:43 --> Helper loaded: file_helper
+INFO - 2025-03-23 00:55:43 --> Database Driver Class Initialized
+INFO - 2025-03-23 00:55:43 --> Language file loaded: language/spanish/system_syntax_lang.php
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/models/Home_model.php
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\modules/settings/models/Settings_model.php
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\modules/sms/models/Sms_model.php
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\modules/logs/models/Logs_model.php
+INFO - 2025-03-23 00:55:43 --> Parser Class Initialized
+INFO - 2025-03-23 00:55:43 --> Helper loaded: security_helper
+DEBUG - 2025-03-23 00:55:43 --> Schedule MX_Controller Initialized
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\modules/schedule/models/Schedule_model.php
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctor_model.php
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\modules/appointment/models/Appointment_model.php
+ERROR - 2025-03-23 00:55:43 --> Severity: error --> Exception: strftime(): Argument #2 ($timestamp) must be of type ?int, string given C:\xampp\htdocs\synap\application\modules\schedule\models\Schedule_model.php 119
+INFO - 2025-03-23 00:55:43 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-23 00:55:43 --> Controller Class Initialized
+DEBUG - 2025-03-23 00:55:43 --> Config file loaded: C:\xampp\htdocs\synap\application\config/ion_auth.php
+INFO - 2025-03-23 00:55:43 --> Language file loaded: language/english/ion_auth_lang.php
+INFO - 2025-03-23 00:55:43 --> Helper loaded: cookie_helper
+INFO - 2025-03-23 00:55:43 --> Helper loaded: language_helper
+INFO - 2025-03-23 00:55:43 --> Helper loaded: date_helper
+INFO - 2025-03-23 00:55:43 --> Config Class Initialized
+INFO - 2025-03-23 00:55:43 --> Hooks Class Initialized
+INFO - 2025-03-23 00:55:43 --> Model "Ion_auth_model" initialized
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\modules/email/models/Email_model.php
+DEBUG - 2025-03-23 00:55:43 --> UTF-8 Support Enabled
+INFO - 2025-03-23 00:55:43 --> Utf8 Class Initialized
+INFO - 2025-03-23 00:55:43 --> URI Class Initialized
+DEBUG - 2025-03-23 00:55:43 --> Email Class Initialized
+INFO - 2025-03-23 00:55:43 --> Router Class Initialized
+INFO - 2025-03-23 00:55:43 --> Helper loaded: form_helper
+INFO - 2025-03-23 00:55:43 --> Form Validation Class Initialized
+INFO - 2025-03-23 00:55:43 --> Output Class Initialized
+INFO - 2025-03-23 00:55:43 --> Upload Class Initialized
+INFO - 2025-03-23 00:55:43 --> Security Class Initialized
+INFO - 2025-03-23 00:55:43 --> Language file loaded: language/spanish/system_syntax_lang.php
+DEBUG - 2025-03-23 00:55:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-23 00:55:43 --> Input Class Initialized
+INFO - 2025-03-23 00:55:43 --> Language Class Initialized
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/models/Home_model.php
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\modules/settings/models/Settings_model.php
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\modules/sms/models/Sms_model.php
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\modules/logs/models/Logs_model.php
+INFO - 2025-03-23 00:55:43 --> Parser Class Initialized
+INFO - 2025-03-23 00:55:43 --> Helper loaded: security_helper
+DEBUG - 2025-03-23 00:55:43 --> Schedule MX_Controller Initialized
+INFO - 2025-03-23 00:55:43 --> Language Class Initialized
+INFO - 2025-03-23 00:55:43 --> Config Class Initialized
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\modules/schedule/models/Schedule_model.php
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctor_model.php
+INFO - 2025-03-23 00:55:43 --> Loader Class Initialized
+INFO - 2025-03-23 00:55:43 --> Helper loaded: url_helper
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\modules/appointment/models/Appointment_model.php
+INFO - 2025-03-23 00:55:43 --> Helper loaded: file_helper
+ERROR - 2025-03-23 00:55:43 --> Severity: error --> Exception: strftime(): Argument #2 ($timestamp) must be of type ?int, string given C:\xampp\htdocs\synap\application\modules\schedule\models\Schedule_model.php 158
+INFO - 2025-03-23 00:55:43 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-23 00:55:43 --> Controller Class Initialized
+DEBUG - 2025-03-23 00:55:43 --> Config file loaded: C:\xampp\htdocs\synap\application\config/ion_auth.php
+INFO - 2025-03-23 00:55:43 --> Language file loaded: language/english/ion_auth_lang.php
+INFO - 2025-03-23 00:55:43 --> Database Driver Class Initialized
+INFO - 2025-03-23 00:55:43 --> Helper loaded: cookie_helper
+INFO - 2025-03-23 00:55:43 --> Helper loaded: language_helper
+INFO - 2025-03-23 00:55:43 --> Helper loaded: date_helper
+INFO - 2025-03-23 00:55:43 --> Model "Ion_auth_model" initialized
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\modules/email/models/Email_model.php
+DEBUG - 2025-03-23 00:55:43 --> Email Class Initialized
+INFO - 2025-03-23 00:55:43 --> Helper loaded: form_helper
+INFO - 2025-03-23 00:55:43 --> Form Validation Class Initialized
+INFO - 2025-03-23 00:55:43 --> Config Class Initialized
+INFO - 2025-03-23 00:55:43 --> Hooks Class Initialized
+INFO - 2025-03-23 00:55:43 --> Upload Class Initialized
+DEBUG - 2025-03-23 00:55:43 --> UTF-8 Support Enabled
+INFO - 2025-03-23 00:55:43 --> Utf8 Class Initialized
+INFO - 2025-03-23 00:55:43 --> URI Class Initialized
+INFO - 2025-03-23 00:55:43 --> Language file loaded: language/spanish/system_syntax_lang.php
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/models/Home_model.php
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\modules/settings/models/Settings_model.php
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\modules/sms/models/Sms_model.php
+INFO - 2025-03-23 00:55:43 --> Router Class Initialized
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\modules/logs/models/Logs_model.php
+INFO - 2025-03-23 00:55:43 --> Parser Class Initialized
+INFO - 2025-03-23 00:55:43 --> Output Class Initialized
+INFO - 2025-03-23 00:55:43 --> Helper loaded: security_helper
+DEBUG - 2025-03-23 00:55:43 --> Appointment MX_Controller Initialized
+INFO - 2025-03-23 00:55:43 --> Security Class Initialized
+DEBUG - 2025-03-23 00:55:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-23 00:55:43 --> Input Class Initialized
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\modules/appointment/models/Appointment_model.php
+INFO - 2025-03-23 00:55:43 --> Language Class Initialized
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctor_model.php
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\modules/patient/models/Patient_model.php
+INFO - 2025-03-23 00:55:43 --> Language Class Initialized
+INFO - 2025-03-23 00:55:43 --> Config Class Initialized
+INFO - 2025-03-23 00:55:43 --> Loader Class Initialized
+INFO - 2025-03-23 00:55:43 --> Helper loaded: url_helper
+INFO - 2025-03-23 00:55:43 --> Helper loaded: file_helper
+INFO - 2025-03-23 00:55:43 --> Database Driver Class Initialized
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\modules/pgateway/models/Pgateway_model.php
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\modules/finance/models/Finance_model.php
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctorvisit_model.php
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\controllers/../modules/sms/controllers/Sms.php
+DEBUG - 2025-03-23 00:55:43 --> Sms MX_Controller Initialized
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\modules/donor/models/Donor_model.php
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\controllers/../modules/paypal/controllers/Paypal.php
+DEBUG - 2025-03-23 00:55:43 --> Paypal MX_Controller Initialized
+ERROR - 2025-03-23 00:55:43 --> Could not find the language line ""
+ERROR - 2025-03-23 00:55:43 --> Could not find the language line ""
+ERROR - 2025-03-23 00:55:43 --> Could not find the language line ""
+ERROR - 2025-03-23 00:55:43 --> Could not find the language line ""
+ERROR - 2025-03-23 00:55:43 --> Could not find the language line ""
+ERROR - 2025-03-23 00:55:43 --> Could not find the language line ""
+INFO - 2025-03-23 00:55:43 --> Final output sent to browser
+DEBUG - 2025-03-23 00:55:43 --> Total execution time: 1.3395
+INFO - 2025-03-23 00:55:43 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-23 00:55:43 --> Controller Class Initialized
+DEBUG - 2025-03-23 00:55:43 --> Config file loaded: C:\xampp\htdocs\synap\application\config/ion_auth.php
+INFO - 2025-03-23 00:55:43 --> Language file loaded: language/english/ion_auth_lang.php
+INFO - 2025-03-23 00:55:43 --> Helper loaded: cookie_helper
+INFO - 2025-03-23 00:55:43 --> Helper loaded: language_helper
+INFO - 2025-03-23 00:55:43 --> Helper loaded: date_helper
+INFO - 2025-03-23 00:55:43 --> Model "Ion_auth_model" initialized
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\modules/email/models/Email_model.php
+INFO - 2025-03-23 00:55:43 --> Config Class Initialized
+INFO - 2025-03-23 00:55:43 --> Hooks Class Initialized
+DEBUG - 2025-03-23 00:55:43 --> UTF-8 Support Enabled
+INFO - 2025-03-23 00:55:43 --> Utf8 Class Initialized
+INFO - 2025-03-23 00:55:43 --> URI Class Initialized
+DEBUG - 2025-03-23 00:55:43 --> Email Class Initialized
+INFO - 2025-03-23 00:55:43 --> Helper loaded: form_helper
+INFO - 2025-03-23 00:55:43 --> Form Validation Class Initialized
+INFO - 2025-03-23 00:55:43 --> Upload Class Initialized
+INFO - 2025-03-23 00:55:43 --> Router Class Initialized
+INFO - 2025-03-23 00:55:43 --> Language file loaded: language/spanish/system_syntax_lang.php
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/models/Home_model.php
+INFO - 2025-03-23 00:55:43 --> Output Class Initialized
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\modules/settings/models/Settings_model.php
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\modules/sms/models/Sms_model.php
+INFO - 2025-03-23 00:55:43 --> Security Class Initialized
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\modules/logs/models/Logs_model.php
+DEBUG - 2025-03-23 00:55:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-23 00:55:43 --> Parser Class Initialized
+INFO - 2025-03-23 00:55:43 --> Helper loaded: security_helper
+DEBUG - 2025-03-23 00:55:43 --> Appointment MX_Controller Initialized
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\modules/appointment/models/Appointment_model.php
+INFO - 2025-03-23 00:55:43 --> Input Class Initialized
+INFO - 2025-03-23 00:55:43 --> Language Class Initialized
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctor_model.php
+ERROR - 2025-03-23 00:55:43 --> 404 Page Not Found: /index
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\modules/patient/models/Patient_model.php
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\modules/pgateway/models/Pgateway_model.php
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\modules/finance/models/Finance_model.php
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctorvisit_model.php
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\controllers/../modules/sms/controllers/Sms.php
+DEBUG - 2025-03-23 00:55:43 --> Sms MX_Controller Initialized
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\modules/donor/models/Donor_model.php
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\controllers/../modules/paypal/controllers/Paypal.php
+DEBUG - 2025-03-23 00:55:43 --> Paypal MX_Controller Initialized
+ERROR - 2025-03-23 00:55:43 --> Could not find the language line ""
+INFO - 2025-03-23 00:55:43 --> Final output sent to browser
+DEBUG - 2025-03-23 00:55:43 --> Total execution time: 1.5008
+INFO - 2025-03-23 00:55:43 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-23 00:55:43 --> Controller Class Initialized
+DEBUG - 2025-03-23 00:55:43 --> Config file loaded: C:\xampp\htdocs\synap\application\config/ion_auth.php
+INFO - 2025-03-23 00:55:43 --> Language file loaded: language/english/ion_auth_lang.php
+INFO - 2025-03-23 00:55:43 --> Helper loaded: cookie_helper
+INFO - 2025-03-23 00:55:43 --> Helper loaded: language_helper
+INFO - 2025-03-23 00:55:43 --> Helper loaded: date_helper
+INFO - 2025-03-23 00:55:43 --> Model "Ion_auth_model" initialized
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\modules/email/models/Email_model.php
+DEBUG - 2025-03-23 00:55:43 --> Email Class Initialized
+INFO - 2025-03-23 00:55:43 --> Helper loaded: form_helper
+INFO - 2025-03-23 00:55:43 --> Form Validation Class Initialized
+INFO - 2025-03-23 00:55:43 --> Upload Class Initialized
+INFO - 2025-03-23 00:55:43 --> Language file loaded: language/spanish/system_syntax_lang.php
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/models/Home_model.php
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\modules/settings/models/Settings_model.php
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\modules/sms/models/Sms_model.php
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\modules/logs/models/Logs_model.php
+INFO - 2025-03-23 00:55:43 --> Parser Class Initialized
+INFO - 2025-03-23 00:55:43 --> Helper loaded: security_helper
+DEBUG - 2025-03-23 00:55:43 --> Schedule MX_Controller Initialized
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\modules/schedule/models/Schedule_model.php
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctor_model.php
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\modules/appointment/models/Appointment_model.php
+INFO - 2025-03-23 00:55:43 --> Final output sent to browser
+DEBUG - 2025-03-23 00:55:43 --> Total execution time: 1.8175
+INFO - 2025-03-23 00:55:43 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-23 00:55:43 --> Controller Class Initialized
+DEBUG - 2025-03-23 00:55:43 --> Config file loaded: C:\xampp\htdocs\synap\application\config/ion_auth.php
+INFO - 2025-03-23 00:55:43 --> Language file loaded: language/english/ion_auth_lang.php
+INFO - 2025-03-23 00:55:43 --> Helper loaded: cookie_helper
+INFO - 2025-03-23 00:55:43 --> Helper loaded: language_helper
+INFO - 2025-03-23 00:55:43 --> Helper loaded: date_helper
+INFO - 2025-03-23 00:55:43 --> Model "Ion_auth_model" initialized
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\modules/email/models/Email_model.php
+DEBUG - 2025-03-23 00:55:43 --> Email Class Initialized
+INFO - 2025-03-23 00:55:43 --> Helper loaded: form_helper
+INFO - 2025-03-23 00:55:43 --> Form Validation Class Initialized
+INFO - 2025-03-23 00:55:43 --> Upload Class Initialized
+INFO - 2025-03-23 00:55:43 --> Language file loaded: language/spanish/system_syntax_lang.php
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/models/Home_model.php
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\modules/settings/models/Settings_model.php
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\modules/sms/models/Sms_model.php
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\modules/logs/models/Logs_model.php
+INFO - 2025-03-23 00:55:43 --> Parser Class Initialized
+INFO - 2025-03-23 00:55:43 --> Helper loaded: security_helper
+DEBUG - 2025-03-23 00:55:43 --> Appointment MX_Controller Initialized
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\modules/appointment/models/Appointment_model.php
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctor_model.php
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\modules/patient/models/Patient_model.php
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\modules/pgateway/models/Pgateway_model.php
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\modules/finance/models/Finance_model.php
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctorvisit_model.php
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\controllers/../modules/sms/controllers/Sms.php
+DEBUG - 2025-03-23 00:55:43 --> Sms MX_Controller Initialized
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\modules/donor/models/Donor_model.php
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\controllers/../modules/paypal/controllers/Paypal.php
+DEBUG - 2025-03-23 00:55:43 --> Paypal MX_Controller Initialized
+ERROR - 2025-03-23 00:55:43 --> Could not find the language line ""
+ERROR - 2025-03-23 00:55:43 --> Could not find the language line ""
+ERROR - 2025-03-23 00:55:43 --> Could not find the language line ""
+ERROR - 2025-03-23 00:55:43 --> Could not find the language line ""
+ERROR - 2025-03-23 00:55:43 --> Could not find the language line ""
+INFO - 2025-03-23 00:55:43 --> Final output sent to browser
+DEBUG - 2025-03-23 00:55:43 --> Total execution time: 0.9372
+INFO - 2025-03-23 00:55:43 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-23 00:55:43 --> Controller Class Initialized
+DEBUG - 2025-03-23 00:55:43 --> Config file loaded: C:\xampp\htdocs\synap\application\config/ion_auth.php
+INFO - 2025-03-23 00:55:43 --> Language file loaded: language/english/ion_auth_lang.php
+INFO - 2025-03-23 00:55:43 --> Helper loaded: cookie_helper
+INFO - 2025-03-23 00:55:43 --> Helper loaded: language_helper
+INFO - 2025-03-23 00:55:43 --> Helper loaded: date_helper
+INFO - 2025-03-23 00:55:43 --> Model "Ion_auth_model" initialized
+DEBUG - 2025-03-23 00:55:43 --> File loaded: C:\xampp\htdocs\synap\application\modules/email/models/Email_model.php
+DEBUG - 2025-03-23 00:55:44 --> Email Class Initialized
+INFO - 2025-03-23 00:55:44 --> Helper loaded: form_helper
+INFO - 2025-03-23 00:55:44 --> Form Validation Class Initialized
+INFO - 2025-03-23 00:55:44 --> Upload Class Initialized
+INFO - 2025-03-23 00:55:44 --> Language file loaded: language/spanish/system_syntax_lang.php
+DEBUG - 2025-03-23 00:55:44 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/models/Home_model.php
+DEBUG - 2025-03-23 00:55:44 --> File loaded: C:\xampp\htdocs\synap\application\modules/settings/models/Settings_model.php
+DEBUG - 2025-03-23 00:55:44 --> File loaded: C:\xampp\htdocs\synap\application\modules/sms/models/Sms_model.php
+DEBUG - 2025-03-23 00:55:44 --> File loaded: C:\xampp\htdocs\synap\application\modules/logs/models/Logs_model.php
+INFO - 2025-03-23 00:55:44 --> Parser Class Initialized
+INFO - 2025-03-23 00:55:44 --> Helper loaded: security_helper
+DEBUG - 2025-03-23 00:55:44 --> Appointment MX_Controller Initialized
+DEBUG - 2025-03-23 00:55:44 --> File loaded: C:\xampp\htdocs\synap\application\modules/appointment/models/Appointment_model.php
+DEBUG - 2025-03-23 00:55:44 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctor_model.php
+DEBUG - 2025-03-23 00:55:44 --> File loaded: C:\xampp\htdocs\synap\application\modules/patient/models/Patient_model.php
+DEBUG - 2025-03-23 00:55:44 --> File loaded: C:\xampp\htdocs\synap\application\modules/pgateway/models/Pgateway_model.php
+DEBUG - 2025-03-23 00:55:44 --> File loaded: C:\xampp\htdocs\synap\application\modules/finance/models/Finance_model.php
+DEBUG - 2025-03-23 00:55:44 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctorvisit_model.php
+DEBUG - 2025-03-23 00:55:44 --> File loaded: C:\xampp\htdocs\synap\application\controllers/../modules/sms/controllers/Sms.php
+DEBUG - 2025-03-23 00:55:44 --> Sms MX_Controller Initialized
+DEBUG - 2025-03-23 00:55:44 --> File loaded: C:\xampp\htdocs\synap\application\modules/donor/models/Donor_model.php
+DEBUG - 2025-03-23 00:55:44 --> File loaded: C:\xampp\htdocs\synap\application\controllers/../modules/paypal/controllers/Paypal.php
+DEBUG - 2025-03-23 00:55:44 --> Paypal MX_Controller Initialized
+INFO - 2025-03-23 00:55:44 --> Final output sent to browser
+DEBUG - 2025-03-23 00:55:44 --> Total execution time: 0.8579
+INFO - 2025-03-23 00:55:44 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-23 00:55:44 --> Controller Class Initialized
+DEBUG - 2025-03-23 00:55:44 --> Config file loaded: C:\xampp\htdocs\synap\application\config/ion_auth.php
+INFO - 2025-03-23 00:55:44 --> Language file loaded: language/english/ion_auth_lang.php
+INFO - 2025-03-23 00:55:44 --> Helper loaded: cookie_helper
+INFO - 2025-03-23 00:55:44 --> Helper loaded: language_helper
+INFO - 2025-03-23 00:55:44 --> Helper loaded: date_helper
+INFO - 2025-03-23 00:55:44 --> Model "Ion_auth_model" initialized
+DEBUG - 2025-03-23 00:55:44 --> File loaded: C:\xampp\htdocs\synap\application\modules/email/models/Email_model.php
+DEBUG - 2025-03-23 00:55:44 --> Email Class Initialized
+INFO - 2025-03-23 00:55:44 --> Helper loaded: form_helper
+INFO - 2025-03-23 00:55:44 --> Form Validation Class Initialized
+INFO - 2025-03-23 00:55:44 --> Upload Class Initialized
+INFO - 2025-03-23 00:55:44 --> Language file loaded: language/spanish/system_syntax_lang.php
+DEBUG - 2025-03-23 00:55:44 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/models/Home_model.php
+DEBUG - 2025-03-23 00:55:44 --> File loaded: C:\xampp\htdocs\synap\application\modules/settings/models/Settings_model.php
+DEBUG - 2025-03-23 00:55:44 --> File loaded: C:\xampp\htdocs\synap\application\modules/sms/models/Sms_model.php
+DEBUG - 2025-03-23 00:55:44 --> File loaded: C:\xampp\htdocs\synap\application\modules/logs/models/Logs_model.php
+INFO - 2025-03-23 00:55:44 --> Parser Class Initialized
+INFO - 2025-03-23 00:55:44 --> Helper loaded: security_helper
+DEBUG - 2025-03-23 00:55:44 --> Appointment MX_Controller Initialized
+DEBUG - 2025-03-23 00:55:44 --> File loaded: C:\xampp\htdocs\synap\application\modules/appointment/models/Appointment_model.php
+DEBUG - 2025-03-23 00:55:44 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctor_model.php
+DEBUG - 2025-03-23 00:55:44 --> File loaded: C:\xampp\htdocs\synap\application\modules/patient/models/Patient_model.php
+DEBUG - 2025-03-23 00:55:44 --> File loaded: C:\xampp\htdocs\synap\application\modules/pgateway/models/Pgateway_model.php
+DEBUG - 2025-03-23 00:55:44 --> File loaded: C:\xampp\htdocs\synap\application\modules/finance/models/Finance_model.php
+DEBUG - 2025-03-23 00:55:44 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctorvisit_model.php
+DEBUG - 2025-03-23 00:55:44 --> File loaded: C:\xampp\htdocs\synap\application\controllers/../modules/sms/controllers/Sms.php
+DEBUG - 2025-03-23 00:55:44 --> Sms MX_Controller Initialized
+DEBUG - 2025-03-23 00:55:44 --> File loaded: C:\xampp\htdocs\synap\application\modules/donor/models/Donor_model.php
+DEBUG - 2025-03-23 00:55:44 --> File loaded: C:\xampp\htdocs\synap\application\controllers/../modules/paypal/controllers/Paypal.php
+DEBUG - 2025-03-23 00:55:44 --> Paypal MX_Controller Initialized
+INFO - 2025-03-23 00:55:44 --> Final output sent to browser
+DEBUG - 2025-03-23 00:55:44 --> Total execution time: 0.9030
+INFO - 2025-03-23 00:55:50 --> Config Class Initialized
+INFO - 2025-03-23 00:55:50 --> Hooks Class Initialized
+DEBUG - 2025-03-23 00:55:50 --> UTF-8 Support Enabled
+INFO - 2025-03-23 00:55:50 --> Utf8 Class Initialized
+INFO - 2025-03-23 00:55:50 --> URI Class Initialized
+INFO - 2025-03-23 00:55:50 --> Router Class Initialized
+INFO - 2025-03-23 00:55:50 --> Output Class Initialized
+INFO - 2025-03-23 00:55:50 --> Security Class Initialized
+DEBUG - 2025-03-23 00:55:50 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-23 00:55:50 --> Input Class Initialized
+INFO - 2025-03-23 00:55:50 --> Language Class Initialized
+INFO - 2025-03-23 00:55:50 --> Language Class Initialized
+INFO - 2025-03-23 00:55:50 --> Config Class Initialized
+INFO - 2025-03-23 00:55:50 --> Loader Class Initialized
+INFO - 2025-03-23 00:55:50 --> Helper loaded: url_helper
+INFO - 2025-03-23 00:55:50 --> Helper loaded: file_helper
+INFO - 2025-03-23 00:55:50 --> Database Driver Class Initialized
+INFO - 2025-03-23 00:55:50 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-23 00:55:50 --> Controller Class Initialized
+DEBUG - 2025-03-23 00:55:50 --> Config file loaded: C:\xampp\htdocs\synap\application\config/ion_auth.php
+INFO - 2025-03-23 00:55:50 --> Language file loaded: language/english/ion_auth_lang.php
+INFO - 2025-03-23 00:55:50 --> Helper loaded: cookie_helper
+INFO - 2025-03-23 00:55:50 --> Helper loaded: language_helper
+INFO - 2025-03-23 00:55:50 --> Helper loaded: date_helper
+INFO - 2025-03-23 00:55:50 --> Model "Ion_auth_model" initialized
+DEBUG - 2025-03-23 00:55:50 --> File loaded: C:\xampp\htdocs\synap\application\modules/email/models/Email_model.php
+DEBUG - 2025-03-23 00:55:50 --> Email Class Initialized
+INFO - 2025-03-23 00:55:50 --> Helper loaded: form_helper
+INFO - 2025-03-23 00:55:50 --> Form Validation Class Initialized
+INFO - 2025-03-23 00:55:50 --> Upload Class Initialized
+INFO - 2025-03-23 00:55:50 --> Language file loaded: language/spanish/system_syntax_lang.php
+DEBUG - 2025-03-23 00:55:50 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/models/Home_model.php
+DEBUG - 2025-03-23 00:55:50 --> File loaded: C:\xampp\htdocs\synap\application\modules/settings/models/Settings_model.php
+DEBUG - 2025-03-23 00:55:50 --> File loaded: C:\xampp\htdocs\synap\application\modules/sms/models/Sms_model.php
+DEBUG - 2025-03-23 00:55:50 --> File loaded: C:\xampp\htdocs\synap\application\modules/logs/models/Logs_model.php
+INFO - 2025-03-23 00:55:50 --> Parser Class Initialized
+INFO - 2025-03-23 00:55:50 --> Helper loaded: security_helper
+DEBUG - 2025-03-23 00:55:50 --> Doctor MX_Controller Initialized
+DEBUG - 2025-03-23 00:55:50 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctor_model.php
+DEBUG - 2025-03-23 00:55:50 --> File loaded: C:\xampp\htdocs\synap\application\modules/department/models/Department_model.php
+DEBUG - 2025-03-23 00:55:50 --> File loaded: C:\xampp\htdocs\synap\application\modules/appointment/models/Appointment_model.php
+DEBUG - 2025-03-23 00:55:50 --> File loaded: C:\xampp\htdocs\synap\application\modules/patient/models/Patient_model.php
+DEBUG - 2025-03-23 00:55:50 --> File loaded: C:\xampp\htdocs\synap\application\modules/prescription/models/Prescription_model.php
+DEBUG - 2025-03-23 00:55:50 --> File loaded: C:\xampp\htdocs\synap\application\modules/schedule/models/Schedule_model.php
+DEBUG - 2025-03-23 00:55:50 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctorvisit_model.php
+DEBUG - 2025-03-23 00:55:50 --> File loaded: C:\xampp\htdocs\synap\application\controllers/../modules/patient/controllers/Patient.php
+DEBUG - 2025-03-23 00:55:50 --> Patient MX_Controller Initialized
+DEBUG - 2025-03-23 00:55:50 --> File loaded: C:\xampp\htdocs\synap\application\modules/donor/models/Donor_model.php
+DEBUG - 2025-03-23 00:55:50 --> File loaded: C:\xampp\htdocs\synap\application\modules/bed/models/Bed_model.php
+DEBUG - 2025-03-23 00:55:50 --> File loaded: C:\xampp\htdocs\synap\application\modules/lab/models/Lab_model.php
+DEBUG - 2025-03-23 00:55:50 --> File loaded: C:\xampp\htdocs\synap\application\modules/finance/models/Finance_model.php
+DEBUG - 2025-03-23 00:55:50 --> File loaded: C:\xampp\htdocs\synap\application\modules/finance/models/Pharmacy_model.php
+DEBUG - 2025-03-23 00:55:50 --> File loaded: C:\xampp\htdocs\synap\application\controllers/../modules/sms/controllers/Sms.php
+DEBUG - 2025-03-23 00:55:50 --> Sms MX_Controller Initialized
+DEBUG - 2025-03-23 00:55:50 --> File loaded: C:\xampp\htdocs\synap\application\modules/medicine/models/Medicine_model.php
+DEBUG - 2025-03-23 00:55:50 --> File loaded: C:\xampp\htdocs\synap\application\modules/pgateway/models/Pgateway_model.php
+DEBUG - 2025-03-23 00:55:50 --> File loaded: C:\xampp\htdocs\synap\application\controllers/../modules/paypal/controllers/Paypal.php
+DEBUG - 2025-03-23 00:55:50 --> Paypal MX_Controller Initialized
+INFO - 2025-03-23 00:55:50 --> Final output sent to browser
+DEBUG - 2025-03-23 00:55:50 --> Total execution time: 0.2362
+INFO - 2025-03-23 00:55:51 --> Config Class Initialized
+INFO - 2025-03-23 00:55:51 --> Hooks Class Initialized
+DEBUG - 2025-03-23 00:55:51 --> UTF-8 Support Enabled
+INFO - 2025-03-23 00:55:51 --> Utf8 Class Initialized
+INFO - 2025-03-23 00:55:51 --> URI Class Initialized
+INFO - 2025-03-23 00:55:51 --> Config Class Initialized
+INFO - 2025-03-23 00:55:51 --> Router Class Initialized
+INFO - 2025-03-23 00:55:51 --> Hooks Class Initialized
+INFO - 2025-03-23 00:55:51 --> Output Class Initialized
+INFO - 2025-03-23 00:55:51 --> Security Class Initialized
+DEBUG - 2025-03-23 00:55:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-23 00:55:51 --> Input Class Initialized
+INFO - 2025-03-23 00:55:51 --> Language Class Initialized
+DEBUG - 2025-03-23 00:55:51 --> UTF-8 Support Enabled
+INFO - 2025-03-23 00:55:51 --> Utf8 Class Initialized
+INFO - 2025-03-23 00:55:51 --> Config Class Initialized
+INFO - 2025-03-23 00:55:51 --> Hooks Class Initialized
+INFO - 2025-03-23 00:55:51 --> URI Class Initialized
+DEBUG - 2025-03-23 00:55:51 --> UTF-8 Support Enabled
+INFO - 2025-03-23 00:55:51 --> Utf8 Class Initialized
+INFO - 2025-03-23 00:55:51 --> URI Class Initialized
+INFO - 2025-03-23 00:55:51 --> Router Class Initialized
+INFO - 2025-03-23 00:55:51 --> Router Class Initialized
+INFO - 2025-03-23 00:55:51 --> Output Class Initialized
+INFO - 2025-03-23 00:55:51 --> Output Class Initialized
+INFO - 2025-03-23 00:55:51 --> Security Class Initialized
+INFO - 2025-03-23 00:55:51 --> Security Class Initialized
+INFO - 2025-03-23 00:55:51 --> Language Class Initialized
+DEBUG - 2025-03-23 00:55:51 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2025-03-23 00:55:51 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-23 00:55:51 --> Config Class Initialized
+INFO - 2025-03-23 00:55:51 --> Input Class Initialized
+INFO - 2025-03-23 00:55:51 --> Input Class Initialized
+INFO - 2025-03-23 00:55:51 --> Language Class Initialized
+INFO - 2025-03-23 00:55:51 --> Language Class Initialized
+INFO - 2025-03-23 00:55:51 --> Loader Class Initialized
+INFO - 2025-03-23 00:55:51 --> Language Class Initialized
+INFO - 2025-03-23 00:55:51 --> Helper loaded: url_helper
+INFO - 2025-03-23 00:55:51 --> Config Class Initialized
+INFO - 2025-03-23 00:55:51 --> Helper loaded: file_helper
+INFO - 2025-03-23 00:55:51 --> Loader Class Initialized
+INFO - 2025-03-23 00:55:51 --> Language Class Initialized
+INFO - 2025-03-23 00:55:51 --> Config Class Initialized
+INFO - 2025-03-23 00:55:51 --> Helper loaded: url_helper
+INFO - 2025-03-23 00:55:51 --> Helper loaded: file_helper
+INFO - 2025-03-23 00:55:51 --> Loader Class Initialized
+INFO - 2025-03-23 00:55:51 --> Database Driver Class Initialized
+INFO - 2025-03-23 00:55:51 --> Helper loaded: url_helper
+INFO - 2025-03-23 00:55:51 --> Helper loaded: file_helper
+INFO - 2025-03-23 00:55:51 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-23 00:55:51 --> Controller Class Initialized
+INFO - 2025-03-23 00:55:51 --> Database Driver Class Initialized
+INFO - 2025-03-23 00:55:51 --> Database Driver Class Initialized
+DEBUG - 2025-03-23 00:55:51 --> Config file loaded: C:\xampp\htdocs\synap\application\config/ion_auth.php
+INFO - 2025-03-23 00:55:51 --> Language file loaded: language/english/ion_auth_lang.php
+INFO - 2025-03-23 00:55:51 --> Helper loaded: cookie_helper
+INFO - 2025-03-23 00:55:51 --> Helper loaded: language_helper
+INFO - 2025-03-23 00:55:51 --> Helper loaded: date_helper
+INFO - 2025-03-23 00:55:51 --> Model "Ion_auth_model" initialized
+DEBUG - 2025-03-23 00:55:51 --> File loaded: C:\xampp\htdocs\synap\application\modules/email/models/Email_model.php
+DEBUG - 2025-03-23 00:55:51 --> Email Class Initialized
+INFO - 2025-03-23 00:55:52 --> Helper loaded: form_helper
+INFO - 2025-03-23 00:55:52 --> Form Validation Class Initialized
+INFO - 2025-03-23 00:55:52 --> Upload Class Initialized
+INFO - 2025-03-23 00:55:52 --> Language file loaded: language/spanish/system_syntax_lang.php
+DEBUG - 2025-03-23 00:55:52 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/models/Home_model.php
+DEBUG - 2025-03-23 00:55:52 --> File loaded: C:\xampp\htdocs\synap\application\modules/settings/models/Settings_model.php
+DEBUG - 2025-03-23 00:55:52 --> File loaded: C:\xampp\htdocs\synap\application\modules/sms/models/Sms_model.php
+DEBUG - 2025-03-23 00:55:52 --> File loaded: C:\xampp\htdocs\synap\application\modules/logs/models/Logs_model.php
+INFO - 2025-03-23 00:55:52 --> Parser Class Initialized
+INFO - 2025-03-23 00:55:52 --> Helper loaded: security_helper
+DEBUG - 2025-03-23 00:55:52 --> Schedule MX_Controller Initialized
+DEBUG - 2025-03-23 00:55:52 --> File loaded: C:\xampp\htdocs\synap\application\modules/schedule/models/Schedule_model.php
+DEBUG - 2025-03-23 00:55:52 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctor_model.php
+DEBUG - 2025-03-23 00:55:52 --> File loaded: C:\xampp\htdocs\synap\application\modules/appointment/models/Appointment_model.php
+INFO - 2025-03-23 00:55:52 --> Final output sent to browser
+DEBUG - 2025-03-23 00:55:52 --> Total execution time: 0.1932
+INFO - 2025-03-23 00:55:52 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-23 00:55:52 --> Controller Class Initialized
+DEBUG - 2025-03-23 00:55:52 --> Config file loaded: C:\xampp\htdocs\synap\application\config/ion_auth.php
+INFO - 2025-03-23 00:55:52 --> Language file loaded: language/english/ion_auth_lang.php
+INFO - 2025-03-23 00:55:52 --> Helper loaded: cookie_helper
+INFO - 2025-03-23 00:55:52 --> Helper loaded: language_helper
+INFO - 2025-03-23 00:55:52 --> Helper loaded: date_helper
+INFO - 2025-03-23 00:55:52 --> Model "Ion_auth_model" initialized
+DEBUG - 2025-03-23 00:55:52 --> File loaded: C:\xampp\htdocs\synap\application\modules/email/models/Email_model.php
+DEBUG - 2025-03-23 00:55:52 --> Email Class Initialized
+INFO - 2025-03-23 00:55:52 --> Helper loaded: form_helper
+INFO - 2025-03-23 00:55:52 --> Form Validation Class Initialized
+INFO - 2025-03-23 00:55:52 --> Upload Class Initialized
+INFO - 2025-03-23 00:55:52 --> Language file loaded: language/spanish/system_syntax_lang.php
+DEBUG - 2025-03-23 00:55:52 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/models/Home_model.php
+DEBUG - 2025-03-23 00:55:52 --> File loaded: C:\xampp\htdocs\synap\application\modules/settings/models/Settings_model.php
+DEBUG - 2025-03-23 00:55:52 --> File loaded: C:\xampp\htdocs\synap\application\modules/sms/models/Sms_model.php
+DEBUG - 2025-03-23 00:55:52 --> File loaded: C:\xampp\htdocs\synap\application\modules/logs/models/Logs_model.php
+INFO - 2025-03-23 00:55:52 --> Parser Class Initialized
+INFO - 2025-03-23 00:55:52 --> Helper loaded: security_helper
+DEBUG - 2025-03-23 00:55:52 --> Doctor MX_Controller Initialized
+DEBUG - 2025-03-23 00:55:52 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctor_model.php
+DEBUG - 2025-03-23 00:55:52 --> File loaded: C:\xampp\htdocs\synap\application\modules/department/models/Department_model.php
+DEBUG - 2025-03-23 00:55:52 --> File loaded: C:\xampp\htdocs\synap\application\modules/appointment/models/Appointment_model.php
+DEBUG - 2025-03-23 00:55:52 --> File loaded: C:\xampp\htdocs\synap\application\modules/patient/models/Patient_model.php
+DEBUG - 2025-03-23 00:55:52 --> File loaded: C:\xampp\htdocs\synap\application\modules/prescription/models/Prescription_model.php
+DEBUG - 2025-03-23 00:55:52 --> File loaded: C:\xampp\htdocs\synap\application\modules/schedule/models/Schedule_model.php
+DEBUG - 2025-03-23 00:55:52 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctorvisit_model.php
+DEBUG - 2025-03-23 00:55:52 --> File loaded: C:\xampp\htdocs\synap\application\controllers/../modules/patient/controllers/Patient.php
+DEBUG - 2025-03-23 00:55:52 --> Patient MX_Controller Initialized
+DEBUG - 2025-03-23 00:55:52 --> File loaded: C:\xampp\htdocs\synap\application\modules/donor/models/Donor_model.php
+DEBUG - 2025-03-23 00:55:52 --> File loaded: C:\xampp\htdocs\synap\application\modules/bed/models/Bed_model.php
+DEBUG - 2025-03-23 00:55:52 --> File loaded: C:\xampp\htdocs\synap\application\modules/lab/models/Lab_model.php
+DEBUG - 2025-03-23 00:55:52 --> File loaded: C:\xampp\htdocs\synap\application\modules/finance/models/Finance_model.php
+DEBUG - 2025-03-23 00:55:52 --> File loaded: C:\xampp\htdocs\synap\application\modules/finance/models/Pharmacy_model.php
+DEBUG - 2025-03-23 00:55:52 --> File loaded: C:\xampp\htdocs\synap\application\controllers/../modules/sms/controllers/Sms.php
+DEBUG - 2025-03-23 00:55:52 --> Sms MX_Controller Initialized
+DEBUG - 2025-03-23 00:55:52 --> File loaded: C:\xampp\htdocs\synap\application\modules/medicine/models/Medicine_model.php
+DEBUG - 2025-03-23 00:55:52 --> File loaded: C:\xampp\htdocs\synap\application\modules/pgateway/models/Pgateway_model.php
+DEBUG - 2025-03-23 00:55:52 --> File loaded: C:\xampp\htdocs\synap\application\controllers/../modules/paypal/controllers/Paypal.php
+DEBUG - 2025-03-23 00:55:52 --> Paypal MX_Controller Initialized
+INFO - 2025-03-23 00:55:52 --> Final output sent to browser
+DEBUG - 2025-03-23 00:55:52 --> Total execution time: 0.3284
+INFO - 2025-03-23 00:55:52 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-23 00:55:52 --> Controller Class Initialized
+DEBUG - 2025-03-23 00:55:52 --> Config file loaded: C:\xampp\htdocs\synap\application\config/ion_auth.php
+INFO - 2025-03-23 00:55:52 --> Language file loaded: language/english/ion_auth_lang.php
+INFO - 2025-03-23 00:55:52 --> Helper loaded: cookie_helper
+INFO - 2025-03-23 00:55:52 --> Helper loaded: language_helper
+INFO - 2025-03-23 00:55:52 --> Helper loaded: date_helper
+INFO - 2025-03-23 00:55:52 --> Model "Ion_auth_model" initialized
+DEBUG - 2025-03-23 00:55:52 --> File loaded: C:\xampp\htdocs\synap\application\modules/email/models/Email_model.php
+DEBUG - 2025-03-23 00:55:52 --> Email Class Initialized
+INFO - 2025-03-23 00:55:52 --> Helper loaded: form_helper
+INFO - 2025-03-23 00:55:52 --> Form Validation Class Initialized
+INFO - 2025-03-23 00:55:52 --> Upload Class Initialized
+INFO - 2025-03-23 00:55:52 --> Language file loaded: language/spanish/system_syntax_lang.php
+DEBUG - 2025-03-23 00:55:52 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/models/Home_model.php
+DEBUG - 2025-03-23 00:55:52 --> File loaded: C:\xampp\htdocs\synap\application\modules/settings/models/Settings_model.php
+DEBUG - 2025-03-23 00:55:52 --> File loaded: C:\xampp\htdocs\synap\application\modules/sms/models/Sms_model.php
+DEBUG - 2025-03-23 00:55:52 --> File loaded: C:\xampp\htdocs\synap\application\modules/logs/models/Logs_model.php
+INFO - 2025-03-23 00:55:52 --> Parser Class Initialized
+INFO - 2025-03-23 00:55:52 --> Helper loaded: security_helper
+DEBUG - 2025-03-23 00:55:52 --> Schedule MX_Controller Initialized
+DEBUG - 2025-03-23 00:55:52 --> File loaded: C:\xampp\htdocs\synap\application\modules/schedule/models/Schedule_model.php
+DEBUG - 2025-03-23 00:55:52 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctor_model.php
+DEBUG - 2025-03-23 00:55:52 --> File loaded: C:\xampp\htdocs\synap\application\modules/appointment/models/Appointment_model.php
+ERROR - 2025-03-23 00:55:52 --> Severity: error --> Exception: strftime(): Argument #2 ($timestamp) must be of type ?int, string given C:\xampp\htdocs\synap\application\modules\schedule\models\Schedule_model.php 119
+INFO - 2025-03-23 01:07:04 --> Config Class Initialized
+INFO - 2025-03-23 01:07:04 --> Hooks Class Initialized
+DEBUG - 2025-03-23 01:07:04 --> UTF-8 Support Enabled
+INFO - 2025-03-23 01:07:04 --> Utf8 Class Initialized
+INFO - 2025-03-23 01:07:04 --> URI Class Initialized
+INFO - 2025-03-23 01:07:04 --> Router Class Initialized
+INFO - 2025-03-23 01:07:04 --> Output Class Initialized
+INFO - 2025-03-23 01:07:04 --> Security Class Initialized
+DEBUG - 2025-03-23 01:07:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-23 01:07:04 --> Input Class Initialized
+INFO - 2025-03-23 01:07:04 --> Language Class Initialized
+INFO - 2025-03-23 01:07:04 --> Language Class Initialized
+INFO - 2025-03-23 01:07:04 --> Config Class Initialized
+INFO - 2025-03-23 01:07:04 --> Loader Class Initialized
+INFO - 2025-03-23 01:07:04 --> Helper loaded: url_helper
+INFO - 2025-03-23 01:07:04 --> Helper loaded: file_helper
+INFO - 2025-03-23 01:07:04 --> Database Driver Class Initialized
+INFO - 2025-03-23 01:07:04 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-23 01:07:04 --> Controller Class Initialized
+DEBUG - 2025-03-23 01:07:04 --> Config file loaded: C:\xampp\htdocs\synap\application\config/ion_auth.php
+INFO - 2025-03-23 01:07:04 --> Language file loaded: language/english/ion_auth_lang.php
+INFO - 2025-03-23 01:07:04 --> Helper loaded: cookie_helper
+INFO - 2025-03-23 01:07:04 --> Helper loaded: language_helper
+INFO - 2025-03-23 01:07:04 --> Helper loaded: date_helper
+INFO - 2025-03-23 01:07:04 --> Model "Ion_auth_model" initialized
+DEBUG - 2025-03-23 01:07:04 --> File loaded: C:\xampp\htdocs\synap\application\modules/email/models/Email_model.php
+DEBUG - 2025-03-23 01:07:04 --> Email Class Initialized
+INFO - 2025-03-23 01:07:04 --> Helper loaded: form_helper
+INFO - 2025-03-23 01:07:04 --> Form Validation Class Initialized
+INFO - 2025-03-23 01:07:04 --> Upload Class Initialized
+INFO - 2025-03-23 01:07:04 --> Language file loaded: language/spanish/system_syntax_lang.php
+DEBUG - 2025-03-23 01:07:04 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/models/Home_model.php
+DEBUG - 2025-03-23 01:07:04 --> File loaded: C:\xampp\htdocs\synap\application\modules/settings/models/Settings_model.php
+DEBUG - 2025-03-23 01:07:04 --> File loaded: C:\xampp\htdocs\synap\application\modules/sms/models/Sms_model.php
+DEBUG - 2025-03-23 01:07:04 --> File loaded: C:\xampp\htdocs\synap\application\modules/logs/models/Logs_model.php
+INFO - 2025-03-23 01:07:04 --> Parser Class Initialized
+INFO - 2025-03-23 01:07:04 --> Helper loaded: security_helper
+DEBUG - 2025-03-23 01:07:04 --> Appointment MX_Controller Initialized
+DEBUG - 2025-03-23 01:07:04 --> File loaded: C:\xampp\htdocs\synap\application\modules/appointment/models/Appointment_model.php
+DEBUG - 2025-03-23 01:07:04 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctor_model.php
+DEBUG - 2025-03-23 01:07:04 --> File loaded: C:\xampp\htdocs\synap\application\modules/patient/models/Patient_model.php
+DEBUG - 2025-03-23 01:07:04 --> File loaded: C:\xampp\htdocs\synap\application\modules/pgateway/models/Pgateway_model.php
+DEBUG - 2025-03-23 01:07:04 --> File loaded: C:\xampp\htdocs\synap\application\modules/finance/models/Finance_model.php
+DEBUG - 2025-03-23 01:07:04 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctorvisit_model.php
+DEBUG - 2025-03-23 01:07:04 --> File loaded: C:\xampp\htdocs\synap\application\controllers/../modules/sms/controllers/Sms.php
+DEBUG - 2025-03-23 01:07:04 --> Sms MX_Controller Initialized
+DEBUG - 2025-03-23 01:07:04 --> File loaded: C:\xampp\htdocs\synap\application\modules/donor/models/Donor_model.php
+DEBUG - 2025-03-23 01:07:04 --> File loaded: C:\xampp\htdocs\synap\application\controllers/../modules/paypal/controllers/Paypal.php
+DEBUG - 2025-03-23 01:07:04 --> Paypal MX_Controller Initialized
+ERROR - 2025-03-23 01:07:04 --> Could not find the language line ""
+ERROR - 2025-03-23 01:07:04 --> Could not find the language line "import"
+DEBUG - 2025-03-23 01:07:04 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/views/dashboard.php
+ERROR - 2025-03-23 01:07:04 --> Could not find the language line "if_pay_now_checked_please_select_status_to_confirmed"
+ERROR - 2025-03-23 01:07:04 --> Could not find the language line "if_pay_now_checked_please_select_status_to_confirmed"
+DEBUG - 2025-03-23 01:07:04 --> File loaded: C:\xampp\htdocs\synap\application\modules/appointment/views/appointment.php
+DEBUG - 2025-03-23 01:07:04 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/views/footer.php
+INFO - 2025-03-23 01:07:04 --> Final output sent to browser
+DEBUG - 2025-03-23 01:07:04 --> Total execution time: 0.7245
+INFO - 2025-03-23 01:07:06 --> Config Class Initialized
+INFO - 2025-03-23 01:07:06 --> Hooks Class Initialized
+INFO - 2025-03-23 01:07:06 --> Config Class Initialized
+INFO - 2025-03-23 01:07:06 --> Hooks Class Initialized
+DEBUG - 2025-03-23 01:07:06 --> UTF-8 Support Enabled
+INFO - 2025-03-23 01:07:06 --> Utf8 Class Initialized
+DEBUG - 2025-03-23 01:07:06 --> UTF-8 Support Enabled
+INFO - 2025-03-23 01:07:06 --> Utf8 Class Initialized
+INFO - 2025-03-23 01:07:06 --> URI Class Initialized
+INFO - 2025-03-23 01:07:06 --> URI Class Initialized
+INFO - 2025-03-23 01:07:06 --> Router Class Initialized
+INFO - 2025-03-23 01:07:06 --> Router Class Initialized
+INFO - 2025-03-23 01:07:06 --> Output Class Initialized
+INFO - 2025-03-23 01:07:06 --> Output Class Initialized
+INFO - 2025-03-23 01:07:06 --> Security Class Initialized
+INFO - 2025-03-23 01:07:06 --> Security Class Initialized
+DEBUG - 2025-03-23 01:07:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-23 01:07:06 --> Input Class Initialized
+INFO - 2025-03-23 01:07:06 --> Language Class Initialized
+DEBUG - 2025-03-23 01:07:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-23 01:07:06 --> Input Class Initialized
+INFO - 2025-03-23 01:07:06 --> Language Class Initialized
+INFO - 2025-03-23 01:07:06 --> Language Class Initialized
+INFO - 2025-03-23 01:07:06 --> Config Class Initialized
+INFO - 2025-03-23 01:07:06 --> Loader Class Initialized
+INFO - 2025-03-23 01:07:06 --> Config Class Initialized
+INFO - 2025-03-23 01:07:06 --> Hooks Class Initialized
+INFO - 2025-03-23 01:07:06 --> Helper loaded: url_helper
+DEBUG - 2025-03-23 01:07:06 --> UTF-8 Support Enabled
+INFO - 2025-03-23 01:07:06 --> Language Class Initialized
+INFO - 2025-03-23 01:07:06 --> Config Class Initialized
+INFO - 2025-03-23 01:07:06 --> Loader Class Initialized
+INFO - 2025-03-23 01:07:06 --> Helper loaded: file_helper
+INFO - 2025-03-23 01:07:07 --> Helper loaded: url_helper
+INFO - 2025-03-23 01:07:07 --> Utf8 Class Initialized
+INFO - 2025-03-23 01:07:07 --> Config Class Initialized
+INFO - 2025-03-23 01:07:07 --> URI Class Initialized
+INFO - 2025-03-23 01:07:07 --> Config Class Initialized
+INFO - 2025-03-23 01:07:07 --> Router Class Initialized
+INFO - 2025-03-23 01:07:07 --> Output Class Initialized
+INFO - 2025-03-23 01:07:07 --> Hooks Class Initialized
+INFO - 2025-03-23 01:07:07 --> Hooks Class Initialized
+DEBUG - 2025-03-23 01:07:07 --> UTF-8 Support Enabled
+INFO - 2025-03-23 01:07:07 --> Utf8 Class Initialized
+INFO - 2025-03-23 01:07:07 --> Helper loaded: file_helper
+INFO - 2025-03-23 01:07:07 --> URI Class Initialized
+INFO - 2025-03-23 01:07:07 --> Security Class Initialized
+INFO - 2025-03-23 01:07:07 --> Database Driver Class Initialized
+INFO - 2025-03-23 01:07:07 --> Database Driver Class Initialized
+INFO - 2025-03-23 01:07:07 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-23 01:07:07 --> Controller Class Initialized
+DEBUG - 2025-03-23 01:07:07 --> Config file loaded: C:\xampp\htdocs\synap\application\config/ion_auth.php
+INFO - 2025-03-23 01:07:07 --> Router Class Initialized
+INFO - 2025-03-23 01:07:07 --> Language file loaded: language/english/ion_auth_lang.php
+INFO - 2025-03-23 01:07:07 --> Helper loaded: cookie_helper
+DEBUG - 2025-03-23 01:07:07 --> UTF-8 Support Enabled
+INFO - 2025-03-23 01:07:07 --> Helper loaded: language_helper
+INFO - 2025-03-23 01:07:07 --> Output Class Initialized
+INFO - 2025-03-23 01:07:07 --> Security Class Initialized
+INFO - 2025-03-23 01:07:07 --> Helper loaded: date_helper
+INFO - 2025-03-23 01:07:07 --> Utf8 Class Initialized
+DEBUG - 2025-03-23 01:07:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-23 01:07:07 --> Model "Ion_auth_model" initialized
+INFO - 2025-03-23 01:07:07 --> Input Class Initialized
+DEBUG - 2025-03-23 01:07:07 --> File loaded: C:\xampp\htdocs\synap\application\modules/email/models/Email_model.php
+INFO - 2025-03-23 01:07:07 --> Language Class Initialized
+DEBUG - 2025-03-23 01:07:07 --> Email Class Initialized
+INFO - 2025-03-23 01:07:07 --> Helper loaded: form_helper
+INFO - 2025-03-23 01:07:07 --> Form Validation Class Initialized
+INFO - 2025-03-23 01:07:07 --> Upload Class Initialized
+INFO - 2025-03-23 01:07:07 --> Config Class Initialized
+INFO - 2025-03-23 01:07:07 --> Hooks Class Initialized
+DEBUG - 2025-03-23 01:07:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-23 01:07:07 --> Input Class Initialized
+INFO - 2025-03-23 01:07:07 --> Language Class Initialized
+INFO - 2025-03-23 01:07:07 --> Language Class Initialized
+INFO - 2025-03-23 01:07:07 --> Config Class Initialized
+INFO - 2025-03-23 01:07:07 --> Language Class Initialized
+INFO - 2025-03-23 01:07:07 --> Config Class Initialized
+INFO - 2025-03-23 01:07:07 --> URI Class Initialized
+INFO - 2025-03-23 01:07:07 --> Router Class Initialized
+INFO - 2025-03-23 01:07:07 --> Loader Class Initialized
+DEBUG - 2025-03-23 01:07:07 --> UTF-8 Support Enabled
+INFO - 2025-03-23 01:07:07 --> Utf8 Class Initialized
+INFO - 2025-03-23 01:07:07 --> Output Class Initialized
+INFO - 2025-03-23 01:07:07 --> Helper loaded: url_helper
+INFO - 2025-03-23 01:07:07 --> Security Class Initialized
+INFO - 2025-03-23 01:07:07 --> Helper loaded: file_helper
+DEBUG - 2025-03-23 01:07:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-23 01:07:07 --> Input Class Initialized
+INFO - 2025-03-23 01:07:07 --> Language Class Initialized
+INFO - 2025-03-23 01:07:07 --> Language Class Initialized
+INFO - 2025-03-23 01:07:07 --> Config Class Initialized
+INFO - 2025-03-23 01:07:07 --> Loader Class Initialized
+INFO - 2025-03-23 01:07:07 --> Database Driver Class Initialized
+INFO - 2025-03-23 01:07:07 --> Helper loaded: url_helper
+INFO - 2025-03-23 01:07:07 --> Helper loaded: file_helper
+INFO - 2025-03-23 01:07:07 --> Language file loaded: language/spanish/system_syntax_lang.php
+DEBUG - 2025-03-23 01:07:07 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/models/Home_model.php
+DEBUG - 2025-03-23 01:07:07 --> File loaded: C:\xampp\htdocs\synap\application\modules/settings/models/Settings_model.php
+DEBUG - 2025-03-23 01:07:07 --> File loaded: C:\xampp\htdocs\synap\application\modules/sms/models/Sms_model.php
+DEBUG - 2025-03-23 01:07:07 --> File loaded: C:\xampp\htdocs\synap\application\modules/logs/models/Logs_model.php
+INFO - 2025-03-23 01:07:07 --> Parser Class Initialized
+INFO - 2025-03-23 01:07:07 --> Helper loaded: security_helper
+DEBUG - 2025-03-23 01:07:07 --> Schedule MX_Controller Initialized
+DEBUG - 2025-03-23 01:07:07 --> File loaded: C:\xampp\htdocs\synap\application\modules/schedule/models/Schedule_model.php
+DEBUG - 2025-03-23 01:07:07 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctor_model.php
+INFO - 2025-03-23 01:07:07 --> Loader Class Initialized
+DEBUG - 2025-03-23 01:07:07 --> File loaded: C:\xampp\htdocs\synap\application\modules/appointment/models/Appointment_model.php
+INFO - 2025-03-23 01:07:07 --> Helper loaded: url_helper
+ERROR - 2025-03-23 01:07:07 --> Severity: error --> Exception: strftime(): Argument #2 ($timestamp) must be of type ?int, string given C:\xampp\htdocs\synap\application\modules\schedule\models\Schedule_model.php 119
+INFO - 2025-03-23 01:07:07 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-23 01:07:07 --> Controller Class Initialized
+DEBUG - 2025-03-23 01:07:07 --> Config file loaded: C:\xampp\htdocs\synap\application\config/ion_auth.php
+INFO - 2025-03-23 01:07:07 --> Language file loaded: language/english/ion_auth_lang.php
+INFO - 2025-03-23 01:07:07 --> Helper loaded: cookie_helper
+INFO - 2025-03-23 01:07:07 --> Helper loaded: language_helper
+INFO - 2025-03-23 01:07:07 --> Helper loaded: file_helper
+INFO - 2025-03-23 01:07:07 --> Database Driver Class Initialized
+INFO - 2025-03-23 01:07:07 --> URI Class Initialized
+INFO - 2025-03-23 01:07:07 --> Router Class Initialized
+INFO - 2025-03-23 01:07:07 --> Helper loaded: date_helper
+INFO - 2025-03-23 01:07:07 --> Database Driver Class Initialized
+INFO - 2025-03-23 01:07:07 --> Model "Ion_auth_model" initialized
+DEBUG - 2025-03-23 01:07:07 --> File loaded: C:\xampp\htdocs\synap\application\modules/email/models/Email_model.php
+INFO - 2025-03-23 01:07:07 --> Config Class Initialized
+DEBUG - 2025-03-23 01:07:07 --> Email Class Initialized
+INFO - 2025-03-23 01:07:07 --> Output Class Initialized
+INFO - 2025-03-23 01:07:07 --> Security Class Initialized
+INFO - 2025-03-23 01:07:07 --> Hooks Class Initialized
+DEBUG - 2025-03-23 01:07:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-23 01:07:07 --> Input Class Initialized
+DEBUG - 2025-03-23 01:07:07 --> UTF-8 Support Enabled
+INFO - 2025-03-23 01:07:07 --> Utf8 Class Initialized
+INFO - 2025-03-23 01:07:07 --> Helper loaded: form_helper
+INFO - 2025-03-23 01:07:07 --> Language Class Initialized
+INFO - 2025-03-23 01:07:07 --> Form Validation Class Initialized
+INFO - 2025-03-23 01:07:07 --> Language Class Initialized
+INFO - 2025-03-23 01:07:07 --> URI Class Initialized
+INFO - 2025-03-23 01:07:07 --> Upload Class Initialized
+INFO - 2025-03-23 01:07:07 --> Config Class Initialized
+INFO - 2025-03-23 01:07:07 --> Loader Class Initialized
+INFO - 2025-03-23 01:07:07 --> Helper loaded: url_helper
+INFO - 2025-03-23 01:07:07 --> Helper loaded: file_helper
+INFO - 2025-03-23 01:07:07 --> Router Class Initialized
+INFO - 2025-03-23 01:07:07 --> Language file loaded: language/spanish/system_syntax_lang.php
+INFO - 2025-03-23 01:07:07 --> Database Driver Class Initialized
+INFO - 2025-03-23 01:07:07 --> Output Class Initialized
+INFO - 2025-03-23 01:07:07 --> Security Class Initialized
+DEBUG - 2025-03-23 01:07:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-23 01:07:07 --> Input Class Initialized
+INFO - 2025-03-23 01:07:07 --> Language Class Initialized
+INFO - 2025-03-23 01:07:07 --> Language Class Initialized
+INFO - 2025-03-23 01:07:07 --> Config Class Initialized
+INFO - 2025-03-23 01:07:07 --> Loader Class Initialized
+INFO - 2025-03-23 01:07:07 --> Helper loaded: url_helper
+INFO - 2025-03-23 01:07:07 --> Helper loaded: file_helper
+INFO - 2025-03-23 01:07:07 --> Database Driver Class Initialized
+DEBUG - 2025-03-23 01:07:07 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/models/Home_model.php
+DEBUG - 2025-03-23 01:07:07 --> File loaded: C:\xampp\htdocs\synap\application\modules/settings/models/Settings_model.php
+DEBUG - 2025-03-23 01:07:07 --> File loaded: C:\xampp\htdocs\synap\application\modules/sms/models/Sms_model.php
+DEBUG - 2025-03-23 01:07:07 --> File loaded: C:\xampp\htdocs\synap\application\modules/logs/models/Logs_model.php
+INFO - 2025-03-23 01:07:07 --> Parser Class Initialized
+INFO - 2025-03-23 01:07:07 --> Helper loaded: security_helper
+DEBUG - 2025-03-23 01:07:07 --> Schedule MX_Controller Initialized
+DEBUG - 2025-03-23 01:07:07 --> File loaded: C:\xampp\htdocs\synap\application\modules/schedule/models/Schedule_model.php
+DEBUG - 2025-03-23 01:07:07 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctor_model.php
+DEBUG - 2025-03-23 01:07:07 --> File loaded: C:\xampp\htdocs\synap\application\modules/appointment/models/Appointment_model.php
+ERROR - 2025-03-23 01:07:07 --> Severity: error --> Exception: strftime(): Argument #2 ($timestamp) must be of type ?int, string given C:\xampp\htdocs\synap\application\modules\schedule\models\Schedule_model.php 158
+INFO - 2025-03-23 01:07:07 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-23 01:07:07 --> Controller Class Initialized
+DEBUG - 2025-03-23 01:07:07 --> Config file loaded: C:\xampp\htdocs\synap\application\config/ion_auth.php
+INFO - 2025-03-23 01:07:07 --> Language file loaded: language/english/ion_auth_lang.php
+INFO - 2025-03-23 01:07:07 --> Helper loaded: cookie_helper
+INFO - 2025-03-23 01:07:07 --> Config Class Initialized
+INFO - 2025-03-23 01:07:07 --> Hooks Class Initialized
+INFO - 2025-03-23 01:07:07 --> Helper loaded: language_helper
+DEBUG - 2025-03-23 01:07:07 --> UTF-8 Support Enabled
+INFO - 2025-03-23 01:07:07 --> Utf8 Class Initialized
+INFO - 2025-03-23 01:07:07 --> URI Class Initialized
+INFO - 2025-03-23 01:07:07 --> Router Class Initialized
+INFO - 2025-03-23 01:07:07 --> Output Class Initialized
+INFO - 2025-03-23 01:07:07 --> Security Class Initialized
+DEBUG - 2025-03-23 01:07:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-23 01:07:07 --> Input Class Initialized
+INFO - 2025-03-23 01:07:07 --> Language Class Initialized
+INFO - 2025-03-23 01:07:07 --> Helper loaded: date_helper
+INFO - 2025-03-23 01:07:07 --> Model "Ion_auth_model" initialized
+DEBUG - 2025-03-23 01:07:07 --> File loaded: C:\xampp\htdocs\synap\application\modules/email/models/Email_model.php
+INFO - 2025-03-23 01:07:07 --> Language Class Initialized
+INFO - 2025-03-23 01:07:07 --> Config Class Initialized
+INFO - 2025-03-23 01:07:07 --> Loader Class Initialized
+INFO - 2025-03-23 01:07:07 --> Helper loaded: url_helper
+INFO - 2025-03-23 01:07:07 --> Helper loaded: file_helper
+DEBUG - 2025-03-23 01:07:07 --> Email Class Initialized
+INFO - 2025-03-23 01:07:07 --> Helper loaded: form_helper
+INFO - 2025-03-23 01:07:07 --> Form Validation Class Initialized
+INFO - 2025-03-23 01:07:07 --> Database Driver Class Initialized
+INFO - 2025-03-23 01:07:07 --> Upload Class Initialized
+INFO - 2025-03-23 01:07:07 --> Language file loaded: language/spanish/system_syntax_lang.php
+DEBUG - 2025-03-23 01:07:07 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/models/Home_model.php
+DEBUG - 2025-03-23 01:07:07 --> File loaded: C:\xampp\htdocs\synap\application\modules/settings/models/Settings_model.php
+DEBUG - 2025-03-23 01:07:07 --> File loaded: C:\xampp\htdocs\synap\application\modules/sms/models/Sms_model.php
+DEBUG - 2025-03-23 01:07:07 --> File loaded: C:\xampp\htdocs\synap\application\modules/logs/models/Logs_model.php
+INFO - 2025-03-23 01:07:07 --> Parser Class Initialized
+INFO - 2025-03-23 01:07:07 --> Helper loaded: security_helper
+DEBUG - 2025-03-23 01:07:07 --> Schedule MX_Controller Initialized
+DEBUG - 2025-03-23 01:07:07 --> File loaded: C:\xampp\htdocs\synap\application\modules/schedule/models/Schedule_model.php
+DEBUG - 2025-03-23 01:07:07 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctor_model.php
+DEBUG - 2025-03-23 01:07:07 --> File loaded: C:\xampp\htdocs\synap\application\modules/appointment/models/Appointment_model.php
+INFO - 2025-03-23 01:07:07 --> Final output sent to browser
+DEBUG - 2025-03-23 01:07:07 --> Total execution time: 1.1847
+INFO - 2025-03-23 01:07:07 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-23 01:07:07 --> Controller Class Initialized
+DEBUG - 2025-03-23 01:07:07 --> Config file loaded: C:\xampp\htdocs\synap\application\config/ion_auth.php
+INFO - 2025-03-23 01:07:07 --> Language file loaded: language/english/ion_auth_lang.php
+INFO - 2025-03-23 01:07:07 --> Helper loaded: cookie_helper
+INFO - 2025-03-23 01:07:07 --> Helper loaded: language_helper
+INFO - 2025-03-23 01:07:07 --> Helper loaded: date_helper
+INFO - 2025-03-23 01:07:07 --> Model "Ion_auth_model" initialized
+INFO - 2025-03-23 01:07:07 --> Config Class Initialized
+INFO - 2025-03-23 01:07:07 --> Hooks Class Initialized
+DEBUG - 2025-03-23 01:07:07 --> UTF-8 Support Enabled
+INFO - 2025-03-23 01:07:07 --> Utf8 Class Initialized
+INFO - 2025-03-23 01:07:07 --> URI Class Initialized
+INFO - 2025-03-23 01:07:07 --> Router Class Initialized
+INFO - 2025-03-23 01:07:07 --> Output Class Initialized
+DEBUG - 2025-03-23 01:07:07 --> File loaded: C:\xampp\htdocs\synap\application\modules/email/models/Email_model.php
+INFO - 2025-03-23 01:07:07 --> Security Class Initialized
+DEBUG - 2025-03-23 01:07:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-23 01:07:07 --> Input Class Initialized
+INFO - 2025-03-23 01:07:07 --> Language Class Initialized
+INFO - 2025-03-23 01:07:07 --> Language Class Initialized
+INFO - 2025-03-23 01:07:07 --> Config Class Initialized
+INFO - 2025-03-23 01:07:07 --> Loader Class Initialized
+INFO - 2025-03-23 01:07:07 --> Helper loaded: url_helper
+INFO - 2025-03-23 01:07:07 --> Helper loaded: file_helper
+DEBUG - 2025-03-23 01:07:07 --> Email Class Initialized
+INFO - 2025-03-23 01:07:07 --> Helper loaded: form_helper
+INFO - 2025-03-23 01:07:07 --> Form Validation Class Initialized
+INFO - 2025-03-23 01:07:07 --> Upload Class Initialized
+INFO - 2025-03-23 01:07:07 --> Database Driver Class Initialized
+INFO - 2025-03-23 01:07:07 --> Language file loaded: language/spanish/system_syntax_lang.php
+DEBUG - 2025-03-23 01:07:07 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/models/Home_model.php
+DEBUG - 2025-03-23 01:07:07 --> File loaded: C:\xampp\htdocs\synap\application\modules/settings/models/Settings_model.php
+DEBUG - 2025-03-23 01:07:07 --> File loaded: C:\xampp\htdocs\synap\application\modules/sms/models/Sms_model.php
+DEBUG - 2025-03-23 01:07:07 --> File loaded: C:\xampp\htdocs\synap\application\modules/logs/models/Logs_model.php
+INFO - 2025-03-23 01:07:07 --> Parser Class Initialized
+INFO - 2025-03-23 01:07:07 --> Helper loaded: security_helper
+DEBUG - 2025-03-23 01:07:07 --> Appointment MX_Controller Initialized
+DEBUG - 2025-03-23 01:07:07 --> File loaded: C:\xampp\htdocs\synap\application\modules/appointment/models/Appointment_model.php
+DEBUG - 2025-03-23 01:07:07 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctor_model.php
+DEBUG - 2025-03-23 01:07:07 --> File loaded: C:\xampp\htdocs\synap\application\modules/patient/models/Patient_model.php
+DEBUG - 2025-03-23 01:07:08 --> File loaded: C:\xampp\htdocs\synap\application\modules/pgateway/models/Pgateway_model.php
+DEBUG - 2025-03-23 01:07:08 --> File loaded: C:\xampp\htdocs\synap\application\modules/finance/models/Finance_model.php
+DEBUG - 2025-03-23 01:07:08 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctorvisit_model.php
+DEBUG - 2025-03-23 01:07:08 --> File loaded: C:\xampp\htdocs\synap\application\controllers/../modules/sms/controllers/Sms.php
+DEBUG - 2025-03-23 01:07:08 --> Sms MX_Controller Initialized
+DEBUG - 2025-03-23 01:07:08 --> File loaded: C:\xampp\htdocs\synap\application\modules/donor/models/Donor_model.php
+DEBUG - 2025-03-23 01:07:08 --> File loaded: C:\xampp\htdocs\synap\application\controllers/../modules/paypal/controllers/Paypal.php
+DEBUG - 2025-03-23 01:07:08 --> Paypal MX_Controller Initialized
+ERROR - 2025-03-23 01:07:08 --> Could not find the language line ""
+ERROR - 2025-03-23 01:07:08 --> Could not find the language line ""
+ERROR - 2025-03-23 01:07:08 --> Could not find the language line ""
+ERROR - 2025-03-23 01:07:08 --> Could not find the language line ""
+ERROR - 2025-03-23 01:07:08 --> Could not find the language line ""
+ERROR - 2025-03-23 01:07:08 --> Could not find the language line ""
+INFO - 2025-03-23 01:07:08 --> Final output sent to browser
+DEBUG - 2025-03-23 01:07:08 --> Total execution time: 1.0790
+INFO - 2025-03-23 01:07:08 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-23 01:07:08 --> Controller Class Initialized
+DEBUG - 2025-03-23 01:07:08 --> Config file loaded: C:\xampp\htdocs\synap\application\config/ion_auth.php
+INFO - 2025-03-23 01:07:08 --> Language file loaded: language/english/ion_auth_lang.php
+INFO - 2025-03-23 01:07:08 --> Helper loaded: cookie_helper
+INFO - 2025-03-23 01:07:08 --> Helper loaded: language_helper
+INFO - 2025-03-23 01:07:08 --> Helper loaded: date_helper
+INFO - 2025-03-23 01:07:08 --> Model "Ion_auth_model" initialized
+DEBUG - 2025-03-23 01:07:08 --> File loaded: C:\xampp\htdocs\synap\application\modules/email/models/Email_model.php
+DEBUG - 2025-03-23 01:07:08 --> Email Class Initialized
+INFO - 2025-03-23 01:07:08 --> Helper loaded: form_helper
+INFO - 2025-03-23 01:07:08 --> Form Validation Class Initialized
+INFO - 2025-03-23 01:07:08 --> Upload Class Initialized
+INFO - 2025-03-23 01:07:08 --> Config Class Initialized
+INFO - 2025-03-23 01:07:08 --> Hooks Class Initialized
+DEBUG - 2025-03-23 01:07:08 --> UTF-8 Support Enabled
+INFO - 2025-03-23 01:07:08 --> Utf8 Class Initialized
+INFO - 2025-03-23 01:07:08 --> URI Class Initialized
+INFO - 2025-03-23 01:07:08 --> Router Class Initialized
+INFO - 2025-03-23 01:07:08 --> Language file loaded: language/spanish/system_syntax_lang.php
+INFO - 2025-03-23 01:07:08 --> Output Class Initialized
+INFO - 2025-03-23 01:07:08 --> Security Class Initialized
+DEBUG - 2025-03-23 01:07:08 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-23 01:07:08 --> Input Class Initialized
+INFO - 2025-03-23 01:07:08 --> Language Class Initialized
+DEBUG - 2025-03-23 01:07:08 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/models/Home_model.php
+DEBUG - 2025-03-23 01:07:08 --> File loaded: C:\xampp\htdocs\synap\application\modules/settings/models/Settings_model.php
+DEBUG - 2025-03-23 01:07:08 --> File loaded: C:\xampp\htdocs\synap\application\modules/sms/models/Sms_model.php
+DEBUG - 2025-03-23 01:07:08 --> File loaded: C:\xampp\htdocs\synap\application\modules/logs/models/Logs_model.php
+INFO - 2025-03-23 01:07:08 --> Parser Class Initialized
+INFO - 2025-03-23 01:07:08 --> Helper loaded: security_helper
+DEBUG - 2025-03-23 01:07:08 --> Appointment MX_Controller Initialized
+DEBUG - 2025-03-23 01:07:08 --> File loaded: C:\xampp\htdocs\synap\application\modules/appointment/models/Appointment_model.php
+DEBUG - 2025-03-23 01:07:08 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctor_model.php
+DEBUG - 2025-03-23 01:07:08 --> File loaded: C:\xampp\htdocs\synap\application\modules/patient/models/Patient_model.php
+ERROR - 2025-03-23 01:07:08 --> 404 Page Not Found: /index
+DEBUG - 2025-03-23 01:07:08 --> File loaded: C:\xampp\htdocs\synap\application\modules/pgateway/models/Pgateway_model.php
+DEBUG - 2025-03-23 01:07:08 --> File loaded: C:\xampp\htdocs\synap\application\modules/finance/models/Finance_model.php
+DEBUG - 2025-03-23 01:07:08 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctorvisit_model.php
+DEBUG - 2025-03-23 01:07:08 --> File loaded: C:\xampp\htdocs\synap\application\controllers/../modules/sms/controllers/Sms.php
+DEBUG - 2025-03-23 01:07:08 --> Sms MX_Controller Initialized
+DEBUG - 2025-03-23 01:07:08 --> File loaded: C:\xampp\htdocs\synap\application\modules/donor/models/Donor_model.php
+DEBUG - 2025-03-23 01:07:08 --> File loaded: C:\xampp\htdocs\synap\application\controllers/../modules/paypal/controllers/Paypal.php
+DEBUG - 2025-03-23 01:07:08 --> Paypal MX_Controller Initialized
+ERROR - 2025-03-23 01:07:08 --> Could not find the language line ""
+INFO - 2025-03-23 01:07:08 --> Final output sent to browser
+DEBUG - 2025-03-23 01:07:08 --> Total execution time: 1.5728
+INFO - 2025-03-23 01:07:08 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-23 01:07:08 --> Controller Class Initialized
+DEBUG - 2025-03-23 01:07:08 --> Config file loaded: C:\xampp\htdocs\synap\application\config/ion_auth.php
+INFO - 2025-03-23 01:07:08 --> Language file loaded: language/english/ion_auth_lang.php
+INFO - 2025-03-23 01:07:08 --> Helper loaded: cookie_helper
+INFO - 2025-03-23 01:07:08 --> Helper loaded: language_helper
+INFO - 2025-03-23 01:07:08 --> Helper loaded: date_helper
+INFO - 2025-03-23 01:07:08 --> Model "Ion_auth_model" initialized
+DEBUG - 2025-03-23 01:07:08 --> File loaded: C:\xampp\htdocs\synap\application\modules/email/models/Email_model.php
+DEBUG - 2025-03-23 01:07:08 --> Email Class Initialized
+INFO - 2025-03-23 01:07:08 --> Helper loaded: form_helper
+INFO - 2025-03-23 01:07:08 --> Form Validation Class Initialized
+INFO - 2025-03-23 01:07:08 --> Upload Class Initialized
+INFO - 2025-03-23 01:07:08 --> Language file loaded: language/spanish/system_syntax_lang.php
+DEBUG - 2025-03-23 01:07:08 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/models/Home_model.php
+DEBUG - 2025-03-23 01:07:08 --> File loaded: C:\xampp\htdocs\synap\application\modules/settings/models/Settings_model.php
+DEBUG - 2025-03-23 01:07:08 --> File loaded: C:\xampp\htdocs\synap\application\modules/sms/models/Sms_model.php
+DEBUG - 2025-03-23 01:07:08 --> File loaded: C:\xampp\htdocs\synap\application\modules/logs/models/Logs_model.php
+INFO - 2025-03-23 01:07:08 --> Parser Class Initialized
+INFO - 2025-03-23 01:07:08 --> Helper loaded: security_helper
+DEBUG - 2025-03-23 01:07:08 --> Appointment MX_Controller Initialized
+DEBUG - 2025-03-23 01:07:08 --> File loaded: C:\xampp\htdocs\synap\application\modules/appointment/models/Appointment_model.php
+DEBUG - 2025-03-23 01:07:08 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctor_model.php
+DEBUG - 2025-03-23 01:07:08 --> File loaded: C:\xampp\htdocs\synap\application\modules/patient/models/Patient_model.php
+DEBUG - 2025-03-23 01:07:08 --> File loaded: C:\xampp\htdocs\synap\application\modules/pgateway/models/Pgateway_model.php
+DEBUG - 2025-03-23 01:07:08 --> File loaded: C:\xampp\htdocs\synap\application\modules/finance/models/Finance_model.php
+DEBUG - 2025-03-23 01:07:08 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctorvisit_model.php
+DEBUG - 2025-03-23 01:07:08 --> File loaded: C:\xampp\htdocs\synap\application\controllers/../modules/sms/controllers/Sms.php
+DEBUG - 2025-03-23 01:07:08 --> Sms MX_Controller Initialized
+DEBUG - 2025-03-23 01:07:08 --> File loaded: C:\xampp\htdocs\synap\application\modules/donor/models/Donor_model.php
+DEBUG - 2025-03-23 01:07:08 --> File loaded: C:\xampp\htdocs\synap\application\controllers/../modules/paypal/controllers/Paypal.php
+DEBUG - 2025-03-23 01:07:08 --> Paypal MX_Controller Initialized
+INFO - 2025-03-23 01:07:08 --> Final output sent to browser
+DEBUG - 2025-03-23 01:07:08 --> Total execution time: 1.7070
+INFO - 2025-03-23 01:07:08 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-23 01:07:08 --> Controller Class Initialized
+DEBUG - 2025-03-23 01:07:08 --> Config file loaded: C:\xampp\htdocs\synap\application\config/ion_auth.php
+INFO - 2025-03-23 01:07:08 --> Language file loaded: language/english/ion_auth_lang.php
+INFO - 2025-03-23 01:07:08 --> Helper loaded: cookie_helper
+INFO - 2025-03-23 01:07:08 --> Helper loaded: language_helper
+INFO - 2025-03-23 01:07:08 --> Helper loaded: date_helper
+INFO - 2025-03-23 01:07:08 --> Model "Ion_auth_model" initialized
+DEBUG - 2025-03-23 01:07:08 --> File loaded: C:\xampp\htdocs\synap\application\modules/email/models/Email_model.php
+DEBUG - 2025-03-23 01:07:08 --> Email Class Initialized
+INFO - 2025-03-23 01:07:08 --> Helper loaded: form_helper
+INFO - 2025-03-23 01:07:08 --> Form Validation Class Initialized
+INFO - 2025-03-23 01:07:08 --> Upload Class Initialized
+INFO - 2025-03-23 01:07:08 --> Language file loaded: language/spanish/system_syntax_lang.php
+DEBUG - 2025-03-23 01:07:08 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/models/Home_model.php
+DEBUG - 2025-03-23 01:07:08 --> File loaded: C:\xampp\htdocs\synap\application\modules/settings/models/Settings_model.php
+DEBUG - 2025-03-23 01:07:08 --> File loaded: C:\xampp\htdocs\synap\application\modules/sms/models/Sms_model.php
+DEBUG - 2025-03-23 01:07:08 --> File loaded: C:\xampp\htdocs\synap\application\modules/logs/models/Logs_model.php
+INFO - 2025-03-23 01:07:08 --> Parser Class Initialized
+INFO - 2025-03-23 01:07:08 --> Helper loaded: security_helper
+DEBUG - 2025-03-23 01:07:08 --> Appointment MX_Controller Initialized
+DEBUG - 2025-03-23 01:07:08 --> File loaded: C:\xampp\htdocs\synap\application\modules/appointment/models/Appointment_model.php
+DEBUG - 2025-03-23 01:07:08 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctor_model.php
+DEBUG - 2025-03-23 01:07:08 --> File loaded: C:\xampp\htdocs\synap\application\modules/patient/models/Patient_model.php
+DEBUG - 2025-03-23 01:07:08 --> File loaded: C:\xampp\htdocs\synap\application\modules/pgateway/models/Pgateway_model.php
+DEBUG - 2025-03-23 01:07:08 --> File loaded: C:\xampp\htdocs\synap\application\modules/finance/models/Finance_model.php
+DEBUG - 2025-03-23 01:07:08 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctorvisit_model.php
+DEBUG - 2025-03-23 01:07:08 --> File loaded: C:\xampp\htdocs\synap\application\controllers/../modules/sms/controllers/Sms.php
+DEBUG - 2025-03-23 01:07:08 --> Sms MX_Controller Initialized
+DEBUG - 2025-03-23 01:07:08 --> File loaded: C:\xampp\htdocs\synap\application\modules/donor/models/Donor_model.php
+DEBUG - 2025-03-23 01:07:08 --> File loaded: C:\xampp\htdocs\synap\application\controllers/../modules/paypal/controllers/Paypal.php
+DEBUG - 2025-03-23 01:07:08 --> Paypal MX_Controller Initialized
+ERROR - 2025-03-23 01:07:08 --> Could not find the language line ""
+ERROR - 2025-03-23 01:07:08 --> Could not find the language line ""
+ERROR - 2025-03-23 01:07:08 --> Could not find the language line ""
+ERROR - 2025-03-23 01:07:08 --> Could not find the language line ""
+ERROR - 2025-03-23 01:07:08 --> Could not find the language line ""
+INFO - 2025-03-23 01:07:08 --> Final output sent to browser
+DEBUG - 2025-03-23 01:07:08 --> Total execution time: 1.5688
+INFO - 2025-03-23 01:07:08 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-23 01:07:08 --> Controller Class Initialized
+DEBUG - 2025-03-23 01:07:08 --> Config file loaded: C:\xampp\htdocs\synap\application\config/ion_auth.php
+INFO - 2025-03-23 01:07:08 --> Language file loaded: language/english/ion_auth_lang.php
+INFO - 2025-03-23 01:07:08 --> Helper loaded: cookie_helper
+INFO - 2025-03-23 01:07:08 --> Helper loaded: language_helper
+INFO - 2025-03-23 01:07:08 --> Helper loaded: date_helper
+INFO - 2025-03-23 01:07:08 --> Model "Ion_auth_model" initialized
+DEBUG - 2025-03-23 01:07:08 --> File loaded: C:\xampp\htdocs\synap\application\modules/email/models/Email_model.php
+DEBUG - 2025-03-23 01:07:08 --> Email Class Initialized
+INFO - 2025-03-23 01:07:08 --> Helper loaded: form_helper
+INFO - 2025-03-23 01:07:08 --> Form Validation Class Initialized
+INFO - 2025-03-23 01:07:08 --> Upload Class Initialized
+INFO - 2025-03-23 01:07:09 --> Language file loaded: language/spanish/system_syntax_lang.php
+DEBUG - 2025-03-23 01:07:09 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/models/Home_model.php
+DEBUG - 2025-03-23 01:07:09 --> File loaded: C:\xampp\htdocs\synap\application\modules/settings/models/Settings_model.php
+DEBUG - 2025-03-23 01:07:09 --> File loaded: C:\xampp\htdocs\synap\application\modules/sms/models/Sms_model.php
+DEBUG - 2025-03-23 01:07:09 --> File loaded: C:\xampp\htdocs\synap\application\modules/logs/models/Logs_model.php
+INFO - 2025-03-23 01:07:09 --> Parser Class Initialized
+INFO - 2025-03-23 01:07:09 --> Helper loaded: security_helper
+DEBUG - 2025-03-23 01:07:09 --> Appointment MX_Controller Initialized
+DEBUG - 2025-03-23 01:07:09 --> File loaded: C:\xampp\htdocs\synap\application\modules/appointment/models/Appointment_model.php
+DEBUG - 2025-03-23 01:07:09 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctor_model.php
+DEBUG - 2025-03-23 01:07:09 --> File loaded: C:\xampp\htdocs\synap\application\modules/patient/models/Patient_model.php
+DEBUG - 2025-03-23 01:07:09 --> File loaded: C:\xampp\htdocs\synap\application\modules/pgateway/models/Pgateway_model.php
+DEBUG - 2025-03-23 01:07:09 --> File loaded: C:\xampp\htdocs\synap\application\modules/finance/models/Finance_model.php
+DEBUG - 2025-03-23 01:07:09 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctorvisit_model.php
+DEBUG - 2025-03-23 01:07:09 --> File loaded: C:\xampp\htdocs\synap\application\controllers/../modules/sms/controllers/Sms.php
+DEBUG - 2025-03-23 01:07:09 --> Sms MX_Controller Initialized
+DEBUG - 2025-03-23 01:07:09 --> File loaded: C:\xampp\htdocs\synap\application\modules/donor/models/Donor_model.php
+DEBUG - 2025-03-23 01:07:09 --> File loaded: C:\xampp\htdocs\synap\application\controllers/../modules/paypal/controllers/Paypal.php
+DEBUG - 2025-03-23 01:07:09 --> Paypal MX_Controller Initialized
+INFO - 2025-03-23 01:07:09 --> Final output sent to browser
+DEBUG - 2025-03-23 01:07:09 --> Total execution time: 1.4579
+INFO - 2025-03-23 01:07:09 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-23 01:07:09 --> Controller Class Initialized
+DEBUG - 2025-03-23 01:07:09 --> Config file loaded: C:\xampp\htdocs\synap\application\config/ion_auth.php
+INFO - 2025-03-23 01:07:09 --> Language file loaded: language/english/ion_auth_lang.php
+INFO - 2025-03-23 01:07:09 --> Helper loaded: cookie_helper
+INFO - 2025-03-23 01:07:09 --> Helper loaded: language_helper
+INFO - 2025-03-23 01:07:09 --> Helper loaded: date_helper
+INFO - 2025-03-23 01:07:09 --> Model "Ion_auth_model" initialized
+DEBUG - 2025-03-23 01:07:09 --> File loaded: C:\xampp\htdocs\synap\application\modules/email/models/Email_model.php
+DEBUG - 2025-03-23 01:07:09 --> Email Class Initialized
+INFO - 2025-03-23 01:07:09 --> Helper loaded: form_helper
+INFO - 2025-03-23 01:07:09 --> Form Validation Class Initialized
+INFO - 2025-03-23 01:07:09 --> Upload Class Initialized
+INFO - 2025-03-23 01:07:09 --> Language file loaded: language/spanish/system_syntax_lang.php
+DEBUG - 2025-03-23 01:07:09 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/models/Home_model.php
+DEBUG - 2025-03-23 01:07:09 --> File loaded: C:\xampp\htdocs\synap\application\modules/settings/models/Settings_model.php
+DEBUG - 2025-03-23 01:07:09 --> File loaded: C:\xampp\htdocs\synap\application\modules/sms/models/Sms_model.php
+DEBUG - 2025-03-23 01:07:09 --> File loaded: C:\xampp\htdocs\synap\application\modules/logs/models/Logs_model.php
+INFO - 2025-03-23 01:07:09 --> Parser Class Initialized
+INFO - 2025-03-23 01:07:09 --> Helper loaded: security_helper
+DEBUG - 2025-03-23 01:07:09 --> Appointment MX_Controller Initialized
+DEBUG - 2025-03-23 01:07:09 --> File loaded: C:\xampp\htdocs\synap\application\modules/appointment/models/Appointment_model.php
+DEBUG - 2025-03-23 01:07:09 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctor_model.php
+DEBUG - 2025-03-23 01:07:09 --> File loaded: C:\xampp\htdocs\synap\application\modules/patient/models/Patient_model.php
+DEBUG - 2025-03-23 01:07:09 --> File loaded: C:\xampp\htdocs\synap\application\modules/pgateway/models/Pgateway_model.php
+DEBUG - 2025-03-23 01:07:09 --> File loaded: C:\xampp\htdocs\synap\application\modules/finance/models/Finance_model.php
+DEBUG - 2025-03-23 01:07:09 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctorvisit_model.php
+DEBUG - 2025-03-23 01:07:09 --> File loaded: C:\xampp\htdocs\synap\application\controllers/../modules/sms/controllers/Sms.php
+DEBUG - 2025-03-23 01:07:09 --> Sms MX_Controller Initialized
+DEBUG - 2025-03-23 01:07:09 --> File loaded: C:\xampp\htdocs\synap\application\modules/donor/models/Donor_model.php
+DEBUG - 2025-03-23 01:07:09 --> File loaded: C:\xampp\htdocs\synap\application\controllers/../modules/paypal/controllers/Paypal.php
+DEBUG - 2025-03-23 01:07:09 --> Paypal MX_Controller Initialized
+INFO - 2025-03-23 01:07:09 --> Final output sent to browser
+DEBUG - 2025-03-23 01:07:09 --> Total execution time: 1.4296
+INFO - 2025-03-23 01:07:21 --> Config Class Initialized
+INFO - 2025-03-23 01:07:21 --> Hooks Class Initialized
+DEBUG - 2025-03-23 01:07:21 --> UTF-8 Support Enabled
+INFO - 2025-03-23 01:07:21 --> Utf8 Class Initialized
+INFO - 2025-03-23 01:07:21 --> URI Class Initialized
+INFO - 2025-03-23 01:07:21 --> Router Class Initialized
+INFO - 2025-03-23 01:07:21 --> Output Class Initialized
+INFO - 2025-03-23 01:07:21 --> Security Class Initialized
+DEBUG - 2025-03-23 01:07:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-23 01:07:21 --> Input Class Initialized
+INFO - 2025-03-23 01:07:21 --> Language Class Initialized
+INFO - 2025-03-23 01:07:21 --> Language Class Initialized
+INFO - 2025-03-23 01:07:21 --> Config Class Initialized
+INFO - 2025-03-23 01:07:21 --> Loader Class Initialized
+INFO - 2025-03-23 01:07:21 --> Helper loaded: url_helper
+INFO - 2025-03-23 01:07:21 --> Helper loaded: file_helper
+INFO - 2025-03-23 01:07:21 --> Database Driver Class Initialized
+INFO - 2025-03-23 01:07:21 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-23 01:07:21 --> Controller Class Initialized
+DEBUG - 2025-03-23 01:07:21 --> Config file loaded: C:\xampp\htdocs\synap\application\config/ion_auth.php
+INFO - 2025-03-23 01:07:21 --> Language file loaded: language/english/ion_auth_lang.php
+INFO - 2025-03-23 01:07:21 --> Helper loaded: cookie_helper
+INFO - 2025-03-23 01:07:21 --> Helper loaded: language_helper
+INFO - 2025-03-23 01:07:21 --> Helper loaded: date_helper
+INFO - 2025-03-23 01:07:21 --> Model "Ion_auth_model" initialized
+DEBUG - 2025-03-23 01:07:21 --> File loaded: C:\xampp\htdocs\synap\application\modules/email/models/Email_model.php
+DEBUG - 2025-03-23 01:07:21 --> Email Class Initialized
+INFO - 2025-03-23 01:07:21 --> Helper loaded: form_helper
+INFO - 2025-03-23 01:07:21 --> Form Validation Class Initialized
+INFO - 2025-03-23 01:07:21 --> Upload Class Initialized
+INFO - 2025-03-23 01:07:21 --> Config Class Initialized
+INFO - 2025-03-23 01:07:21 --> Hooks Class Initialized
+DEBUG - 2025-03-23 01:07:21 --> UTF-8 Support Enabled
+INFO - 2025-03-23 01:07:21 --> Utf8 Class Initialized
+INFO - 2025-03-23 01:07:21 --> URI Class Initialized
+INFO - 2025-03-23 01:07:21 --> Router Class Initialized
+INFO - 2025-03-23 01:07:21 --> Output Class Initialized
+INFO - 2025-03-23 01:07:21 --> Security Class Initialized
+DEBUG - 2025-03-23 01:07:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-23 01:07:21 --> Input Class Initialized
+INFO - 2025-03-23 01:07:21 --> Language Class Initialized
+INFO - 2025-03-23 01:07:21 --> Language Class Initialized
+INFO - 2025-03-23 01:07:21 --> Config Class Initialized
+INFO - 2025-03-23 01:07:21 --> Loader Class Initialized
+INFO - 2025-03-23 01:07:21 --> Helper loaded: url_helper
+INFO - 2025-03-23 01:07:21 --> Helper loaded: file_helper
+INFO - 2025-03-23 01:07:21 --> Database Driver Class Initialized
+INFO - 2025-03-23 01:07:21 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-23 01:07:21 --> Controller Class Initialized
+DEBUG - 2025-03-23 01:07:21 --> Config file loaded: C:\xampp\htdocs\synap\application\config/ion_auth.php
+INFO - 2025-03-23 01:07:21 --> Language file loaded: language/english/ion_auth_lang.php
+INFO - 2025-03-23 01:07:21 --> Helper loaded: cookie_helper
+INFO - 2025-03-23 01:07:21 --> Helper loaded: language_helper
+INFO - 2025-03-23 01:07:21 --> Helper loaded: date_helper
+INFO - 2025-03-23 01:07:21 --> Model "Ion_auth_model" initialized
+DEBUG - 2025-03-23 01:07:21 --> File loaded: C:\xampp\htdocs\synap\application\modules/email/models/Email_model.php
+DEBUG - 2025-03-23 01:07:21 --> Email Class Initialized
+INFO - 2025-03-23 01:07:21 --> Helper loaded: form_helper
+INFO - 2025-03-23 01:07:21 --> Form Validation Class Initialized
+INFO - 2025-03-23 01:07:21 --> Upload Class Initialized
+INFO - 2025-03-23 01:07:21 --> Language file loaded: language/spanish/system_syntax_lang.php
+DEBUG - 2025-03-23 01:07:21 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/models/Home_model.php
+DEBUG - 2025-03-23 01:07:21 --> File loaded: C:\xampp\htdocs\synap\application\modules/settings/models/Settings_model.php
+DEBUG - 2025-03-23 01:07:21 --> File loaded: C:\xampp\htdocs\synap\application\modules/sms/models/Sms_model.php
+DEBUG - 2025-03-23 01:07:21 --> File loaded: C:\xampp\htdocs\synap\application\modules/logs/models/Logs_model.php
+INFO - 2025-03-23 01:07:21 --> Parser Class Initialized
+INFO - 2025-03-23 01:07:21 --> Helper loaded: security_helper
+DEBUG - 2025-03-23 01:07:21 --> Auth MX_Controller Initialized
+INFO - 2025-03-23 01:07:21 --> Language file loaded: language/english/auth_lang.php
+DEBUG - 2025-03-23 01:07:21 --> File loaded: C:\xampp\htdocs\synap\application\views\auth/login.php
+INFO - 2025-03-23 01:07:21 --> Final output sent to browser
+DEBUG - 2025-03-23 01:07:21 --> Total execution time: 0.1185
+INFO - 2025-03-23 01:07:22 --> Config Class Initialized
+INFO - 2025-03-23 01:07:22 --> Hooks Class Initialized
+DEBUG - 2025-03-23 01:07:22 --> UTF-8 Support Enabled
+INFO - 2025-03-23 01:07:22 --> Utf8 Class Initialized
+INFO - 2025-03-23 01:07:22 --> URI Class Initialized
+INFO - 2025-03-23 01:07:22 --> Router Class Initialized
+INFO - 2025-03-23 01:07:22 --> Output Class Initialized
+INFO - 2025-03-23 01:07:22 --> Security Class Initialized
+DEBUG - 2025-03-23 01:07:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-23 01:07:22 --> Input Class Initialized
+INFO - 2025-03-23 01:07:22 --> Language Class Initialized
+INFO - 2025-03-23 01:07:22 --> Language Class Initialized
+INFO - 2025-03-23 01:07:22 --> Config Class Initialized
+INFO - 2025-03-23 01:07:22 --> Loader Class Initialized
+INFO - 2025-03-23 01:07:22 --> Helper loaded: url_helper
+INFO - 2025-03-23 01:07:22 --> Helper loaded: file_helper
+INFO - 2025-03-23 01:07:23 --> Database Driver Class Initialized
+INFO - 2025-03-23 01:07:23 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-23 01:07:23 --> Controller Class Initialized
+DEBUG - 2025-03-23 01:07:23 --> Config file loaded: C:\xampp\htdocs\synap\application\config/ion_auth.php
+INFO - 2025-03-23 01:07:23 --> Language file loaded: language/english/ion_auth_lang.php
+INFO - 2025-03-23 01:07:23 --> Helper loaded: cookie_helper
+INFO - 2025-03-23 01:07:23 --> Helper loaded: language_helper
+INFO - 2025-03-23 01:07:23 --> Helper loaded: date_helper
+INFO - 2025-03-23 01:07:23 --> Model "Ion_auth_model" initialized
+DEBUG - 2025-03-23 01:07:23 --> File loaded: C:\xampp\htdocs\synap\application\modules/email/models/Email_model.php
+DEBUG - 2025-03-23 01:07:23 --> Email Class Initialized
+INFO - 2025-03-23 01:07:23 --> Helper loaded: form_helper
+INFO - 2025-03-23 01:07:23 --> Form Validation Class Initialized
+INFO - 2025-03-23 01:07:23 --> Upload Class Initialized
+INFO - 2025-03-23 01:07:23 --> Language file loaded: language/spanish/system_syntax_lang.php
+DEBUG - 2025-03-23 01:07:23 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/models/Home_model.php
+DEBUG - 2025-03-23 01:07:23 --> File loaded: C:\xampp\htdocs\synap\application\modules/settings/models/Settings_model.php
+DEBUG - 2025-03-23 01:07:23 --> File loaded: C:\xampp\htdocs\synap\application\modules/sms/models/Sms_model.php
+DEBUG - 2025-03-23 01:07:23 --> File loaded: C:\xampp\htdocs\synap\application\modules/logs/models/Logs_model.php
+INFO - 2025-03-23 01:07:23 --> Parser Class Initialized
+INFO - 2025-03-23 01:07:23 --> Helper loaded: security_helper
+DEBUG - 2025-03-23 01:07:23 --> Auth MX_Controller Initialized
+INFO - 2025-03-23 01:07:23 --> Language file loaded: language/english/auth_lang.php
+INFO - 2025-03-23 01:07:23 --> Language file loaded: language/english/form_validation_lang.php
+INFO - 2025-03-23 01:07:23 --> Config Class Initialized
+INFO - 2025-03-23 01:07:23 --> Hooks Class Initialized
+DEBUG - 2025-03-23 01:07:23 --> UTF-8 Support Enabled
+INFO - 2025-03-23 01:07:23 --> Utf8 Class Initialized
+INFO - 2025-03-23 01:07:23 --> URI Class Initialized
+INFO - 2025-03-23 01:07:23 --> Router Class Initialized
+INFO - 2025-03-23 01:07:23 --> Output Class Initialized
+INFO - 2025-03-23 01:07:23 --> Security Class Initialized
+DEBUG - 2025-03-23 01:07:23 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-23 01:07:23 --> Input Class Initialized
+INFO - 2025-03-23 01:07:23 --> Language Class Initialized
+INFO - 2025-03-23 01:07:23 --> Language Class Initialized
+INFO - 2025-03-23 01:07:23 --> Config Class Initialized
+INFO - 2025-03-23 01:07:23 --> Loader Class Initialized
+INFO - 2025-03-23 01:07:23 --> Helper loaded: url_helper
+INFO - 2025-03-23 01:07:23 --> Helper loaded: file_helper
+INFO - 2025-03-23 01:07:23 --> Database Driver Class Initialized
+INFO - 2025-03-23 01:07:23 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-23 01:07:23 --> Controller Class Initialized
+DEBUG - 2025-03-23 01:07:23 --> Config file loaded: C:\xampp\htdocs\synap\application\config/ion_auth.php
+INFO - 2025-03-23 01:07:23 --> Language file loaded: language/english/ion_auth_lang.php
+INFO - 2025-03-23 01:07:23 --> Helper loaded: cookie_helper
+INFO - 2025-03-23 01:07:23 --> Helper loaded: language_helper
+INFO - 2025-03-23 01:07:23 --> Helper loaded: date_helper
+INFO - 2025-03-23 01:07:23 --> Model "Ion_auth_model" initialized
+DEBUG - 2025-03-23 01:07:23 --> File loaded: C:\xampp\htdocs\synap\application\modules/email/models/Email_model.php
+DEBUG - 2025-03-23 01:07:23 --> Email Class Initialized
+INFO - 2025-03-23 01:07:23 --> Helper loaded: form_helper
+INFO - 2025-03-23 01:07:23 --> Form Validation Class Initialized
+INFO - 2025-03-23 01:07:23 --> Upload Class Initialized
+INFO - 2025-03-23 01:07:23 --> Language file loaded: language/spanish/system_syntax_lang.php
+DEBUG - 2025-03-23 01:07:23 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/models/Home_model.php
+DEBUG - 2025-03-23 01:07:23 --> File loaded: C:\xampp\htdocs\synap\application\modules/settings/models/Settings_model.php
+DEBUG - 2025-03-23 01:07:23 --> File loaded: C:\xampp\htdocs\synap\application\modules/sms/models/Sms_model.php
+DEBUG - 2025-03-23 01:07:23 --> File loaded: C:\xampp\htdocs\synap\application\modules/logs/models/Logs_model.php
+INFO - 2025-03-23 01:07:23 --> Parser Class Initialized
+INFO - 2025-03-23 01:07:23 --> Helper loaded: security_helper
+DEBUG - 2025-03-23 01:07:23 --> Home MX_Controller Initialized
+DEBUG - 2025-03-23 01:07:23 --> File loaded: C:\xampp\htdocs\synap\application\modules/finance/models/Finance_model.php
+DEBUG - 2025-03-23 01:07:23 --> File loaded: C:\xampp\htdocs\synap\application\modules/appointment/models/Appointment_model.php
+DEBUG - 2025-03-23 01:07:23 --> File loaded: C:\xampp\htdocs\synap\application\modules/notice/models/Notice_model.php
+ERROR - 2025-03-23 01:07:23 --> Could not find the language line ""
+ERROR - 2025-03-23 01:07:23 --> Could not find the language line "import"
+DEBUG - 2025-03-23 01:07:23 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/views/dashboard.php
+DEBUG - 2025-03-23 01:07:23 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/views/home.php
+DEBUG - 2025-03-23 01:07:23 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/views/footer.php
+INFO - 2025-03-23 01:07:23 --> Final output sent to browser
+DEBUG - 2025-03-23 01:07:23 --> Total execution time: 0.1777
+INFO - 2025-03-23 01:07:25 --> Config Class Initialized
+INFO - 2025-03-23 01:07:25 --> Hooks Class Initialized
+DEBUG - 2025-03-23 01:07:25 --> UTF-8 Support Enabled
+INFO - 2025-03-23 01:07:25 --> Utf8 Class Initialized
+INFO - 2025-03-23 01:07:25 --> URI Class Initialized
+INFO - 2025-03-23 01:07:25 --> Router Class Initialized
+INFO - 2025-03-23 01:07:25 --> Output Class Initialized
+INFO - 2025-03-23 01:07:25 --> Security Class Initialized
+DEBUG - 2025-03-23 01:07:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-23 01:07:25 --> Input Class Initialized
+INFO - 2025-03-23 01:07:25 --> Language Class Initialized
+INFO - 2025-03-23 01:07:25 --> Language Class Initialized
+INFO - 2025-03-23 01:07:25 --> Config Class Initialized
+INFO - 2025-03-23 01:07:25 --> Loader Class Initialized
+INFO - 2025-03-23 01:07:25 --> Helper loaded: url_helper
+INFO - 2025-03-23 01:07:25 --> Helper loaded: file_helper
+INFO - 2025-03-23 01:07:25 --> Database Driver Class Initialized
+INFO - 2025-03-23 01:07:25 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-23 01:07:25 --> Controller Class Initialized
+DEBUG - 2025-03-23 01:07:25 --> Config file loaded: C:\xampp\htdocs\synap\application\config/ion_auth.php
+INFO - 2025-03-23 01:07:25 --> Language file loaded: language/english/ion_auth_lang.php
+INFO - 2025-03-23 01:07:25 --> Helper loaded: cookie_helper
+INFO - 2025-03-23 01:07:25 --> Helper loaded: language_helper
+INFO - 2025-03-23 01:07:25 --> Helper loaded: date_helper
+INFO - 2025-03-23 01:07:25 --> Model "Ion_auth_model" initialized
+DEBUG - 2025-03-23 01:07:25 --> File loaded: C:\xampp\htdocs\synap\application\modules/email/models/Email_model.php
+DEBUG - 2025-03-23 01:07:25 --> Email Class Initialized
+INFO - 2025-03-23 01:07:25 --> Helper loaded: form_helper
+INFO - 2025-03-23 01:07:25 --> Form Validation Class Initialized
+INFO - 2025-03-23 01:07:25 --> Upload Class Initialized
+INFO - 2025-03-23 01:07:25 --> Language file loaded: language/spanish/system_syntax_lang.php
+DEBUG - 2025-03-23 01:07:25 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/models/Home_model.php
+DEBUG - 2025-03-23 01:07:25 --> File loaded: C:\xampp\htdocs\synap\application\modules/settings/models/Settings_model.php
+DEBUG - 2025-03-23 01:07:25 --> File loaded: C:\xampp\htdocs\synap\application\modules/sms/models/Sms_model.php
+DEBUG - 2025-03-23 01:07:25 --> File loaded: C:\xampp\htdocs\synap\application\modules/logs/models/Logs_model.php
+INFO - 2025-03-23 01:07:25 --> Parser Class Initialized
+INFO - 2025-03-23 01:07:25 --> Helper loaded: security_helper
+DEBUG - 2025-03-23 01:07:25 --> Appointment MX_Controller Initialized
+DEBUG - 2025-03-23 01:07:25 --> File loaded: C:\xampp\htdocs\synap\application\modules/appointment/models/Appointment_model.php
+DEBUG - 2025-03-23 01:07:25 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctor_model.php
+DEBUG - 2025-03-23 01:07:25 --> File loaded: C:\xampp\htdocs\synap\application\modules/patient/models/Patient_model.php
+DEBUG - 2025-03-23 01:07:25 --> File loaded: C:\xampp\htdocs\synap\application\modules/pgateway/models/Pgateway_model.php
+DEBUG - 2025-03-23 01:07:25 --> File loaded: C:\xampp\htdocs\synap\application\modules/finance/models/Finance_model.php
+DEBUG - 2025-03-23 01:07:25 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctorvisit_model.php
+DEBUG - 2025-03-23 01:07:25 --> File loaded: C:\xampp\htdocs\synap\application\controllers/../modules/sms/controllers/Sms.php
+DEBUG - 2025-03-23 01:07:25 --> Sms MX_Controller Initialized
+DEBUG - 2025-03-23 01:07:25 --> File loaded: C:\xampp\htdocs\synap\application\modules/donor/models/Donor_model.php
+DEBUG - 2025-03-23 01:07:25 --> File loaded: C:\xampp\htdocs\synap\application\controllers/../modules/paypal/controllers/Paypal.php
+DEBUG - 2025-03-23 01:07:25 --> Paypal MX_Controller Initialized
+ERROR - 2025-03-23 01:07:26 --> Severity: Warning --> Undefined array key 1 C:\xampp\htdocs\synap\application\modules\appointment\controllers\Appointment.php 1317
+ERROR - 2025-03-23 01:07:26 --> Severity: error --> Exception: Unsupported operand types: string * int C:\xampp\htdocs\synap\application\modules\appointment\controllers\Appointment.php 1331
+INFO - 2025-03-23 01:07:26 --> Config Class Initialized
+INFO - 2025-03-23 01:07:26 --> Hooks Class Initialized
+DEBUG - 2025-03-23 01:07:26 --> UTF-8 Support Enabled
+INFO - 2025-03-23 01:07:26 --> Utf8 Class Initialized
+INFO - 2025-03-23 01:07:26 --> URI Class Initialized
+INFO - 2025-03-23 01:07:26 --> Router Class Initialized
+INFO - 2025-03-23 01:07:26 --> Output Class Initialized
+INFO - 2025-03-23 01:07:26 --> Security Class Initialized
+DEBUG - 2025-03-23 01:07:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-23 01:07:26 --> Input Class Initialized
+INFO - 2025-03-23 01:07:26 --> Language Class Initialized
+ERROR - 2025-03-23 01:07:26 --> 404 Page Not Found: /index
+INFO - 2025-03-23 01:07:27 --> Config Class Initialized
+INFO - 2025-03-23 01:07:27 --> Hooks Class Initialized
+DEBUG - 2025-03-23 01:07:27 --> UTF-8 Support Enabled
+INFO - 2025-03-23 01:07:27 --> Utf8 Class Initialized
+INFO - 2025-03-23 01:07:27 --> URI Class Initialized
+INFO - 2025-03-23 01:07:27 --> Router Class Initialized
+INFO - 2025-03-23 01:07:27 --> Output Class Initialized
+INFO - 2025-03-23 01:07:27 --> Security Class Initialized
+DEBUG - 2025-03-23 01:07:27 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-23 01:07:27 --> Input Class Initialized
+INFO - 2025-03-23 01:07:27 --> Language Class Initialized
+INFO - 2025-03-23 01:07:27 --> Language Class Initialized
+INFO - 2025-03-23 01:07:27 --> Config Class Initialized
+INFO - 2025-03-23 01:07:27 --> Loader Class Initialized
+INFO - 2025-03-23 01:07:27 --> Helper loaded: url_helper
+INFO - 2025-03-23 01:07:27 --> Helper loaded: file_helper
+INFO - 2025-03-23 01:07:27 --> Database Driver Class Initialized
+INFO - 2025-03-23 01:07:27 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-23 01:07:27 --> Controller Class Initialized
+DEBUG - 2025-03-23 01:07:27 --> Config file loaded: C:\xampp\htdocs\synap\application\config/ion_auth.php
+INFO - 2025-03-23 01:07:27 --> Language file loaded: language/english/ion_auth_lang.php
+INFO - 2025-03-23 01:07:27 --> Helper loaded: cookie_helper
+INFO - 2025-03-23 01:07:27 --> Helper loaded: language_helper
+INFO - 2025-03-23 01:07:27 --> Helper loaded: date_helper
+INFO - 2025-03-23 01:07:27 --> Model "Ion_auth_model" initialized
+DEBUG - 2025-03-23 01:07:27 --> File loaded: C:\xampp\htdocs\synap\application\modules/email/models/Email_model.php
+DEBUG - 2025-03-23 01:07:27 --> Email Class Initialized
+INFO - 2025-03-23 01:07:27 --> Helper loaded: form_helper
+INFO - 2025-03-23 01:07:27 --> Form Validation Class Initialized
+INFO - 2025-03-23 01:07:27 --> Upload Class Initialized
+INFO - 2025-03-23 01:07:27 --> Language file loaded: language/spanish/system_syntax_lang.php
+DEBUG - 2025-03-23 01:07:27 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/models/Home_model.php
+DEBUG - 2025-03-23 01:07:27 --> File loaded: C:\xampp\htdocs\synap\application\modules/settings/models/Settings_model.php
+DEBUG - 2025-03-23 01:07:27 --> File loaded: C:\xampp\htdocs\synap\application\modules/sms/models/Sms_model.php
+DEBUG - 2025-03-23 01:07:27 --> File loaded: C:\xampp\htdocs\synap\application\modules/logs/models/Logs_model.php
+INFO - 2025-03-23 01:07:27 --> Parser Class Initialized
+INFO - 2025-03-23 01:07:27 --> Helper loaded: security_helper
+DEBUG - 2025-03-23 01:07:27 --> Appointment MX_Controller Initialized
+DEBUG - 2025-03-23 01:07:27 --> File loaded: C:\xampp\htdocs\synap\application\modules/appointment/models/Appointment_model.php
+DEBUG - 2025-03-23 01:07:27 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctor_model.php
+DEBUG - 2025-03-23 01:07:27 --> File loaded: C:\xampp\htdocs\synap\application\modules/patient/models/Patient_model.php
+DEBUG - 2025-03-23 01:07:27 --> File loaded: C:\xampp\htdocs\synap\application\modules/pgateway/models/Pgateway_model.php
+DEBUG - 2025-03-23 01:07:27 --> File loaded: C:\xampp\htdocs\synap\application\modules/finance/models/Finance_model.php
+DEBUG - 2025-03-23 01:07:27 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctorvisit_model.php
+DEBUG - 2025-03-23 01:07:27 --> File loaded: C:\xampp\htdocs\synap\application\controllers/../modules/sms/controllers/Sms.php
+DEBUG - 2025-03-23 01:07:27 --> Sms MX_Controller Initialized
+DEBUG - 2025-03-23 01:07:27 --> File loaded: C:\xampp\htdocs\synap\application\modules/donor/models/Donor_model.php
+DEBUG - 2025-03-23 01:07:27 --> File loaded: C:\xampp\htdocs\synap\application\controllers/../modules/paypal/controllers/Paypal.php
+DEBUG - 2025-03-23 01:07:27 --> Paypal MX_Controller Initialized
+ERROR - 2025-03-23 01:07:27 --> Could not find the language line ""
+ERROR - 2025-03-23 01:07:27 --> Could not find the language line "import"
+DEBUG - 2025-03-23 01:07:27 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/views/dashboard.php
+ERROR - 2025-03-23 01:07:27 --> Could not find the language line "if_pay_now_checked_please_select_status_to_confirmed"
+ERROR - 2025-03-23 01:07:27 --> Could not find the language line "if_pay_now_checked_please_select_status_to_confirmed"
+DEBUG - 2025-03-23 01:07:27 --> File loaded: C:\xampp\htdocs\synap\application\modules/appointment/views/appointment.php
+DEBUG - 2025-03-23 01:07:27 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/views/footer.php
+INFO - 2025-03-23 01:07:27 --> Final output sent to browser
+DEBUG - 2025-03-23 01:07:27 --> Total execution time: 0.2838
+INFO - 2025-03-23 01:07:30 --> Config Class Initialized
+INFO - 2025-03-23 01:07:30 --> Hooks Class Initialized
+DEBUG - 2025-03-23 01:07:30 --> UTF-8 Support Enabled
+INFO - 2025-03-23 01:07:30 --> Utf8 Class Initialized
+INFO - 2025-03-23 01:07:30 --> URI Class Initialized
+INFO - 2025-03-23 01:07:30 --> Router Class Initialized
+INFO - 2025-03-23 01:07:30 --> Config Class Initialized
+INFO - 2025-03-23 01:07:30 --> Hooks Class Initialized
+DEBUG - 2025-03-23 01:07:30 --> UTF-8 Support Enabled
+INFO - 2025-03-23 01:07:30 --> Utf8 Class Initialized
+INFO - 2025-03-23 01:07:30 --> URI Class Initialized
+INFO - 2025-03-23 01:07:30 --> Router Class Initialized
+INFO - 2025-03-23 01:07:30 --> Output Class Initialized
+INFO - 2025-03-23 01:07:30 --> Output Class Initialized
+INFO - 2025-03-23 01:07:30 --> Security Class Initialized
+INFO - 2025-03-23 01:07:30 --> Security Class Initialized
+DEBUG - 2025-03-23 01:07:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-23 01:07:30 --> Input Class Initialized
+INFO - 2025-03-23 01:07:30 --> Language Class Initialized
+ERROR - 2025-03-23 01:07:30 --> 404 Page Not Found: /index
+INFO - 2025-03-23 01:07:30 --> Config Class Initialized
+INFO - 2025-03-23 01:07:30 --> Hooks Class Initialized
+INFO - 2025-03-23 01:07:30 --> Config Class Initialized
+INFO - 2025-03-23 01:07:30 --> Hooks Class Initialized
+DEBUG - 2025-03-23 01:07:30 --> UTF-8 Support Enabled
+INFO - 2025-03-23 01:07:30 --> Utf8 Class Initialized
+INFO - 2025-03-23 01:07:30 --> URI Class Initialized
+DEBUG - 2025-03-23 01:07:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-23 01:07:30 --> Input Class Initialized
+INFO - 2025-03-23 01:07:30 --> Language Class Initialized
+DEBUG - 2025-03-23 01:07:30 --> UTF-8 Support Enabled
+INFO - 2025-03-23 01:07:30 --> Utf8 Class Initialized
+INFO - 2025-03-23 01:07:30 --> URI Class Initialized
+INFO - 2025-03-23 01:07:30 --> Language Class Initialized
+INFO - 2025-03-23 01:07:30 --> Config Class Initialized
+INFO - 2025-03-23 01:07:30 --> Config Class Initialized
+INFO - 2025-03-23 01:07:30 --> Router Class Initialized
+INFO - 2025-03-23 01:07:30 --> Output Class Initialized
+INFO - 2025-03-23 01:07:30 --> Security Class Initialized
+DEBUG - 2025-03-23 01:07:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-23 01:07:30 --> Config Class Initialized
+INFO - 2025-03-23 01:07:30 --> Router Class Initialized
+INFO - 2025-03-23 01:07:30 --> Output Class Initialized
+INFO - 2025-03-23 01:07:30 --> Security Class Initialized
+INFO - 2025-03-23 01:07:30 --> Hooks Class Initialized
+INFO - 2025-03-23 01:07:30 --> Config Class Initialized
+DEBUG - 2025-03-23 01:07:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-23 01:07:30 --> Hooks Class Initialized
+DEBUG - 2025-03-23 01:07:30 --> UTF-8 Support Enabled
+DEBUG - 2025-03-23 01:07:30 --> UTF-8 Support Enabled
+INFO - 2025-03-23 01:07:30 --> Utf8 Class Initialized
+INFO - 2025-03-23 01:07:30 --> Utf8 Class Initialized
+INFO - 2025-03-23 01:07:30 --> Input Class Initialized
+INFO - 2025-03-23 01:07:30 --> URI Class Initialized
+INFO - 2025-03-23 01:07:30 --> Language Class Initialized
+INFO - 2025-03-23 01:07:30 --> Router Class Initialized
+INFO - 2025-03-23 01:07:30 --> Output Class Initialized
+INFO - 2025-03-23 01:07:30 --> Security Class Initialized
+INFO - 2025-03-23 01:07:30 --> Language Class Initialized
+INFO - 2025-03-23 01:07:30 --> Config Class Initialized
+DEBUG - 2025-03-23 01:07:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-23 01:07:30 --> URI Class Initialized
+INFO - 2025-03-23 01:07:30 --> Loader Class Initialized
+INFO - 2025-03-23 01:07:30 --> Helper loaded: url_helper
+INFO - 2025-03-23 01:07:30 --> Router Class Initialized
+INFO - 2025-03-23 01:07:30 --> Loader Class Initialized
+INFO - 2025-03-23 01:07:30 --> Helper loaded: file_helper
+INFO - 2025-03-23 01:07:30 --> Input Class Initialized
+INFO - 2025-03-23 01:07:30 --> Helper loaded: url_helper
+INFO - 2025-03-23 01:07:30 --> Helper loaded: file_helper
+INFO - 2025-03-23 01:07:30 --> Input Class Initialized
+INFO - 2025-03-23 01:07:30 --> Database Driver Class Initialized
+INFO - 2025-03-23 01:07:30 --> Hooks Class Initialized
+INFO - 2025-03-23 01:07:30 --> Database Driver Class Initialized
+DEBUG - 2025-03-23 01:07:30 --> UTF-8 Support Enabled
+INFO - 2025-03-23 01:07:30 --> Output Class Initialized
+INFO - 2025-03-23 01:07:30 --> Utf8 Class Initialized
+INFO - 2025-03-23 01:07:30 --> URI Class Initialized
+INFO - 2025-03-23 01:07:30 --> Security Class Initialized
+INFO - 2025-03-23 01:07:30 --> Language Class Initialized
+DEBUG - 2025-03-23 01:07:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-23 01:07:30 --> Language Class Initialized
+INFO - 2025-03-23 01:07:30 --> Router Class Initialized
+INFO - 2025-03-23 01:07:30 --> Output Class Initialized
+INFO - 2025-03-23 01:07:30 --> Security Class Initialized
+INFO - 2025-03-23 01:07:30 --> Language Class Initialized
+INFO - 2025-03-23 01:07:30 --> Config Class Initialized
+DEBUG - 2025-03-23 01:07:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-23 01:07:30 --> Language Class Initialized
+INFO - 2025-03-23 01:07:30 --> Input Class Initialized
+INFO - 2025-03-23 01:07:30 --> Config Class Initialized
+INFO - 2025-03-23 01:07:30 --> Loader Class Initialized
+INFO - 2025-03-23 01:07:30 --> Helper loaded: url_helper
+INFO - 2025-03-23 01:07:30 --> Helper loaded: file_helper
+INFO - 2025-03-23 01:07:30 --> Loader Class Initialized
+INFO - 2025-03-23 01:07:30 --> Language Class Initialized
+INFO - 2025-03-23 01:07:30 --> Helper loaded: url_helper
+INFO - 2025-03-23 01:07:30 --> Helper loaded: file_helper
+INFO - 2025-03-23 01:07:30 --> Database Driver Class Initialized
+INFO - 2025-03-23 01:07:30 --> Database Driver Class Initialized
+INFO - 2025-03-23 01:07:30 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-23 01:07:30 --> Input Class Initialized
+INFO - 2025-03-23 01:07:30 --> Controller Class Initialized
+INFO - 2025-03-23 01:07:30 --> Language Class Initialized
+DEBUG - 2025-03-23 01:07:30 --> Config file loaded: C:\xampp\htdocs\synap\application\config/ion_auth.php
+INFO - 2025-03-23 01:07:30 --> Language file loaded: language/english/ion_auth_lang.php
+INFO - 2025-03-23 01:07:30 --> Helper loaded: cookie_helper
+INFO - 2025-03-23 01:07:30 --> Helper loaded: language_helper
+INFO - 2025-03-23 01:07:30 --> Language Class Initialized
+INFO - 2025-03-23 01:07:30 --> Config Class Initialized
+INFO - 2025-03-23 01:07:30 --> Helper loaded: date_helper
+INFO - 2025-03-23 01:07:30 --> Model "Ion_auth_model" initialized
+INFO - 2025-03-23 01:07:30 --> Language Class Initialized
+INFO - 2025-03-23 01:07:30 --> Loader Class Initialized
+INFO - 2025-03-23 01:07:30 --> Config Class Initialized
+DEBUG - 2025-03-23 01:07:30 --> File loaded: C:\xampp\htdocs\synap\application\modules/email/models/Email_model.php
+INFO - 2025-03-23 01:07:30 --> Helper loaded: url_helper
+INFO - 2025-03-23 01:07:30 --> Helper loaded: file_helper
+DEBUG - 2025-03-23 01:07:30 --> Email Class Initialized
+INFO - 2025-03-23 01:07:30 --> Helper loaded: form_helper
+INFO - 2025-03-23 01:07:30 --> Form Validation Class Initialized
+INFO - 2025-03-23 01:07:30 --> Loader Class Initialized
+INFO - 2025-03-23 01:07:30 --> Upload Class Initialized
+INFO - 2025-03-23 01:07:30 --> Helper loaded: url_helper
+INFO - 2025-03-23 01:07:30 --> Language file loaded: language/spanish/system_syntax_lang.php
+DEBUG - 2025-03-23 01:07:30 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/models/Home_model.php
+INFO - 2025-03-23 01:07:30 --> Helper loaded: file_helper
+DEBUG - 2025-03-23 01:07:30 --> File loaded: C:\xampp\htdocs\synap\application\modules/settings/models/Settings_model.php
+DEBUG - 2025-03-23 01:07:30 --> File loaded: C:\xampp\htdocs\synap\application\modules/sms/models/Sms_model.php
+DEBUG - 2025-03-23 01:07:30 --> File loaded: C:\xampp\htdocs\synap\application\modules/logs/models/Logs_model.php
+INFO - 2025-03-23 01:07:30 --> Parser Class Initialized
+INFO - 2025-03-23 01:07:30 --> Database Driver Class Initialized
+INFO - 2025-03-23 01:07:30 --> Helper loaded: security_helper
+DEBUG - 2025-03-23 01:07:30 --> Schedule MX_Controller Initialized
+DEBUG - 2025-03-23 01:07:30 --> File loaded: C:\xampp\htdocs\synap\application\modules/schedule/models/Schedule_model.php
+DEBUG - 2025-03-23 01:07:30 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctor_model.php
+DEBUG - 2025-03-23 01:07:30 --> File loaded: C:\xampp\htdocs\synap\application\modules/appointment/models/Appointment_model.php
+ERROR - 2025-03-23 01:07:30 --> Severity: error --> Exception: strftime(): Argument #2 ($timestamp) must be of type ?int, string given C:\xampp\htdocs\synap\application\modules\schedule\models\Schedule_model.php 158
+INFO - 2025-03-23 01:07:30 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-23 01:07:30 --> Controller Class Initialized
+DEBUG - 2025-03-23 01:07:30 --> Config file loaded: C:\xampp\htdocs\synap\application\config/ion_auth.php
+INFO - 2025-03-23 01:07:30 --> Database Driver Class Initialized
+INFO - 2025-03-23 01:07:30 --> Language file loaded: language/english/ion_auth_lang.php
+INFO - 2025-03-23 01:07:30 --> Helper loaded: cookie_helper
+INFO - 2025-03-23 01:07:30 --> Helper loaded: language_helper
+INFO - 2025-03-23 01:07:30 --> Helper loaded: date_helper
+INFO - 2025-03-23 01:07:30 --> Model "Ion_auth_model" initialized
+DEBUG - 2025-03-23 01:07:31 --> File loaded: C:\xampp\htdocs\synap\application\modules/email/models/Email_model.php
+DEBUG - 2025-03-23 01:07:31 --> Email Class Initialized
+INFO - 2025-03-23 01:07:31 --> Helper loaded: form_helper
+INFO - 2025-03-23 01:07:31 --> Form Validation Class Initialized
+INFO - 2025-03-23 01:07:31 --> Upload Class Initialized
+INFO - 2025-03-23 01:07:31 --> Language file loaded: language/spanish/system_syntax_lang.php
+DEBUG - 2025-03-23 01:07:31 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/models/Home_model.php
+DEBUG - 2025-03-23 01:07:31 --> File loaded: C:\xampp\htdocs\synap\application\modules/settings/models/Settings_model.php
+DEBUG - 2025-03-23 01:07:31 --> File loaded: C:\xampp\htdocs\synap\application\modules/sms/models/Sms_model.php
+INFO - 2025-03-23 01:07:31 --> Config Class Initialized
+INFO - 2025-03-23 01:07:31 --> Hooks Class Initialized
+DEBUG - 2025-03-23 01:07:31 --> File loaded: C:\xampp\htdocs\synap\application\modules/logs/models/Logs_model.php
+DEBUG - 2025-03-23 01:07:31 --> UTF-8 Support Enabled
+INFO - 2025-03-23 01:07:31 --> Utf8 Class Initialized
+INFO - 2025-03-23 01:07:31 --> Parser Class Initialized
+INFO - 2025-03-23 01:07:31 --> URI Class Initialized
+INFO - 2025-03-23 01:07:31 --> Helper loaded: security_helper
+DEBUG - 2025-03-23 01:07:31 --> Schedule MX_Controller Initialized
+INFO - 2025-03-23 01:07:31 --> Router Class Initialized
+DEBUG - 2025-03-23 01:07:31 --> File loaded: C:\xampp\htdocs\synap\application\modules/schedule/models/Schedule_model.php
+INFO - 2025-03-23 01:07:31 --> Output Class Initialized
+DEBUG - 2025-03-23 01:07:31 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctor_model.php
+INFO - 2025-03-23 01:07:31 --> Security Class Initialized
+DEBUG - 2025-03-23 01:07:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-23 01:07:31 --> Input Class Initialized
+INFO - 2025-03-23 01:07:31 --> Language Class Initialized
+DEBUG - 2025-03-23 01:07:31 --> File loaded: C:\xampp\htdocs\synap\application\modules/appointment/models/Appointment_model.php
+INFO - 2025-03-23 01:07:31 --> Language Class Initialized
+INFO - 2025-03-23 01:07:31 --> Config Class Initialized
+INFO - 2025-03-23 01:07:31 --> Loader Class Initialized
+INFO - 2025-03-23 01:07:31 --> Helper loaded: url_helper
+INFO - 2025-03-23 01:07:31 --> Final output sent to browser
+DEBUG - 2025-03-23 01:07:31 --> Total execution time: 0.7265
+INFO - 2025-03-23 01:07:31 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-23 01:07:31 --> Controller Class Initialized
+DEBUG - 2025-03-23 01:07:31 --> Config file loaded: C:\xampp\htdocs\synap\application\config/ion_auth.php
+INFO - 2025-03-23 01:07:31 --> Helper loaded: file_helper
+INFO - 2025-03-23 01:07:31 --> Config Class Initialized
+INFO - 2025-03-23 01:07:31 --> Database Driver Class Initialized
+INFO - 2025-03-23 01:07:31 --> Hooks Class Initialized
+INFO - 2025-03-23 01:07:31 --> Language file loaded: language/english/ion_auth_lang.php
+INFO - 2025-03-23 01:07:31 --> Helper loaded: cookie_helper
+DEBUG - 2025-03-23 01:07:31 --> UTF-8 Support Enabled
+INFO - 2025-03-23 01:07:31 --> Utf8 Class Initialized
+INFO - 2025-03-23 01:07:31 --> URI Class Initialized
+INFO - 2025-03-23 01:07:31 --> Router Class Initialized
+INFO - 2025-03-23 01:07:31 --> Output Class Initialized
+INFO - 2025-03-23 01:07:31 --> Security Class Initialized
+DEBUG - 2025-03-23 01:07:31 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-23 01:07:31 --> Input Class Initialized
+INFO - 2025-03-23 01:07:31 --> Language Class Initialized
+INFO - 2025-03-23 01:07:31 --> Helper loaded: language_helper
+INFO - 2025-03-23 01:07:31 --> Language Class Initialized
+INFO - 2025-03-23 01:07:31 --> Config Class Initialized
+INFO - 2025-03-23 01:07:31 --> Loader Class Initialized
+INFO - 2025-03-23 01:07:31 --> Helper loaded: url_helper
+INFO - 2025-03-23 01:07:31 --> Helper loaded: file_helper
+INFO - 2025-03-23 01:07:31 --> Database Driver Class Initialized
+INFO - 2025-03-23 01:07:31 --> Helper loaded: date_helper
+INFO - 2025-03-23 01:07:31 --> Model "Ion_auth_model" initialized
+DEBUG - 2025-03-23 01:07:31 --> File loaded: C:\xampp\htdocs\synap\application\modules/email/models/Email_model.php
+DEBUG - 2025-03-23 01:07:31 --> Email Class Initialized
+INFO - 2025-03-23 01:07:31 --> Helper loaded: form_helper
+INFO - 2025-03-23 01:07:31 --> Form Validation Class Initialized
+INFO - 2025-03-23 01:07:31 --> Upload Class Initialized
+INFO - 2025-03-23 01:07:31 --> Language file loaded: language/spanish/system_syntax_lang.php
+DEBUG - 2025-03-23 01:07:31 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/models/Home_model.php
+DEBUG - 2025-03-23 01:07:31 --> File loaded: C:\xampp\htdocs\synap\application\modules/settings/models/Settings_model.php
+DEBUG - 2025-03-23 01:07:31 --> File loaded: C:\xampp\htdocs\synap\application\modules/sms/models/Sms_model.php
+DEBUG - 2025-03-23 01:07:31 --> File loaded: C:\xampp\htdocs\synap\application\modules/logs/models/Logs_model.php
+INFO - 2025-03-23 01:07:31 --> Parser Class Initialized
+INFO - 2025-03-23 01:07:31 --> Helper loaded: security_helper
+DEBUG - 2025-03-23 01:07:31 --> Appointment MX_Controller Initialized
+DEBUG - 2025-03-23 01:07:31 --> File loaded: C:\xampp\htdocs\synap\application\modules/appointment/models/Appointment_model.php
+DEBUG - 2025-03-23 01:07:31 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctor_model.php
+DEBUG - 2025-03-23 01:07:31 --> File loaded: C:\xampp\htdocs\synap\application\modules/patient/models/Patient_model.php
+DEBUG - 2025-03-23 01:07:31 --> File loaded: C:\xampp\htdocs\synap\application\modules/pgateway/models/Pgateway_model.php
+DEBUG - 2025-03-23 01:07:31 --> File loaded: C:\xampp\htdocs\synap\application\modules/finance/models/Finance_model.php
+DEBUG - 2025-03-23 01:07:31 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctorvisit_model.php
+DEBUG - 2025-03-23 01:07:31 --> File loaded: C:\xampp\htdocs\synap\application\controllers/../modules/sms/controllers/Sms.php
+DEBUG - 2025-03-23 01:07:31 --> Sms MX_Controller Initialized
+DEBUG - 2025-03-23 01:07:31 --> File loaded: C:\xampp\htdocs\synap\application\modules/donor/models/Donor_model.php
+DEBUG - 2025-03-23 01:07:31 --> File loaded: C:\xampp\htdocs\synap\application\controllers/../modules/paypal/controllers/Paypal.php
+DEBUG - 2025-03-23 01:07:31 --> Paypal MX_Controller Initialized
+ERROR - 2025-03-23 01:07:31 --> Could not find the language line ""
+ERROR - 2025-03-23 01:07:31 --> Could not find the language line ""
+ERROR - 2025-03-23 01:07:31 --> Could not find the language line ""
+ERROR - 2025-03-23 01:07:31 --> Could not find the language line ""
+ERROR - 2025-03-23 01:07:31 --> Could not find the language line ""
+ERROR - 2025-03-23 01:07:31 --> Could not find the language line ""
+INFO - 2025-03-23 01:07:31 --> Final output sent to browser
+DEBUG - 2025-03-23 01:07:31 --> Total execution time: 1.1706
+INFO - 2025-03-23 01:07:31 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-23 01:07:31 --> Controller Class Initialized
+DEBUG - 2025-03-23 01:07:31 --> Config file loaded: C:\xampp\htdocs\synap\application\config/ion_auth.php
+INFO - 2025-03-23 01:07:31 --> Language file loaded: language/english/ion_auth_lang.php
+INFO - 2025-03-23 01:07:31 --> Helper loaded: cookie_helper
+INFO - 2025-03-23 01:07:31 --> Helper loaded: language_helper
+INFO - 2025-03-23 01:07:31 --> Helper loaded: date_helper
+INFO - 2025-03-23 01:07:31 --> Model "Ion_auth_model" initialized
+INFO - 2025-03-23 01:07:31 --> Config Class Initialized
+DEBUG - 2025-03-23 01:07:31 --> File loaded: C:\xampp\htdocs\synap\application\modules/email/models/Email_model.php
+INFO - 2025-03-23 01:07:31 --> Hooks Class Initialized
+DEBUG - 2025-03-23 01:07:31 --> UTF-8 Support Enabled
+INFO - 2025-03-23 01:07:31 --> Utf8 Class Initialized
+INFO - 2025-03-23 01:07:31 --> URI Class Initialized
+DEBUG - 2025-03-23 01:07:31 --> Email Class Initialized
+INFO - 2025-03-23 01:07:31 --> Helper loaded: form_helper
+INFO - 2025-03-23 01:07:31 --> Form Validation Class Initialized
+INFO - 2025-03-23 01:07:31 --> Upload Class Initialized
+INFO - 2025-03-23 01:07:31 --> Router Class Initialized
+INFO - 2025-03-23 01:07:31 --> Output Class Initialized
+INFO - 2025-03-23 01:07:31 --> Language file loaded: language/spanish/system_syntax_lang.php
+INFO - 2025-03-23 01:07:31 --> Security Class Initialized
+DEBUG - 2025-03-23 01:07:31 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/models/Home_model.php
+DEBUG - 2025-03-23 01:07:31 --> File loaded: C:\xampp\htdocs\synap\application\modules/settings/models/Settings_model.php
+DEBUG - 2025-03-23 01:07:31 --> File loaded: C:\xampp\htdocs\synap\application\modules/sms/models/Sms_model.php
+DEBUG - 2025-03-23 01:07:31 --> File loaded: C:\xampp\htdocs\synap\application\modules/logs/models/Logs_model.php
+INFO - 2025-03-23 01:07:31 --> Parser Class Initialized
+INFO - 2025-03-23 01:07:31 --> Helper loaded: security_helper
+DEBUG - 2025-03-23 01:07:31 --> Schedule MX_Controller Initialized
+DEBUG - 2025-03-23 01:07:31 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2025-03-23 01:07:31 --> File loaded: C:\xampp\htdocs\synap\application\modules/schedule/models/Schedule_model.php
+INFO - 2025-03-23 01:07:31 --> Input Class Initialized
+DEBUG - 2025-03-23 01:07:31 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctor_model.php
+DEBUG - 2025-03-23 01:07:31 --> File loaded: C:\xampp\htdocs\synap\application\modules/appointment/models/Appointment_model.php
+INFO - 2025-03-23 01:07:31 --> Language Class Initialized
+ERROR - 2025-03-23 01:07:31 --> Severity: error --> Exception: strftime(): Argument #2 ($timestamp) must be of type ?int, string given C:\xampp\htdocs\synap\application\modules\schedule\models\Schedule_model.php 119
+INFO - 2025-03-23 01:07:31 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-23 01:07:31 --> Controller Class Initialized
+DEBUG - 2025-03-23 01:07:31 --> Config file loaded: C:\xampp\htdocs\synap\application\config/ion_auth.php
+INFO - 2025-03-23 01:07:31 --> Language Class Initialized
+INFO - 2025-03-23 01:07:31 --> Config Class Initialized
+INFO - 2025-03-23 01:07:31 --> Language file loaded: language/english/ion_auth_lang.php
+INFO - 2025-03-23 01:07:31 --> Loader Class Initialized
+INFO - 2025-03-23 01:07:31 --> Helper loaded: cookie_helper
+INFO - 2025-03-23 01:07:31 --> Helper loaded: url_helper
+INFO - 2025-03-23 01:07:31 --> Helper loaded: language_helper
+INFO - 2025-03-23 01:07:31 --> Helper loaded: file_helper
+INFO - 2025-03-23 01:07:31 --> Helper loaded: date_helper
+INFO - 2025-03-23 01:07:31 --> Model "Ion_auth_model" initialized
+INFO - 2025-03-23 01:07:31 --> Database Driver Class Initialized
+DEBUG - 2025-03-23 01:07:31 --> File loaded: C:\xampp\htdocs\synap\application\modules/email/models/Email_model.php
+DEBUG - 2025-03-23 01:07:31 --> Email Class Initialized
+INFO - 2025-03-23 01:07:31 --> Helper loaded: form_helper
+INFO - 2025-03-23 01:07:31 --> Form Validation Class Initialized
+INFO - 2025-03-23 01:07:31 --> Upload Class Initialized
+INFO - 2025-03-23 01:07:31 --> Language file loaded: language/spanish/system_syntax_lang.php
+DEBUG - 2025-03-23 01:07:31 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/models/Home_model.php
+DEBUG - 2025-03-23 01:07:31 --> File loaded: C:\xampp\htdocs\synap\application\modules/settings/models/Settings_model.php
+DEBUG - 2025-03-23 01:07:31 --> File loaded: C:\xampp\htdocs\synap\application\modules/sms/models/Sms_model.php
+DEBUG - 2025-03-23 01:07:31 --> File loaded: C:\xampp\htdocs\synap\application\modules/logs/models/Logs_model.php
+INFO - 2025-03-23 01:07:31 --> Parser Class Initialized
+INFO - 2025-03-23 01:07:31 --> Helper loaded: security_helper
+DEBUG - 2025-03-23 01:07:31 --> Appointment MX_Controller Initialized
+DEBUG - 2025-03-23 01:07:31 --> File loaded: C:\xampp\htdocs\synap\application\modules/appointment/models/Appointment_model.php
+DEBUG - 2025-03-23 01:07:31 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctor_model.php
+DEBUG - 2025-03-23 01:07:31 --> File loaded: C:\xampp\htdocs\synap\application\modules/patient/models/Patient_model.php
+DEBUG - 2025-03-23 01:07:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/pgateway/models/Pgateway_model.php
+DEBUG - 2025-03-23 01:07:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/finance/models/Finance_model.php
+DEBUG - 2025-03-23 01:07:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctorvisit_model.php
+DEBUG - 2025-03-23 01:07:32 --> File loaded: C:\xampp\htdocs\synap\application\controllers/../modules/sms/controllers/Sms.php
+DEBUG - 2025-03-23 01:07:32 --> Sms MX_Controller Initialized
+DEBUG - 2025-03-23 01:07:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/donor/models/Donor_model.php
+DEBUG - 2025-03-23 01:07:32 --> File loaded: C:\xampp\htdocs\synap\application\controllers/../modules/paypal/controllers/Paypal.php
+DEBUG - 2025-03-23 01:07:32 --> Paypal MX_Controller Initialized
+INFO - 2025-03-23 01:07:32 --> Final output sent to browser
+DEBUG - 2025-03-23 01:07:32 --> Total execution time: 1.4270
+INFO - 2025-03-23 01:07:32 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-23 01:07:32 --> Controller Class Initialized
+DEBUG - 2025-03-23 01:07:32 --> Config file loaded: C:\xampp\htdocs\synap\application\config/ion_auth.php
+INFO - 2025-03-23 01:07:32 --> Language file loaded: language/english/ion_auth_lang.php
+INFO - 2025-03-23 01:07:32 --> Helper loaded: cookie_helper
+INFO - 2025-03-23 01:07:32 --> Helper loaded: language_helper
+INFO - 2025-03-23 01:07:32 --> Helper loaded: date_helper
+INFO - 2025-03-23 01:07:32 --> Model "Ion_auth_model" initialized
+DEBUG - 2025-03-23 01:07:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/email/models/Email_model.php
+DEBUG - 2025-03-23 01:07:32 --> Email Class Initialized
+INFO - 2025-03-23 01:07:32 --> Helper loaded: form_helper
+INFO - 2025-03-23 01:07:32 --> Form Validation Class Initialized
+INFO - 2025-03-23 01:07:32 --> Upload Class Initialized
+INFO - 2025-03-23 01:07:32 --> Language file loaded: language/spanish/system_syntax_lang.php
+DEBUG - 2025-03-23 01:07:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/models/Home_model.php
+DEBUG - 2025-03-23 01:07:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/settings/models/Settings_model.php
+DEBUG - 2025-03-23 01:07:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/sms/models/Sms_model.php
+DEBUG - 2025-03-23 01:07:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/logs/models/Logs_model.php
+INFO - 2025-03-23 01:07:32 --> Parser Class Initialized
+INFO - 2025-03-23 01:07:32 --> Helper loaded: security_helper
+DEBUG - 2025-03-23 01:07:32 --> Appointment MX_Controller Initialized
+DEBUG - 2025-03-23 01:07:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/appointment/models/Appointment_model.php
+DEBUG - 2025-03-23 01:07:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctor_model.php
+DEBUG - 2025-03-23 01:07:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/patient/models/Patient_model.php
+DEBUG - 2025-03-23 01:07:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/pgateway/models/Pgateway_model.php
+DEBUG - 2025-03-23 01:07:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/finance/models/Finance_model.php
+DEBUG - 2025-03-23 01:07:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctorvisit_model.php
+DEBUG - 2025-03-23 01:07:32 --> File loaded: C:\xampp\htdocs\synap\application\controllers/../modules/sms/controllers/Sms.php
+DEBUG - 2025-03-23 01:07:32 --> Sms MX_Controller Initialized
+DEBUG - 2025-03-23 01:07:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/donor/models/Donor_model.php
+DEBUG - 2025-03-23 01:07:32 --> File loaded: C:\xampp\htdocs\synap\application\controllers/../modules/paypal/controllers/Paypal.php
+DEBUG - 2025-03-23 01:07:32 --> Paypal MX_Controller Initialized
+ERROR - 2025-03-23 01:07:32 --> Could not find the language line ""
+INFO - 2025-03-23 01:07:32 --> Final output sent to browser
+DEBUG - 2025-03-23 01:07:32 --> Total execution time: 1.6213
+INFO - 2025-03-23 01:07:32 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-23 01:07:32 --> Controller Class Initialized
+DEBUG - 2025-03-23 01:07:32 --> Config file loaded: C:\xampp\htdocs\synap\application\config/ion_auth.php
+INFO - 2025-03-23 01:07:32 --> Language file loaded: language/english/ion_auth_lang.php
+INFO - 2025-03-23 01:07:32 --> Helper loaded: cookie_helper
+INFO - 2025-03-23 01:07:32 --> Helper loaded: language_helper
+INFO - 2025-03-23 01:07:32 --> Helper loaded: date_helper
+INFO - 2025-03-23 01:07:32 --> Model "Ion_auth_model" initialized
+DEBUG - 2025-03-23 01:07:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/email/models/Email_model.php
+DEBUG - 2025-03-23 01:07:32 --> Email Class Initialized
+INFO - 2025-03-23 01:07:32 --> Helper loaded: form_helper
+INFO - 2025-03-23 01:07:32 --> Form Validation Class Initialized
+INFO - 2025-03-23 01:07:32 --> Upload Class Initialized
+INFO - 2025-03-23 01:07:32 --> Language file loaded: language/spanish/system_syntax_lang.php
+DEBUG - 2025-03-23 01:07:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/models/Home_model.php
+DEBUG - 2025-03-23 01:07:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/settings/models/Settings_model.php
+DEBUG - 2025-03-23 01:07:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/sms/models/Sms_model.php
+DEBUG - 2025-03-23 01:07:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/logs/models/Logs_model.php
+INFO - 2025-03-23 01:07:32 --> Parser Class Initialized
+INFO - 2025-03-23 01:07:32 --> Helper loaded: security_helper
+DEBUG - 2025-03-23 01:07:32 --> Appointment MX_Controller Initialized
+DEBUG - 2025-03-23 01:07:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/appointment/models/Appointment_model.php
+DEBUG - 2025-03-23 01:07:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctor_model.php
+DEBUG - 2025-03-23 01:07:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/patient/models/Patient_model.php
+DEBUG - 2025-03-23 01:07:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/pgateway/models/Pgateway_model.php
+DEBUG - 2025-03-23 01:07:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/finance/models/Finance_model.php
+DEBUG - 2025-03-23 01:07:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctorvisit_model.php
+DEBUG - 2025-03-23 01:07:32 --> File loaded: C:\xampp\htdocs\synap\application\controllers/../modules/sms/controllers/Sms.php
+DEBUG - 2025-03-23 01:07:32 --> Sms MX_Controller Initialized
+DEBUG - 2025-03-23 01:07:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/donor/models/Donor_model.php
+DEBUG - 2025-03-23 01:07:32 --> File loaded: C:\xampp\htdocs\synap\application\controllers/../modules/paypal/controllers/Paypal.php
+DEBUG - 2025-03-23 01:07:32 --> Paypal MX_Controller Initialized
+ERROR - 2025-03-23 01:07:32 --> Could not find the language line ""
+ERROR - 2025-03-23 01:07:32 --> Could not find the language line ""
+ERROR - 2025-03-23 01:07:32 --> Could not find the language line ""
+ERROR - 2025-03-23 01:07:32 --> Could not find the language line ""
+ERROR - 2025-03-23 01:07:32 --> Could not find the language line ""
+INFO - 2025-03-23 01:07:32 --> Final output sent to browser
+DEBUG - 2025-03-23 01:07:32 --> Total execution time: 1.3587
+INFO - 2025-03-23 01:07:32 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-23 01:07:32 --> Controller Class Initialized
+DEBUG - 2025-03-23 01:07:32 --> Config file loaded: C:\xampp\htdocs\synap\application\config/ion_auth.php
+INFO - 2025-03-23 01:07:32 --> Language file loaded: language/english/ion_auth_lang.php
+INFO - 2025-03-23 01:07:32 --> Helper loaded: cookie_helper
+INFO - 2025-03-23 01:07:32 --> Helper loaded: language_helper
+INFO - 2025-03-23 01:07:32 --> Helper loaded: date_helper
+INFO - 2025-03-23 01:07:32 --> Model "Ion_auth_model" initialized
+DEBUG - 2025-03-23 01:07:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/email/models/Email_model.php
+DEBUG - 2025-03-23 01:07:32 --> Email Class Initialized
+INFO - 2025-03-23 01:07:32 --> Helper loaded: form_helper
+INFO - 2025-03-23 01:07:32 --> Form Validation Class Initialized
+INFO - 2025-03-23 01:07:32 --> Upload Class Initialized
+INFO - 2025-03-23 01:07:32 --> Language file loaded: language/spanish/system_syntax_lang.php
+DEBUG - 2025-03-23 01:07:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/models/Home_model.php
+DEBUG - 2025-03-23 01:07:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/settings/models/Settings_model.php
+DEBUG - 2025-03-23 01:07:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/sms/models/Sms_model.php
+DEBUG - 2025-03-23 01:07:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/logs/models/Logs_model.php
+INFO - 2025-03-23 01:07:32 --> Parser Class Initialized
+INFO - 2025-03-23 01:07:32 --> Helper loaded: security_helper
+DEBUG - 2025-03-23 01:07:32 --> Appointment MX_Controller Initialized
+DEBUG - 2025-03-23 01:07:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/appointment/models/Appointment_model.php
+DEBUG - 2025-03-23 01:07:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctor_model.php
+DEBUG - 2025-03-23 01:07:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/patient/models/Patient_model.php
+DEBUG - 2025-03-23 01:07:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/pgateway/models/Pgateway_model.php
+DEBUG - 2025-03-23 01:07:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/finance/models/Finance_model.php
+DEBUG - 2025-03-23 01:07:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctorvisit_model.php
+DEBUG - 2025-03-23 01:07:32 --> File loaded: C:\xampp\htdocs\synap\application\controllers/../modules/sms/controllers/Sms.php
+DEBUG - 2025-03-23 01:07:32 --> Sms MX_Controller Initialized
+DEBUG - 2025-03-23 01:07:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/donor/models/Donor_model.php
+DEBUG - 2025-03-23 01:07:32 --> File loaded: C:\xampp\htdocs\synap\application\controllers/../modules/paypal/controllers/Paypal.php
+DEBUG - 2025-03-23 01:07:32 --> Paypal MX_Controller Initialized
+INFO - 2025-03-23 01:07:32 --> Final output sent to browser
+DEBUG - 2025-03-23 01:07:32 --> Total execution time: 1.3569
+INFO - 2025-03-23 01:07:32 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-23 01:07:32 --> Controller Class Initialized
+DEBUG - 2025-03-23 01:07:32 --> Config file loaded: C:\xampp\htdocs\synap\application\config/ion_auth.php
+INFO - 2025-03-23 01:07:32 --> Language file loaded: language/english/ion_auth_lang.php
+INFO - 2025-03-23 01:07:32 --> Helper loaded: cookie_helper
+INFO - 2025-03-23 01:07:32 --> Helper loaded: language_helper
+INFO - 2025-03-23 01:07:32 --> Helper loaded: date_helper
+INFO - 2025-03-23 01:07:32 --> Model "Ion_auth_model" initialized
+DEBUG - 2025-03-23 01:07:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/email/models/Email_model.php
+DEBUG - 2025-03-23 01:07:32 --> Email Class Initialized
+INFO - 2025-03-23 01:07:32 --> Helper loaded: form_helper
+INFO - 2025-03-23 01:07:32 --> Form Validation Class Initialized
+INFO - 2025-03-23 01:07:32 --> Upload Class Initialized
+INFO - 2025-03-23 01:07:32 --> Language file loaded: language/spanish/system_syntax_lang.php
+DEBUG - 2025-03-23 01:07:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/models/Home_model.php
+DEBUG - 2025-03-23 01:07:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/settings/models/Settings_model.php
+DEBUG - 2025-03-23 01:07:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/sms/models/Sms_model.php
+DEBUG - 2025-03-23 01:07:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/logs/models/Logs_model.php
+INFO - 2025-03-23 01:07:32 --> Parser Class Initialized
+INFO - 2025-03-23 01:07:32 --> Helper loaded: security_helper
+DEBUG - 2025-03-23 01:07:32 --> Appointment MX_Controller Initialized
+DEBUG - 2025-03-23 01:07:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/appointment/models/Appointment_model.php
+DEBUG - 2025-03-23 01:07:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctor_model.php
+DEBUG - 2025-03-23 01:07:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/patient/models/Patient_model.php
+DEBUG - 2025-03-23 01:07:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/pgateway/models/Pgateway_model.php
+DEBUG - 2025-03-23 01:07:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/finance/models/Finance_model.php
+DEBUG - 2025-03-23 01:07:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctorvisit_model.php
+DEBUG - 2025-03-23 01:07:32 --> File loaded: C:\xampp\htdocs\synap\application\controllers/../modules/sms/controllers/Sms.php
+DEBUG - 2025-03-23 01:07:32 --> Sms MX_Controller Initialized
+DEBUG - 2025-03-23 01:07:32 --> File loaded: C:\xampp\htdocs\synap\application\modules/donor/models/Donor_model.php
+DEBUG - 2025-03-23 01:07:32 --> File loaded: C:\xampp\htdocs\synap\application\controllers/../modules/paypal/controllers/Paypal.php
+DEBUG - 2025-03-23 01:07:32 --> Paypal MX_Controller Initialized
+INFO - 2025-03-23 01:07:32 --> Final output sent to browser
+DEBUG - 2025-03-23 01:07:32 --> Total execution time: 0.9125
+INFO - 2025-03-23 01:07:35 --> Config Class Initialized
+INFO - 2025-03-23 01:07:35 --> Hooks Class Initialized
+DEBUG - 2025-03-23 01:07:35 --> UTF-8 Support Enabled
+INFO - 2025-03-23 01:07:35 --> Utf8 Class Initialized
+INFO - 2025-03-23 01:07:35 --> URI Class Initialized
+INFO - 2025-03-23 01:07:35 --> Router Class Initialized
+INFO - 2025-03-23 01:07:35 --> Output Class Initialized
+INFO - 2025-03-23 01:07:35 --> Security Class Initialized
+DEBUG - 2025-03-23 01:07:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-23 01:07:35 --> Input Class Initialized
+INFO - 2025-03-23 01:07:35 --> Language Class Initialized
+INFO - 2025-03-23 01:07:35 --> Language Class Initialized
+INFO - 2025-03-23 01:07:35 --> Config Class Initialized
+INFO - 2025-03-23 01:07:35 --> Loader Class Initialized
+INFO - 2025-03-23 01:07:35 --> Helper loaded: url_helper
+INFO - 2025-03-23 01:07:35 --> Helper loaded: file_helper
+INFO - 2025-03-23 01:07:35 --> Database Driver Class Initialized
+INFO - 2025-03-23 01:07:35 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-23 01:07:35 --> Controller Class Initialized
+DEBUG - 2025-03-23 01:07:35 --> Config file loaded: C:\xampp\htdocs\synap\application\config/ion_auth.php
+INFO - 2025-03-23 01:07:35 --> Language file loaded: language/english/ion_auth_lang.php
+INFO - 2025-03-23 01:07:35 --> Helper loaded: cookie_helper
+INFO - 2025-03-23 01:07:35 --> Helper loaded: language_helper
+INFO - 2025-03-23 01:07:35 --> Helper loaded: date_helper
+INFO - 2025-03-23 01:07:35 --> Model "Ion_auth_model" initialized
+DEBUG - 2025-03-23 01:07:35 --> File loaded: C:\xampp\htdocs\synap\application\modules/email/models/Email_model.php
+DEBUG - 2025-03-23 01:07:35 --> Email Class Initialized
+INFO - 2025-03-23 01:07:35 --> Helper loaded: form_helper
+INFO - 2025-03-23 01:07:35 --> Form Validation Class Initialized
+INFO - 2025-03-23 01:07:35 --> Upload Class Initialized
+INFO - 2025-03-23 01:07:35 --> Language file loaded: language/spanish/system_syntax_lang.php
+DEBUG - 2025-03-23 01:07:35 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/models/Home_model.php
+DEBUG - 2025-03-23 01:07:35 --> File loaded: C:\xampp\htdocs\synap\application\modules/settings/models/Settings_model.php
+DEBUG - 2025-03-23 01:07:35 --> File loaded: C:\xampp\htdocs\synap\application\modules/sms/models/Sms_model.php
+DEBUG - 2025-03-23 01:07:35 --> File loaded: C:\xampp\htdocs\synap\application\modules/logs/models/Logs_model.php
+INFO - 2025-03-23 01:07:35 --> Parser Class Initialized
+INFO - 2025-03-23 01:07:35 --> Helper loaded: security_helper
+DEBUG - 2025-03-23 01:07:35 --> Doctor MX_Controller Initialized
+DEBUG - 2025-03-23 01:07:35 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctor_model.php
+DEBUG - 2025-03-23 01:07:35 --> File loaded: C:\xampp\htdocs\synap\application\modules/department/models/Department_model.php
+DEBUG - 2025-03-23 01:07:35 --> File loaded: C:\xampp\htdocs\synap\application\modules/appointment/models/Appointment_model.php
+DEBUG - 2025-03-23 01:07:35 --> File loaded: C:\xampp\htdocs\synap\application\modules/patient/models/Patient_model.php
+DEBUG - 2025-03-23 01:07:35 --> File loaded: C:\xampp\htdocs\synap\application\modules/prescription/models/Prescription_model.php
+DEBUG - 2025-03-23 01:07:35 --> File loaded: C:\xampp\htdocs\synap\application\modules/schedule/models/Schedule_model.php
+DEBUG - 2025-03-23 01:07:35 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctorvisit_model.php
+DEBUG - 2025-03-23 01:07:35 --> File loaded: C:\xampp\htdocs\synap\application\controllers/../modules/patient/controllers/Patient.php
+DEBUG - 2025-03-23 01:07:35 --> Patient MX_Controller Initialized
+DEBUG - 2025-03-23 01:07:35 --> File loaded: C:\xampp\htdocs\synap\application\modules/donor/models/Donor_model.php
+DEBUG - 2025-03-23 01:07:35 --> File loaded: C:\xampp\htdocs\synap\application\modules/bed/models/Bed_model.php
+DEBUG - 2025-03-23 01:07:35 --> File loaded: C:\xampp\htdocs\synap\application\modules/lab/models/Lab_model.php
+DEBUG - 2025-03-23 01:07:35 --> File loaded: C:\xampp\htdocs\synap\application\modules/finance/models/Finance_model.php
+DEBUG - 2025-03-23 01:07:35 --> File loaded: C:\xampp\htdocs\synap\application\modules/finance/models/Pharmacy_model.php
+DEBUG - 2025-03-23 01:07:35 --> File loaded: C:\xampp\htdocs\synap\application\controllers/../modules/sms/controllers/Sms.php
+DEBUG - 2025-03-23 01:07:35 --> Sms MX_Controller Initialized
+DEBUG - 2025-03-23 01:07:35 --> File loaded: C:\xampp\htdocs\synap\application\modules/medicine/models/Medicine_model.php
+DEBUG - 2025-03-23 01:07:35 --> File loaded: C:\xampp\htdocs\synap\application\modules/pgateway/models/Pgateway_model.php
+DEBUG - 2025-03-23 01:07:35 --> File loaded: C:\xampp\htdocs\synap\application\controllers/../modules/paypal/controllers/Paypal.php
+DEBUG - 2025-03-23 01:07:35 --> Paypal MX_Controller Initialized
+INFO - 2025-03-23 01:07:35 --> Final output sent to browser
+DEBUG - 2025-03-23 01:07:35 --> Total execution time: 0.2192
+INFO - 2025-03-23 01:07:36 --> Config Class Initialized
+INFO - 2025-03-23 01:07:36 --> Hooks Class Initialized
+DEBUG - 2025-03-23 01:07:36 --> UTF-8 Support Enabled
+INFO - 2025-03-23 01:07:36 --> Utf8 Class Initialized
+INFO - 2025-03-23 01:07:36 --> URI Class Initialized
+INFO - 2025-03-23 01:07:36 --> Config Class Initialized
+INFO - 2025-03-23 01:07:36 --> Router Class Initialized
+INFO - 2025-03-23 01:07:36 --> Hooks Class Initialized
+INFO - 2025-03-23 01:07:36 --> Output Class Initialized
+INFO - 2025-03-23 01:07:36 --> Security Class Initialized
+DEBUG - 2025-03-23 01:07:36 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2025-03-23 01:07:36 --> UTF-8 Support Enabled
+INFO - 2025-03-23 01:07:36 --> Utf8 Class Initialized
+INFO - 2025-03-23 01:07:36 --> Input Class Initialized
+INFO - 2025-03-23 01:07:36 --> URI Class Initialized
+INFO - 2025-03-23 01:07:36 --> Language Class Initialized
+INFO - 2025-03-23 01:07:36 --> Config Class Initialized
+INFO - 2025-03-23 01:07:36 --> Router Class Initialized
+INFO - 2025-03-23 01:07:36 --> Hooks Class Initialized
+INFO - 2025-03-23 01:07:36 --> Language Class Initialized
+INFO - 2025-03-23 01:07:36 --> Config Class Initialized
+DEBUG - 2025-03-23 01:07:36 --> UTF-8 Support Enabled
+INFO - 2025-03-23 01:07:36 --> Output Class Initialized
+INFO - 2025-03-23 01:07:36 --> Utf8 Class Initialized
+INFO - 2025-03-23 01:07:36 --> Security Class Initialized
+INFO - 2025-03-23 01:07:36 --> Loader Class Initialized
+INFO - 2025-03-23 01:07:36 --> URI Class Initialized
+DEBUG - 2025-03-23 01:07:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-23 01:07:36 --> Input Class Initialized
+INFO - 2025-03-23 01:07:36 --> Language Class Initialized
+INFO - 2025-03-23 01:07:36 --> Helper loaded: url_helper
+INFO - 2025-03-23 01:07:36 --> Router Class Initialized
+INFO - 2025-03-23 01:07:36 --> Language Class Initialized
+INFO - 2025-03-23 01:07:36 --> Helper loaded: file_helper
+INFO - 2025-03-23 01:07:36 --> Config Class Initialized
+INFO - 2025-03-23 01:07:36 --> Loader Class Initialized
+INFO - 2025-03-23 01:07:36 --> Database Driver Class Initialized
+INFO - 2025-03-23 01:07:36 --> Helper loaded: url_helper
+INFO - 2025-03-23 01:07:36 --> Helper loaded: file_helper
+INFO - 2025-03-23 01:07:36 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-23 01:07:36 --> Controller Class Initialized
+INFO - 2025-03-23 01:07:36 --> Output Class Initialized
+DEBUG - 2025-03-23 01:07:36 --> Config file loaded: C:\xampp\htdocs\synap\application\config/ion_auth.php
+INFO - 2025-03-23 01:07:36 --> Security Class Initialized
+INFO - 2025-03-23 01:07:36 --> Language file loaded: language/english/ion_auth_lang.php
+INFO - 2025-03-23 01:07:36 --> Helper loaded: cookie_helper
+DEBUG - 2025-03-23 01:07:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-23 01:07:36 --> Helper loaded: language_helper
+INFO - 2025-03-23 01:07:36 --> Input Class Initialized
+INFO - 2025-03-23 01:07:36 --> Database Driver Class Initialized
+INFO - 2025-03-23 01:07:36 --> Language Class Initialized
+INFO - 2025-03-23 01:07:36 --> Helper loaded: date_helper
+INFO - 2025-03-23 01:07:36 --> Language Class Initialized
+INFO - 2025-03-23 01:07:36 --> Config Class Initialized
+INFO - 2025-03-23 01:07:36 --> Model "Ion_auth_model" initialized
+DEBUG - 2025-03-23 01:07:36 --> File loaded: C:\xampp\htdocs\synap\application\modules/email/models/Email_model.php
+INFO - 2025-03-23 01:07:36 --> Loader Class Initialized
+INFO - 2025-03-23 01:07:36 --> Helper loaded: url_helper
+DEBUG - 2025-03-23 01:07:36 --> Email Class Initialized
+INFO - 2025-03-23 01:07:36 --> Helper loaded: file_helper
+INFO - 2025-03-23 01:07:36 --> Helper loaded: form_helper
+INFO - 2025-03-23 01:07:36 --> Form Validation Class Initialized
+INFO - 2025-03-23 01:07:36 --> Upload Class Initialized
+INFO - 2025-03-23 01:07:36 --> Database Driver Class Initialized
+INFO - 2025-03-23 01:07:36 --> Language file loaded: language/spanish/system_syntax_lang.php
+DEBUG - 2025-03-23 01:07:36 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/models/Home_model.php
+DEBUG - 2025-03-23 01:07:36 --> File loaded: C:\xampp\htdocs\synap\application\modules/settings/models/Settings_model.php
+DEBUG - 2025-03-23 01:07:36 --> File loaded: C:\xampp\htdocs\synap\application\modules/sms/models/Sms_model.php
+DEBUG - 2025-03-23 01:07:36 --> File loaded: C:\xampp\htdocs\synap\application\modules/logs/models/Logs_model.php
+INFO - 2025-03-23 01:07:36 --> Parser Class Initialized
+INFO - 2025-03-23 01:07:36 --> Helper loaded: security_helper
+DEBUG - 2025-03-23 01:07:36 --> Schedule MX_Controller Initialized
+DEBUG - 2025-03-23 01:07:36 --> File loaded: C:\xampp\htdocs\synap\application\modules/schedule/models/Schedule_model.php
+DEBUG - 2025-03-23 01:07:36 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctor_model.php
+DEBUG - 2025-03-23 01:07:36 --> File loaded: C:\xampp\htdocs\synap\application\modules/appointment/models/Appointment_model.php
+ERROR - 2025-03-23 01:07:36 --> Severity: error --> Exception: strftime(): Argument #2 ($timestamp) must be of type ?int, string given C:\xampp\htdocs\synap\application\modules\schedule\models\Schedule_model.php 119
+INFO - 2025-03-23 01:07:36 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-23 01:07:36 --> Controller Class Initialized
+DEBUG - 2025-03-23 01:07:36 --> Config file loaded: C:\xampp\htdocs\synap\application\config/ion_auth.php
+INFO - 2025-03-23 01:07:36 --> Language file loaded: language/english/ion_auth_lang.php
+INFO - 2025-03-23 01:07:36 --> Helper loaded: cookie_helper
+INFO - 2025-03-23 01:07:36 --> Helper loaded: language_helper
+INFO - 2025-03-23 01:07:36 --> Helper loaded: date_helper
+INFO - 2025-03-23 01:07:36 --> Model "Ion_auth_model" initialized
+DEBUG - 2025-03-23 01:07:36 --> File loaded: C:\xampp\htdocs\synap\application\modules/email/models/Email_model.php
+DEBUG - 2025-03-23 01:07:36 --> Email Class Initialized
+INFO - 2025-03-23 01:07:36 --> Helper loaded: form_helper
+INFO - 2025-03-23 01:07:36 --> Form Validation Class Initialized
+INFO - 2025-03-23 01:07:36 --> Upload Class Initialized
+INFO - 2025-03-23 01:07:36 --> Language file loaded: language/spanish/system_syntax_lang.php
+DEBUG - 2025-03-23 01:07:36 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/models/Home_model.php
+DEBUG - 2025-03-23 01:07:36 --> File loaded: C:\xampp\htdocs\synap\application\modules/settings/models/Settings_model.php
+DEBUG - 2025-03-23 01:07:36 --> File loaded: C:\xampp\htdocs\synap\application\modules/sms/models/Sms_model.php
+DEBUG - 2025-03-23 01:07:36 --> File loaded: C:\xampp\htdocs\synap\application\modules/logs/models/Logs_model.php
+INFO - 2025-03-23 01:07:36 --> Parser Class Initialized
+INFO - 2025-03-23 01:07:36 --> Helper loaded: security_helper
+DEBUG - 2025-03-23 01:07:36 --> Schedule MX_Controller Initialized
+DEBUG - 2025-03-23 01:07:36 --> File loaded: C:\xampp\htdocs\synap\application\modules/schedule/models/Schedule_model.php
+DEBUG - 2025-03-23 01:07:36 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctor_model.php
+DEBUG - 2025-03-23 01:07:36 --> File loaded: C:\xampp\htdocs\synap\application\modules/appointment/models/Appointment_model.php
+INFO - 2025-03-23 01:07:36 --> Final output sent to browser
+DEBUG - 2025-03-23 01:07:36 --> Total execution time: 0.2442
+INFO - 2025-03-23 01:07:36 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-23 01:07:36 --> Controller Class Initialized
+DEBUG - 2025-03-23 01:07:36 --> Config file loaded: C:\xampp\htdocs\synap\application\config/ion_auth.php
+INFO - 2025-03-23 01:07:36 --> Language file loaded: language/english/ion_auth_lang.php
+INFO - 2025-03-23 01:07:36 --> Helper loaded: cookie_helper
+INFO - 2025-03-23 01:07:36 --> Helper loaded: language_helper
+INFO - 2025-03-23 01:07:36 --> Helper loaded: date_helper
+INFO - 2025-03-23 01:07:36 --> Model "Ion_auth_model" initialized
+DEBUG - 2025-03-23 01:07:36 --> File loaded: C:\xampp\htdocs\synap\application\modules/email/models/Email_model.php
+DEBUG - 2025-03-23 01:07:36 --> Email Class Initialized
+INFO - 2025-03-23 01:07:36 --> Helper loaded: form_helper
+INFO - 2025-03-23 01:07:36 --> Form Validation Class Initialized
+INFO - 2025-03-23 01:07:36 --> Upload Class Initialized
+INFO - 2025-03-23 01:07:36 --> Language file loaded: language/spanish/system_syntax_lang.php
+DEBUG - 2025-03-23 01:07:36 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/models/Home_model.php
+DEBUG - 2025-03-23 01:07:36 --> File loaded: C:\xampp\htdocs\synap\application\modules/settings/models/Settings_model.php
+DEBUG - 2025-03-23 01:07:36 --> File loaded: C:\xampp\htdocs\synap\application\modules/sms/models/Sms_model.php
+DEBUG - 2025-03-23 01:07:36 --> File loaded: C:\xampp\htdocs\synap\application\modules/logs/models/Logs_model.php
+INFO - 2025-03-23 01:07:36 --> Parser Class Initialized
+INFO - 2025-03-23 01:07:36 --> Helper loaded: security_helper
+DEBUG - 2025-03-23 01:07:36 --> Doctor MX_Controller Initialized
+DEBUG - 2025-03-23 01:07:36 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctor_model.php
+DEBUG - 2025-03-23 01:07:36 --> File loaded: C:\xampp\htdocs\synap\application\modules/department/models/Department_model.php
+DEBUG - 2025-03-23 01:07:36 --> File loaded: C:\xampp\htdocs\synap\application\modules/appointment/models/Appointment_model.php
+DEBUG - 2025-03-23 01:07:36 --> File loaded: C:\xampp\htdocs\synap\application\modules/patient/models/Patient_model.php
+DEBUG - 2025-03-23 01:07:36 --> File loaded: C:\xampp\htdocs\synap\application\modules/prescription/models/Prescription_model.php
+DEBUG - 2025-03-23 01:07:36 --> File loaded: C:\xampp\htdocs\synap\application\modules/schedule/models/Schedule_model.php
+DEBUG - 2025-03-23 01:07:36 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctorvisit_model.php
+DEBUG - 2025-03-23 01:07:36 --> File loaded: C:\xampp\htdocs\synap\application\controllers/../modules/patient/controllers/Patient.php
+DEBUG - 2025-03-23 01:07:36 --> Patient MX_Controller Initialized
+DEBUG - 2025-03-23 01:07:36 --> File loaded: C:\xampp\htdocs\synap\application\modules/donor/models/Donor_model.php
+DEBUG - 2025-03-23 01:07:36 --> File loaded: C:\xampp\htdocs\synap\application\modules/bed/models/Bed_model.php
+DEBUG - 2025-03-23 01:07:36 --> File loaded: C:\xampp\htdocs\synap\application\modules/lab/models/Lab_model.php
+DEBUG - 2025-03-23 01:07:36 --> File loaded: C:\xampp\htdocs\synap\application\modules/finance/models/Finance_model.php
+DEBUG - 2025-03-23 01:07:36 --> File loaded: C:\xampp\htdocs\synap\application\modules/finance/models/Pharmacy_model.php
+DEBUG - 2025-03-23 01:07:36 --> File loaded: C:\xampp\htdocs\synap\application\controllers/../modules/sms/controllers/Sms.php
+DEBUG - 2025-03-23 01:07:36 --> Sms MX_Controller Initialized
+DEBUG - 2025-03-23 01:07:36 --> File loaded: C:\xampp\htdocs\synap\application\modules/medicine/models/Medicine_model.php
+DEBUG - 2025-03-23 01:07:36 --> File loaded: C:\xampp\htdocs\synap\application\modules/pgateway/models/Pgateway_model.php
+DEBUG - 2025-03-23 01:07:36 --> File loaded: C:\xampp\htdocs\synap\application\controllers/../modules/paypal/controllers/Paypal.php
+DEBUG - 2025-03-23 01:07:36 --> Paypal MX_Controller Initialized
+INFO - 2025-03-23 01:07:36 --> Final output sent to browser
+DEBUG - 2025-03-23 01:07:36 --> Total execution time: 0.3644
+INFO - 2025-03-23 01:07:48 --> Config Class Initialized
+INFO - 2025-03-23 01:07:48 --> Hooks Class Initialized
+DEBUG - 2025-03-23 01:07:48 --> UTF-8 Support Enabled
+INFO - 2025-03-23 01:07:48 --> Utf8 Class Initialized
+INFO - 2025-03-23 01:07:48 --> URI Class Initialized
+INFO - 2025-03-23 01:07:48 --> Router Class Initialized
+INFO - 2025-03-23 01:07:48 --> Output Class Initialized
+INFO - 2025-03-23 01:07:48 --> Security Class Initialized
+DEBUG - 2025-03-23 01:07:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2025-03-23 01:07:48 --> Input Class Initialized
+INFO - 2025-03-23 01:07:48 --> Language Class Initialized
+INFO - 2025-03-23 01:07:48 --> Language Class Initialized
+INFO - 2025-03-23 01:07:48 --> Config Class Initialized
+INFO - 2025-03-23 01:07:48 --> Loader Class Initialized
+INFO - 2025-03-23 01:07:48 --> Helper loaded: url_helper
+INFO - 2025-03-23 01:07:48 --> Helper loaded: file_helper
+INFO - 2025-03-23 01:07:48 --> Database Driver Class Initialized
+INFO - 2025-03-23 01:07:48 --> Session: Class initialized using 'files' driver.
+INFO - 2025-03-23 01:07:48 --> Controller Class Initialized
+DEBUG - 2025-03-23 01:07:48 --> Config file loaded: C:\xampp\htdocs\synap\application\config/ion_auth.php
+INFO - 2025-03-23 01:07:48 --> Language file loaded: language/english/ion_auth_lang.php
+INFO - 2025-03-23 01:07:48 --> Helper loaded: cookie_helper
+INFO - 2025-03-23 01:07:48 --> Helper loaded: language_helper
+INFO - 2025-03-23 01:07:48 --> Helper loaded: date_helper
+INFO - 2025-03-23 01:07:48 --> Model "Ion_auth_model" initialized
+DEBUG - 2025-03-23 01:07:48 --> File loaded: C:\xampp\htdocs\synap\application\modules/email/models/Email_model.php
+DEBUG - 2025-03-23 01:07:48 --> Email Class Initialized
+INFO - 2025-03-23 01:07:48 --> Helper loaded: form_helper
+INFO - 2025-03-23 01:07:48 --> Form Validation Class Initialized
+INFO - 2025-03-23 01:07:48 --> Upload Class Initialized
+INFO - 2025-03-23 01:07:48 --> Language file loaded: language/spanish/system_syntax_lang.php
+DEBUG - 2025-03-23 01:07:48 --> File loaded: C:\xampp\htdocs\synap\application\modules/home/models/Home_model.php
+DEBUG - 2025-03-23 01:07:48 --> File loaded: C:\xampp\htdocs\synap\application\modules/settings/models/Settings_model.php
+DEBUG - 2025-03-23 01:07:48 --> File loaded: C:\xampp\htdocs\synap\application\modules/sms/models/Sms_model.php
+DEBUG - 2025-03-23 01:07:48 --> File loaded: C:\xampp\htdocs\synap\application\modules/logs/models/Logs_model.php
+INFO - 2025-03-23 01:07:48 --> Parser Class Initialized
+INFO - 2025-03-23 01:07:48 --> Helper loaded: security_helper
+DEBUG - 2025-03-23 01:07:48 --> Schedule MX_Controller Initialized
+DEBUG - 2025-03-23 01:07:48 --> File loaded: C:\xampp\htdocs\synap\application\modules/schedule/models/Schedule_model.php
+DEBUG - 2025-03-23 01:07:48 --> File loaded: C:\xampp\htdocs\synap\application\modules/doctor/models/Doctor_model.php
+DEBUG - 2025-03-23 01:07:48 --> File loaded: C:\xampp\htdocs\synap\application\modules/appointment/models/Appointment_model.php
+INFO - 2025-03-23 01:07:48 --> Final output sent to browser
+DEBUG - 2025-03-23 01:07:48 --> Total execution time: 0.1294

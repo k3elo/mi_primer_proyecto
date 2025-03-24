@@ -4,7 +4,13 @@
 <section id="main-content">
     <section class="wrapper site-min-height">
         <!-- page start-->
-          <link href="common/extranal/css/appointment/appointment.css" rel="stylesheet">
+            <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+
+            <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+            <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+
+
+            <link href="common/extranal/css/appointment/appointment.css" rel="stylesheet">
         
         <section class="panel">
             <header class="panel-heading">
@@ -753,6 +759,9 @@
 
 <script src="common/js/codearistos.min.js"></script>
 <script src="common/js/moment.min.js"></script>
+
+
+
 <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
 <script type="text/javascript" src="https://www.2checkout.com/checkout/api/2co.min.js"></script>
 <script type="text/javascript">var publish = "<?php echo $gateway->publish; ?>";</script>
