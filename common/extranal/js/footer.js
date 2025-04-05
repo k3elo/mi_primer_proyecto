@@ -59,7 +59,7 @@ $(".default-date-picker").datepicker({
   language: langdate,
 });
 
-$("#date").on("changeDate", function () {
+/* $("#date").on("changeDate", function () {
   "use strict";
 
   $("#date").datepicker("hide", {
@@ -69,7 +69,7 @@ $("#date").on("changeDate", function () {
     startDate: "01-01-1900",
     language: langdate,
   });
-});
+}); */
 
 $("#date1").on("changeDate", function () {
   "use strict";

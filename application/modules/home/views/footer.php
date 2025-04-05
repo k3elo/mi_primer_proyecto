@@ -23,6 +23,8 @@
 <script  type="text/javascript" src="common/assets/DataTables/vfs_fonts.js"></script>
 <script  type="text/javascript" src="common/assets/DataTables/datatables.min.js"></script>
 
+<!-- Asegúrate de que jQuery UI se cargue ANTES de bootstrap-datepicker.js -->
+<script src="common/assets/jquery-ui/jquery-ui-1.10.1.custom.min.js"></script>
 
 <script src="common/js/respond.min.js" ></script>
 <script type="text/javascript" src="common/assets/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
@@ -103,6 +105,9 @@ if ($language == 'english') {
             });
         })
 </script>
+<!-- Mueve appointment.js DESPUÉS de bootstrap-datepicker.js y langdate -->
+<script src="common/extranal/js/appointment/appointment.js"></script>
+
 <script src="common/extranal/js/footer.js"></script>
 
 

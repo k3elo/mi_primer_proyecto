@@ -4,11 +4,16 @@
 <section id="main-content">
     <section class="wrapper site-min-height">
         <!-- page start-->
-            <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+            <!-- <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
 
             <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-            <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+            <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script> -->
 
+
+            <link
+            rel="stylesheet"
+            href="common/assets/jquery-ui/jquery-ui-1.10.1.custom.css"
+            />
 
             <link href="common/extranal/css/appointment/appointment.css" rel="stylesheet">
         
@@ -331,11 +336,11 @@
                         <label for="exampleInputEmail1"> <?php echo lang('date'); ?></label>
                         <input 
                             type="text" 
-                            class="form-control default-date-picker" 
-                            id="date" 
+                            class="form-control " 
+                            id="fechadisponible" 
                             required 
                             readonly 
-                            name="date" 
+                            name="fechadisponible" 
                             value=""
                             placeholder="<?php echo lang('select_date'); ?>"
                         >
@@ -775,5 +780,5 @@
 <script type="text/javascript">var select_patient = "<?php echo lang('select_patient'); ?>";</script>
 <script type="text/javascript">var language = "<?php echo $this->language; ?>";</script>
 
-<script src="common/extranal/js/appointment/appointment.js"></script>
+<!-- <script src="common/extranal/js/appointment/appointment.js"></script> -->
 <script src="common/extranal/js/appointment/appointment_select2.js"></script>
