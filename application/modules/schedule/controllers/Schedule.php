@@ -972,7 +972,9 @@ class Schedule extends MX_Controller {
             $date = strtotime($date);
         }
         $doctor = $this->input->get('doctor');
-        $data['aslots'] = $this->schedule_model->getAvailableSlotByDoctorByDate($date, $doctor);
+        /* $data['aslots'] = $this->schedule_model->getAvailableSlotByDoctorByDate($date, $doctor);
+        echo json_encode($data); */
+        $data['aslots'] = array_values($this->schedule_model->getAvailableSlotByDoctorByDate($date, $doctor));
         echo json_encode($data);
     }
 

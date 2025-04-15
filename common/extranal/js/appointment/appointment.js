@@ -305,93 +305,98 @@ $(document).ready(function () {
 
 
   function DisableDates(date) {
-    /* debugger; */
-    console.log("disabledate ejecutado");// Mostrar en la consola
-    console.log("Días que llega a disabledates:", date);
+    console.log("Verificando disponibilidad para:", date);
 
-    if (typeof $.datepicker === "undefined") {
-      console.error("$.datepicker is not defined!");
-      return [false, "", "Datepicker is not available"]; // O alguna otra acción por defecto
+    // Verificar que tengamos datos válidos
+    if (!Array.isArray(availableDates)) {
+        console.error("availableDates no es un array:", availableDates);
+        return {
+            enabled: false,
+            classes: 'unavailable-day'
+        };
     }
 
-    if (!(date instanceof Date)) {
-      console.error("Invalid date object:", date);
-      return [false, "", "Invalid date"]; // O alguna otra acción por defecto
-    }
+    // Convertir la fecha a formato YYYY-MM-DD para comparar
+    var currentDate = new Date(date.getFullYear(), date.getMonth(), date.getDate());
+    currentDate.setHours(0,0,0,0);
 
-    var isAvailable = availableDates.some(function (availableDate) {
-      return (
-        date.getDate() === availableDate.getDate() &&
-        date.getMonth() === availableDate.getMonth() &&
-        date.getFullYear() === availableDate.getFullYear()
-      );
+    var isAvailable = availableDates.some(function(availableDate) {
+        var compareDate = new Date(availableDate);
+        compareDate.setHours(0,0,0,0);
+        return currentDate.getTime() === compareDate.getTime();
     });
 
+    console.log("¿Está disponible?:", isAvailable, "para fecha:", date);
+
     if (isAvailable) {
-      console.log("true - Día disponible:", date);
-      return {
-        enabled: true,
-        classes: 'available-day' // Agregar clase para estilos CSS
-      };
+        return {
+            enabled: true,
+            classes: 'available-day'
+        };
     } else {
-      console.log("false - Día no disponible:", date);
-      return {
-        enabled: false,
-        classes: 'unavailable-day' // Agregar clase para estilos CSS
-      };
+        return {
+            enabled: false,
+            classes: 'unavailable-day'
+        };
     }
   }
   
   // Función para obtener los días disponibles desde el servidor
   function fetchAvailableDates(doctorId) {
+    if (!doctorId) {
+        console.log("Doctor ID no proporcionado");
+        return;
+    }
+
     $.ajax({
-      url: "schedule/getAvailableDatesByDoctor?doctor=" + doctorId,
-      method: "GET",
-      dataType: "json",
-      success: function (response) {
-        console.log("Días disponibles:", response.availableDates);
-        availableDates = response.availableDates; // Almacenar los días disponibles
-        //availableDates = ["15-04-2025", "16-04-2025", "17-04-2025"];
-        //console.log("Días teeest:", availableDates);
-        
-        // Convertir las fechas a objetos Date
-        availableDates = availableDates.map(function (dateString) {
-          var parts = dateString.split("-");
-          return new Date(parts[0], parts[1] - 1, parts[2]); // año, mes, día
-        });
+        url: "schedule/getAvailableDatesByDoctor?doctor=" + doctorId,
+        method: "GET",
+        dataType: "json",
+        success: function (response) {
+            if (response.error) {
+                console.error("Error:", response.error);
+                return;
+            }
 
-        // Inicializar o actualizar el datepicker
-        if (availableDates.length > 0) {
-          if (!datepickerInitialized) {
-            $("#fechadisponible").datepicker({
-              format: 'dd-mm-yyyy',
-              autoclose: true,
-              language: 'es',
-              beforeShowDay: DisableDates,
-              todayHighlight: true,
-              startDate: new Date()
-            }).on("changeDate", dateChanged);
-            datepickerInitialized = true; // Marcar como inicializado
-          } else {
-            // Si ya está inicializado, actualizar la opción beforeShowDay y refrescar
-            $("#fechadisponible").datepicker('option', 'beforeShowDay', DisableDates);
-            $("#fechadisponible").datepicker("refresh"); // Refrescar el datepicker
-          }
-        } else {
-          // Si no hay días disponibles, destruir el datepicker
-          if (datepickerInitialized) {
-            $("#fechadisponible").datepicker('destroy');
-            datepickerInitialized = false;
-          }
+            console.log("Días disponibles con slots:", response.availableDates);
+            availableDates = response.availableDates;
+
+            // Convertir las fechas a objetos Date
+            availableDates = availableDates.map(function (dateString) {
+                var parts = dateString.split("-");
+                return new Date(parts[2], parts[1] - 1, parts[0]); // año, mes, día
+            });
+
+            // Inicializar o actualizar el datepicker
+            if (availableDates.length > 0) {
+                if (!datepickerInitialized) {
+                    $("#fechadisponible").datepicker({
+                        format: 'dd-mm-yyyy',
+                        autoclose: true,
+                        language: 'es',
+                        beforeShowDay: DisableDates,
+                        todayHighlight: true,
+                        startDate: new Date()
+                    }).on("changeDate", dateChanged);
+                    datepickerInitialized = true;
+                } else {
+                    $("#fechadisponible").datepicker('option', 'beforeShowDay', DisableDates);
+                    $("#fechadisponible").datepicker("refresh");
+                }
+            } else {
+                // Si no hay días disponibles
+                if (datepickerInitialized) {
+                    $("#fechadisponible").datepicker('destroy');
+                    datepickerInitialized = false;
+                }
+                alert("No hay días disponibles con slots libres para este doctor");
+            }
+        },
+        error: function (xhr, status, error) {
+            console.error("Error al obtener los días disponibles:", error);
+            alert("Error al obtener los días disponibles. Por favor, intente más tarde.");
         }
-
-        console.log("resfresh ejecutado");
-
-      },
-      error: function (xhr, status, error) {
-        console.error("Error al obtener los días disponibles:", error);
-      },
-    });      
+    });
   }
 
   
@@ -458,11 +463,9 @@ $(document).ready(function () {
   var initialDoctorId = $("#adoctors").val();
   fetchAvailableDates(initialDoctorId);
 
-  
-  
   //terminar el datepicker
 
-
+  //datepicker para la edición de citas
   "use strict";
   $("#date1")
     .datepicker({
@@ -473,14 +476,12 @@ $(document).ready(function () {
     // .change(dateChanged1)
     .on("changeDate", dateChanged1);
 
-
+  // Función para manejar el cambio de fecha en la edición de citas
   function dateChanged1() {
     "use strict";
     var id = $("#appointment_id").val();
     var iid = $("#date1").val();
-    var doctorr = $("#adoctors1").val();
-  
-    
+    var doctorr = $("#adoctors1").val();  
   
     $("#aslots1").find("option").remove();
   
