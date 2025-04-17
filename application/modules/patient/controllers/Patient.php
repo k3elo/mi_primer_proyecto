@@ -278,7 +278,7 @@ class Patient extends MX_Controller {
                 $this->session->set_flashdata('feedback', lang('added')); // Mostrar mensaje de éxito
             
         } else { // Si es una edición (no es un nuevo paciente)
-            
+
             $ion_user_id = $this->db->get_where('patient', array('id' => $id))->row()->ion_user_id; // Obtener el ID del usuario (Ion Auth) asociado al paciente
             if (empty($password)) { // Si no se proporcionó una nueva contraseña
                 $password = $this->db->get_where('users', array('id' => $ion_user_id))->row()->password; // Obtener la contraseña existente
@@ -287,25 +287,23 @@ class Patient extends MX_Controller {
             }
             $this->patient_model->updateIonUser($username, $email, $password, $ion_user_id); // Actualizar los datos del usuario (Ion Auth)
             //$this->patient_model->updatePatient($id, $data); // Actualizar los datos del paciente
-           
-           
-           
+        
             if (isset($data['id'])) { // Verifica si 'id' existe en $data
                 $id_from_data = $data['id']; // Extrae el id del array $data
                 unset($data['id']); // Elimina 'id' del array $data para evitar duplicados en la base de datos (opcional, pero recomendado)
         
                 // ... (código para actualizar datos)
-                
+        
                 $this->patient_model->updatePatient($id_from_data, $data); // Usa el id extraído para la actualización
         
                 // ... (código posterior)
             } else {
                 unset($data['id']); // Elimina 'id' del array $data para evitar duplicados en la base de datos (opcional, pero recomendado)
                 $this->patient_model->updatePatient($id, $data); // Actualizar los datos del paciente
-                
+        
             }
             $this->patient_model->updatePatient($id_from_data, $data); // Usar $id_from_data siempre
-            $this->session->set_flashdata('feedback', lang('updated')); // Mostrar mensaje de éxitooo
+            $this->session->set_flashdata('feedback', lang('updated')); // Mostrar mensaje de éxito
         }
 
         // Este bloque de código maneja la redirección después de una operación, 

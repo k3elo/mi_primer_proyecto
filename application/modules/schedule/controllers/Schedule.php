@@ -1007,13 +1007,16 @@ class Schedule extends MX_Controller {
         // Esta función probablemente realiza una consulta a la base de datos para obtener
         // las franjas horarias disponibles para el doctor, la fecha y la cita especificados.
         // El resultado de esta función (un array de horarios) se guarda en el campo 'aslots' del array $data.
-        $data['aslots'] = $this->schedule_model->getAvailableSlotByDoctorByDateByAppointmentId($date, $doctor, $appointment_id);
-    
+        $result = $this->schedule_model->getAvailableSlotByDoctorByDateByAppointmentId($date, $doctor, $appointment_id);
+        $data['aslots'] = $result['availableSlot'];// Obtiene los horarios disponibles.
         // Llama a la función getAppointmentById del modelo appointment_model para obtener los detalles de la cita.
         // Luego, accede a la propiedad 'time_slot' del objeto de cita devuelto.
         // Este valor (la franja horaria actual de la cita) se guarda en el campo 'current_value' del array $data.
         $data['current_value'] = $this->appointment_model->getAppointmentById($appointment_id)->time_slot;
-    
+        
+        // Obtener los días disponibles
+        $data['available_days'] = $result['availableDays'];// Obtiene los días disponibles.
+
         // Codifica el array $data a formato JSON usando json_encode().
         // Este JSON se enviará como respuesta a la solicitud AJAX.
         echo json_encode($data);
