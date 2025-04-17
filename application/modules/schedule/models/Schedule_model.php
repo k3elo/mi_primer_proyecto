@@ -15,6 +15,184 @@ class Schedule_model extends CI_model {
         return $query->result();
     }
 
+    // funcion para obtener los días disponibles para un doctor específico
+    public function getAvailableDatesByDoctor($doctor_id) {
+        try {
+            if (empty($doctor_id)) {
+                //log_message('error', 'Doctor ID no proporcionado');
+                return [];
+            }
+    
+            // Obtener los días de la semana disponibles para el doctor
+            $this->db->select('DISTINCT(weekday)', false);
+            $this->db->from('time_slot');
+            $this->db->where('doctor', $doctor_id);
+            $query = $this->db->get();
+    
+            if (!$query) {
+                //log_message('error', 'Error en consulta de días disponibles');
+                return [];
+            }
+    
+            $available_weekdays = [];
+            foreach ($query->result() as $row) {
+                $available_weekdays[] = $row->weekday;
+            }
+    
+            if (empty($available_weekdays)) {
+                //log_message('debug', 'No hay días configurados para el doctor');
+                return [];
+            }
+    
+            // Calcular las fechas futuras basadas en los días de la semana disponibles
+            $available_dates = [];
+            $today = new DateTime();
+    
+            for ($i = 0; $i < 30; $i++) {
+                $date = clone $today;
+                $date->modify("+$i day");
+                $weekday = $date->format('l');
+                $date_formatted_ymd = $date->format('Y-m-d');
+                $date_timestamp = strtotime($date_formatted_ymd); // Convertir a timestamp al inicio del día
+                //log_message('debug', 'Verificando día $date_timestamp : ' . $date_timestamp);
+                if (in_array($weekday, $available_weekdays)) {
+                    // Verificar si hay slots disponibles para este día
+                    $slots = $this->getAvailableSlotByDoctorByDate2($date_timestamp, $doctor_id); // Pasar el timestamp
+    
+                    // Agregar esta línea para ver el resultado
+                    //log_message('debug', 'Resultado de getAvailableSlotByDoctorByDate2 para (timestamp) ' . $date_timestamp . ': ' . json_encode($slots));
+    
+                    // Validación más estricta de slots disponibles
+                    if ($slots && count($slots) > 0) {
+                        $available_dates[] = $date->format('d-m-Y'); // Devolver en formato para el datepicker
+                        //log_message('debug', 'Fecha (d-m-Y) ' . $date->format('d-m-Y') . ' agregada con slots: ' . json_encode($slots));
+                    } else {
+                        //log_message('debug', 'Fecha (Y-m-d) ' . $date_formatted_ymd . ' descartada por no tener slots disponibles');
+                    }
+                }
+            }
+    
+            return $available_dates;
+    
+        } catch (Exception $e) {
+            log_message('error', 'Error en getAvailableDatesByDoctor: ' . $e->getMessage());
+            return [];
+        }
+    }
+    
+    // Modificar también el método getAvailableSlotByDoctorByDate2
+    public function getAvailableSlotByDoctorByDate2($date, $doctor) {
+        try {
+            $dateTime = new DateTime('@' . $date, new DateTimeZone('America/Santiago'));
+            $weekday = $dateTime->format('l');
+            //$weekday = date('l', strtotime($date));
+            //log_message('debug', 'Weekday para el timestamp ' . $date . ': ' . $weekday);
+            // 1. Verificar si es un día festivo
+            $this->db->where('date', $date);
+            $this->db->where('doctor', $doctor);
+            $holiday = $this->db->get('holidays')->result();
+            
+            if (!empty($holiday)) {
+                //log_message('debug', 'Día festivo encontrado para fecha ' . $date);
+                return [];
+            }
+    
+            // 2. Obtener los slots configurados para ese día
+            $this->db->where('doctor', $doctor);
+            $this->db->where('weekday', $weekday);
+            $this->db->order_by('s_time_key', 'asc');
+            $query1 = $this->db->get('time_slot')->result();
+            //log_message('debug', 'Slots configurados para ' . $date . ': ' . json_encode($query1));
+    
+            // Si no hay slots configurados para este día, retornar array vacío
+            if (empty($query1)) {
+                //log_message('debug', 'No hay slots configurados para el día ' . $date . ' y doctor ' . $doctor);
+                return [];
+            }
+    
+            // 3. Obtener citas existentes para ese día
+            $this->db->where('date', $date);
+            $this->db->where('doctor', $doctor);
+            //$this->db->where('status !=', 'Cancelled');
+            $query = $this->db->get('appointment')->result();
+            //log_message('debug', 'fechas de citas medicas query ' . $date . ': ' . json_encode($query));
+    
+            $availabletimeSlot = [];
+            $bookedTimeSlot = [];
+    
+            // 4. Recopilar slots configurados y validar que no estén vacíos
+            foreach ($query1 as $timeslot) {
+                $slot = $timeslot->s_time . ' To ' . $timeslot->e_time;
+                if (!empty($slot)) {
+                    $availabletimeSlot[] = $slot;
+                }
+            }
+            //log_message('debug', 'availabletimeSlot después del primer foreach: ' . json_encode($availabletimeSlot));
+    
+            // Si no hay slots configurados válidos, retornar array vacío
+            if (empty($availabletimeSlot)) {
+                //log_message('debug', 'No hay slots configurados válidos para el día ' . $date);
+                return [];
+            }
+    
+            // 5. Recopilar slots reservados válidos
+            foreach ($query as $bookedTime) {
+                if ($bookedTime->status != 'Cancelled') {
+                    $bookedTimeSlot[] = $bookedTime->time_slot;
+                }
+            }
+            //log_message('debug', 'bookedTimeSlot después del segundo foreach: ' . json_encode($bookedTimeSlot));
+    
+            // 6. Encontrar slots realmente disponibles
+            $availableSlot = array_diff($availabletimeSlot, $bookedTimeSlot);
+    
+            // 7. Verificar si hay slots disponibles después de filtrar
+            if (empty($availableSlot)) {
+                //log_message('debug', 'No quedan slots disponibles para el día ' . $date . ' después de filtrar reservas');
+                return [];
+            }
+
+            // 8. Verificar si la fecha es futura (COMPARANDO SOLO LA FECHA)
+            if (date('Y-m-d', $date) < date('Y-m-d', time())) {
+                //log_message('debug', 'La fecha (timestamp) ' . $date . ' es anterior a hoy');
+                return [];
+            }
+    
+            /* // 8. Verificar si la fecha es futura
+            if (strtotime($date) < strtotime(date('Y-m-d'))) {
+                log_message('debug', 'La fecha ' . $date . ' es anterior a hoy');
+                return [];
+            } */
+    
+            // 9. Si la fecha es hoy, verificar horarios pasados
+            /* if (date('Y-m-d', $date) == date('Y-m-d')) {
+                $currentTime = date('H:i');
+                log_message('debug', 'Hora actual del servidor (H:i): ' . $currentTime);
+            
+                $availabletimeSlot = array_filter($availabletimeSlot, function ($slot) use ($currentTime) {
+                    $parts = explode(' To ', $slot);
+                    if (isset($parts[0])) {
+                        $startTimeString = trim($parts[0]);
+                        $startTime24 = date('H:i', strtotime($startTimeString));
+                        log_message('debug', 'Hora de inicio del slot (24h): ' . $startTime24 . ', Slot original: ' . $slot);
+                        return strtotime($startTime24) >= strtotime($currentTime);
+                    }
+                    return false;
+                });
+            } */
+    
+            // 10. Reindexar array y loggear resultado
+            $availableSlot = array_values($availableSlot);
+            //log_message('debug', 'Slots disponibles para fecha ' . $date . ': ' . json_encode($availableSlot));
+            
+            return $availableSlot;
+    
+        } catch (Exception $e) {
+            //log_message('error', 'Error en getAvailableSlotByDoctorByDate2: ' . $e->getMessage());
+            return [];
+        }
+    } 
+
     function getAvailableDoctorByDate($date) {
 
         $weekday = strftime("%A", $date);
@@ -81,7 +259,7 @@ class Schedule_model extends CI_model {
         $query_avail_doctor = $this->db->get('staff');
         return $query_avail_doctor->result();
     }
-
+        //esta funcion es para obtener los slots segun dias seleccionado
     function getAvailableSlotByDoctorByDate($date, $doctor) {
         //$newDate = date("m-d-Y", strtotime($date));
         $weekday = strftime("%A", $date);
@@ -114,10 +292,12 @@ class Schedule_model extends CI_model {
             }
 
             $availableSlot = array_diff($availabletimeSlot, $bookedTimeSlot);
+            //log_message('debug', 'Slots disponibles para fecha ' . $date . ': ' . json_encode($availableSlot));
         } else {
             $availableSlot = array();
+            //log_message('debug', 'Slots NO disponibles para fecha por ser dia de vacaciones ' . $date . ': ' . json_encode($availableSlot));
         }
-
+        
         return $availableSlot;
     }
     //Obtener la ranura disponible por doctor por fecha por id de cita

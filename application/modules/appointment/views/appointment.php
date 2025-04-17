@@ -4,7 +4,18 @@
 <section id="main-content">
     <section class="wrapper site-min-height">
         <!-- page start-->
-          <link href="common/extranal/css/appointment/appointment.css" rel="stylesheet">
+            <!-- <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+
+            <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+            <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script> -->
+
+
+            <link
+            rel="stylesheet"
+            href="common/assets/jquery-ui/jquery-ui-1.10.1.custom.css"
+            />
+
+            <link href="common/extranal/css/appointment/appointment.css" rel="stylesheet">
         
         <section class="panel">
             <header class="panel-heading">
@@ -261,7 +272,7 @@
             </div>
             <div class="modal-body row">
                 <form role="form" action="appointment/addNew" id="addAppointmentForm" method="post" class="clearfix" enctype="multipart/form-data">
-                <div class="col-md-6 panel">
+                    <div class="col-md-6 panel">
                         <label for="exampleInputEmail1"> <?php echo lang('patient'); ?></label>
                         <select class="form-control m-bot15 pos_select" id="pos_select" name="patient" value=''>
 
@@ -320,10 +331,19 @@
 
                         </select>
                     </div>
-
+                     <!-- modificacion del datepicker -->                
                     <div class="col-md-6 panel">
                         <label for="exampleInputEmail1"> <?php echo lang('date'); ?></label>
-                        <input type="text" class="form-control default-date-picker" id="date" required=""  onkeypress="return false;"  name="date" id="exampleInputEmail1" value='' placeholder="<?php echo lang('select_date'); ?>">
+                        <input 
+                            type="text" 
+                            class="form-control " 
+                            id="date" 
+                            required 
+                            readonly 
+                            name="date" 
+                            value=""
+                            placeholder="<?php echo lang('select_date'); ?>"
+                        >
                     </div>
                     <div class="col-md-6 panel">
                         <label for="exampleInputEmail1"><?php echo lang('available_slots'); ?></label>
@@ -577,7 +597,9 @@
                     <input type="hidden" name="redirectlink" value="10">
                     <div class="col-md-6 panel">
                         <label for="exampleInputEmail1"> <?php echo lang('date'); ?></label>
-                        <input type="text" class="form-control default-date-picker" id="date1" required="" onkeypress="return false;" name="date1" id="exampleInputEmail1" value='' placeholder="">
+
+                        <input type="text" class="form-control" id="date1" required="" readonly onkeypress="return false;" name="date" id="exampleInputEmail1" value='' placeholder="">
+
                     </div>
                     <div class="col-md-6 panel">
                         <label for="exampleInputEmail1"> <?php echo lang('available_slots'); ?></label>
@@ -744,6 +766,9 @@
 
 <script src="common/js/codearistos.min.js"></script>
 <script src="common/js/moment.min.js"></script>
+
+
+
 <script type="text/javascript" src="https://js.stripe.com/v2/"></script>
 <script type="text/javascript" src="https://www.2checkout.com/checkout/api/2co.min.js"></script>
 <script type="text/javascript">var publish = "<?php echo $gateway->publish; ?>";</script>
@@ -757,5 +782,5 @@
 <script type="text/javascript">var select_patient = "<?php echo lang('select_patient'); ?>";</script>
 <script type="text/javascript">var language = "<?php echo $this->language; ?>";</script>
 
-<script src="common/extranal/js/appointment/appointment.js"></script>
+<!-- <script src="common/extranal/js/appointment/appointment.js"></script> -->
 <script src="common/extranal/js/appointment/appointment_select2.js"></script>

@@ -23,6 +23,8 @@
 <script  type="text/javascript" src="common/assets/DataTables/vfs_fonts.js"></script>
 <script  type="text/javascript" src="common/assets/DataTables/datatables.min.js"></script>
 
+<!-- Asegúrate de que jQuery UI se cargue ANTES de bootstrap-datepicker.js -->
+<script src="common/assets/jquery-ui/jquery-ui-1.10.1.custom.min.js"></script>
 
 <script src="common/js/respond.min.js" ></script>
 <script type="text/javascript" src="common/assets/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
@@ -39,8 +41,8 @@
 <script src="common/js/advanced-form-components.js"></script>
 <script src="common/js/jquery.cookie.js"></script>
 <!--common script for all pages--> 
-<script src="common/js/jquery.nicescroll.js" type="text/javascript"></script> <!-- modifique esto -->
-<script src="common/js/jquery.nicescroll.min.js" type="text/javascript"></script> <!-- modifique esto -->
+<!-- <script src="common/js/jquery.nicescroll.js" type="text/javascript"></script> --> <!-- modifique esto -->
+<!-- <script src="common/js/jquery.nicescroll.min.js" type="text/javascript"></script>  --><!-- modifique esto -->
 <script src="common/js/common-scripts.js"></script>
 <script src="common/js/lightbox.js"></script>
 <script class="include" type="text/javascript" src="common/js/jquery.dcjqaccordion.2.7.js"></script>
@@ -103,6 +105,9 @@ if ($language == 'english') {
             });
         })
 </script>
+<!-- Mueve appointment.js DESPUÉS de bootstrap-datepicker.js y langdate -->
+<script src="common/extranal/js/appointment/appointment.js"></script>
+
 <script src="common/extranal/js/footer.js"></script>
 
 

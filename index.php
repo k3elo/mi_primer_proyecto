@@ -1,5 +1,5 @@
 <?php
-ini_set("date.timezone","Asia/Dhaka");
+ini_set("date.timezone","America/Santiago");
 /**
  * CodeIgniter
  *
