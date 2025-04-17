@@ -292,10 +292,10 @@ class Schedule_model extends CI_model {
             }
 
             $availableSlot = array_diff($availabletimeSlot, $bookedTimeSlot);
-            log_message('debug', 'Slots disponibles para fecha ' . $date . ': ' . json_encode($availableSlot));
+            //log_message('debug', 'Slots disponibles para fecha ' . $date . ': ' . json_encode($availableSlot));
         } else {
             $availableSlot = array();
-            log_message('debug', 'Slots NO disponibles para fecha por ser dia de vacaciones ' . $date . ': ' . json_encode($availableSlot));
+            //log_message('debug', 'Slots NO disponibles para fecha por ser dia de vacaciones ' . $date . ': ' . json_encode($availableSlot));
         }
         
         return $availableSlot;

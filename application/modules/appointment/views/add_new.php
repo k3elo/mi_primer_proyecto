@@ -104,21 +104,21 @@
                                             echo 'selected';
                                         }
                                     }
-                                    ?> > Male </option>   
+                                    ?> > <?php echo lang('male'); ?> </option>   
                                     <option value="Female" <?php
                                     if (!empty($patient->sex)) {
                                         if ($patient->sex == 'Female') {
                                             echo 'selected';
                                         }
                                     }
-                                    ?> > Female </option>
+                                    ?> > <?php echo lang('female'); ?> </option>
                                     <option value="Others" <?php
                                     if (!empty($patient->sex)) {
                                         if ($patient->sex == 'Others') {
                                             echo 'selected';
                                         }
                                     }
-                                    ?> > Others </option>
+                                    ?> > <?php echo lang('others'); ?> </option>
                                 </select>
                             </div>
                         </div>
@@ -166,7 +166,7 @@
                             <label for="exampleInputEmail1"> <?php echo lang('date'); ?> &#42;</label>
                         </div>
                         <div class="col-md-9"> 
-                            <input type="text" class="form-control" id="date" required="" name="date"  value='<?php
+                            <input type="text" class="form-control" id="date" required="" readonly name="date"  value='<?php
                             if (!empty($appointment->date)) {
                                 echo date('d-m-Y', $appointment->date);
                             }
@@ -191,7 +191,7 @@
                             <label for="exampleInputEmail1"> <?php echo lang('remarks'); ?></label>
                         </div>
                         <div class="col-md-9"> 
-                            <input type="text" class="form-control" name="remarks"  value='<?php
+                            <input type="text" class="form-control" name="remarks" placeholder=""  value='<?php
                             if (!empty($appointment->remarks)) {
                                 echo $appointment->remarks;
                             }
