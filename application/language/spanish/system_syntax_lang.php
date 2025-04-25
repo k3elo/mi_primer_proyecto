@@ -573,8 +573,8 @@ $lang['api_signature'] = 'API Signature';
 $lang['back_to_payment_modules'] = 'Volver al módulo de pago';
 $lang['manager'] = 'Gerente';
 $lang['cases'] = 'Casos';
-$lang['add_case'] = 'Añadir estuche';
-$lang['edit_case'] = 'Editar casoe';
+$lang['add_case'] = 'Añadir Caso';
+$lang['edit_case'] = 'Editar Caso';
 $lang['subject'] = 'Tema';
 $lang['admin'] = 'Admin';
 $lang['hospital_statistics'] = 'Estadística Hospitalaria';
@@ -868,5 +868,8 @@ $lang['email_forgot_password_heading'] = 'Encabezado de correo electrónico de c
 $lang['email_forgot_password_subheading'] = 'Subtítulo del correo electrónico Olvidé mi contraseña';
 $lang['email_forgot_password_link'] = 'Enlace de correo electrónico de contraseña olvidada';
 $lang['select_date'] = 'Seleccione fecha';
+$lang['historia_clinica'] = 'Historia clínica';
+$lang['examen_fisico'] = 'Examen físico';
+$lang['indicaciones'] = 'Indicaciones';
 
 

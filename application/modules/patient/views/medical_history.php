@@ -713,8 +713,9 @@
                                         <thead>
                                             <tr>
                                                 <th><?php echo lang('date'); ?></th>
-                                                <th><?php echo lang('title'); ?></th>
-                                                <th><?php echo lang('description'); ?></th>
+                                                <th><?php echo lang('historia_clinica'); ?></th>
+                                                <th><?php echo lang('examen_fisico'); ?></th>
+                                                <th><?php echo lang('indicaciones'); ?></th>
                                                 <?php if (!$this->ion_auth->in_group(array('Patient'))) { ?>
                                                     <th class="no-print"><?php echo lang('options'); ?></th>
                                                 <?php } ?>
@@ -723,10 +724,10 @@
                                         <tbody>
                                             <?php foreach ($medical_histories as $medical_history) { ?>
                                                 <tr class="">
-
                                                     <td><?php echo date('d-m-Y', $medical_history->date); ?></td>
-                                                    <td><?php echo $medical_history->title; ?></td>
-                                                    <td><?php echo $medical_history->description; ?></td>
+                                                    <td><?php echo substr($medical_history->title, 0, 50) . (strlen($medical_history->title) > 50 ? '...' : ''); ?></td>
+                                                    <td><?php echo substr($medical_history->description, 0, 50) . (strlen($medical_history->description) > 50 ? '...' : ''); ?></td>
+                                                    <td><?php echo substr($medical_history->indicaciones, 0, 50) . (strlen($medical_history->indicaciones) > 50 ? '...' : ''); ?></td>
                                                     <?php if (!$this->ion_auth->in_group(array('Patient'))) { ?>
                                                         <td class="no-print medical_history_button">
                                                             <button type="button" class="btn btn-info btn-xs btn_width editbutton" title="<?php echo lang('edit'); ?>" data-toggle="modal" data-id="<?php echo $medical_history->id; ?>"><i class="fa fa-edit"></i> </button>   
@@ -1295,23 +1296,36 @@
                 <form role="form" action="patient/addMedicalHistory" class="clearfix row" method="post" enctype="multipart/form-data">
                     <div class="form-group col-md-12">
                         <label for="exampleInputEmail1"><?php echo lang('date'); ?> &#42;</label>
-                        <input type="text" class="form-control form-control-inline input-medium default-date-picker readonly" required="" name="date" id="exampleInputEmail1" value='' placeholder="">
+                        <input type="text" class="form-control form-control-inline input-medium default-date-picker readonly" required="" name="date" id="exampleInputEmail1" value='' placeholder="" readonly>
                     </div>
-                    <div class="form-group col-md-12">
+                    <!-- <div class="form-group col-md-12">
                         <label for="exampleInputEmail1"><?php echo lang('title'); ?> &#42;</label>
                         <input type="text" class="form-control form-control-inline input-medium" required="" name="title" id="exampleInputEmail1" value='' placeholder="">
-                    </div>
+                    </div> -->
                     <div class="form-group col-md-12">
-                        <label class=""><?php echo lang('description'); ?> &#42;</label>
+                        <label class=""><?php echo lang('historia_clinica'); ?> &#42;</label>
                         <div class="">
-                            <textarea class="ckeditor form-control" id="editor_case" name="description" required="" value="" rows="10"></textarea>
+                            <textarea class="ckeditor form-control" id="editor_case" name="title" required="" value="" rows="10"></textarea>
                         </div>
                     </div>
+                    <div class="form-group col-md-12">
+                        <label class=""><?php echo lang('examen_fisico'); ?> &#42;</label>
+                        <div class="">
+                            <textarea class="ckeditor form-control" id="editor_case_1" name="description" required="" value="" rows="10"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group col-md-12">
+                        <label class=""><?php echo lang('indicaciones'); ?> &#42;</label>
+                        <div class="">
+                            <textarea class="ckeditor form-control" id="editor_case_2" name="indicaciones" required="" value="" rows="10"></textarea>
+                        </div>
+                    </div>
+
 
                     <input type="hidden" name="patient_id" value='<?php echo $patient->id; ?>'>
                     <input type="hidden" name="id" value=''>
                     <div class="form-group col-md-12">
-                        <button type="submit" name="submit" class="btn btn-info submit_button pull-right">Submit</button>
+                        <button type="submit" name="submit" class="btn btn-info submit_button pull-right"><?php echo lang('submit'); ?></button>
                     </div>
                 </form>
             </div>
@@ -1330,22 +1344,43 @@
                 <form role="form" id="medical_historyEditForm" class="clearfix row" action="patient/addMedicalHistory" method="post" enctype="multipart/form-data">
                     <div class="form-group col-md-12">
                         <label for="exampleInputEmail1"><?php echo lang('date'); ?> &#42;</label>
-                        <input type="text" class="form-control form-control-inline input-medium default-date-picker readonly" name="date" id="exampleInputEmail1" value='' placeholder="" required="">
+                        <input type="text" class="form-control form-control-inline input-medium default-date-picker readonly" name="date" id="exampleInputEmail1" value='' placeholder="" required="" readonly>
                     </div>
-                    <div class="form-group col-md-12">
+                    <!-- <div class="form-group col-md-12">
                         <label for="exampleInputEmail1"><?php echo lang('title'); ?> &#42;</label>
-                        <input type="text" class="form-control form-control-inline input-medium" name="title" id="exampleInputEmail1" value='' placeholder="" required="">
+                        <input type="text" class="form-control form-control-inline input-medium" name="titsle" id="exampleInputEmail1" value='' placeholder="" required="">
                     </div>
                     <div class="form-group col-md-12">
                         <label class=""><?php echo lang('description'); ?> &#42;</label>
                         <div class="">
-                            <textarea class="ckeditor form-control editor" id="editor" name="description" value="" rows="10" required=""></textarea>
+                            <textarea class="ckeditor form-control editor" id="editr" name="description" value="" rows="10" required=""></textarea>
+                        </div>
+                    </div> -->
+
+                    <div class="form-group col-md-12">
+                        <label class=""><?php echo lang('historia_clinica'); ?> &#42;</label>
+                        <div class="">
+                            <textarea class="ckeditor form-control" id="editor" name="title" required="" value="" rows="10"></textarea>
                         </div>
                     </div>
+                    <div class="form-group col-md-12">
+                        <label class=""><?php echo lang('examen_fisico'); ?> &#42;</label>
+                        <div class="">
+                            <textarea class="ckeditor form-control" id="editor_1" name="description_1" required="" value="" rows="10"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group col-md-12">
+                        <label class=""><?php echo lang('indicaciones'); ?> &#42;</label>
+                        <div class="">
+                            <textarea class="ckeditor form-control" id="editor_2" name="description_2" required="" value="" rows="10"></textarea>
+                        </div>
+                    </div>
+
+
                     <input type="hidden" name="patient_id" value='<?php echo $patient->id; ?>'>
                     <input type="hidden" name="id" value=''>
                     <div class="form-group col-md-12">
-                        <button type="submit" name="submit" class="btn btn-info submit_button pull-right">Submit</button>
+                        <button type="submit" name="submit" class="btn btn-info submit_button pull-right"><?php echo lang('submit'); ?></button>
                     </div>
                 </form>
             </div>
