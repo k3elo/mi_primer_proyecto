@@ -300,6 +300,60 @@ class Schedule_model extends CI_model {
         
         return $availableSlot;
     }
+    //Obtener la ranura disponible por doctor por fecha por id de cita
+    function getAvailableSlotByDoctorByDateByAppointmentIdDatepicker($date, $doctor, $appointment_id) {
+        $weekday = strftime("%A", $date); //Obtener el día de la semana
+    
+        $this->db->where('date', $date);//Obtener la fecha
+        $this->db->where('doctor', $doctor);//Obtener el doctor
+        $holiday = $this->db->get('holidays')->result();//Obtener las vacaciones
+    
+        if (empty($holiday)) {//Si no hay vacaciones
+            //Obtener las citas
+            $this->db->where('date', $date);//Obtener la fecha
+            $this->db->where('doctor', $doctor);//Obtener el doctor
+            $query = $this->db->get('appointment')->result();//Obtener las citas
+    
+            $this->db->where('doctor', $doctor);//Obtener el doctor
+            $this->db->where('weekday', $weekday);//Obtener el día de la semana
+            $this->db->order_by('s_time_key', 'asc');//Ordenar por la clave de tiempo de inicio
+            $query1 = $this->db->get('time_slot')->result();//Obtener las ranuras de tiempo
+    
+            $availabletimeSlot = array();//Ranura de tiempo disponible
+            $bookedTimeSlot = array();//Ranura de tiempo reservada
+    
+            foreach ($query1 as $timeslot) {//Para cada ranura de tiempo
+                $availabletimeSlot[] = $timeslot->s_time . ' To ' . $timeslot->e_time;//Agregar la ranura de tiempo a la ranura de tiempo disponible
+            }
+            foreach ($query as $bookedTime) {//Para cada ranura de tiempo reservada
+                if ($bookedTime->status != 'Cancelled') {//Si la cita no está cancelada
+                    if ($bookedTime->id != $appointment_id) {//Si la cita no es la misma
+                        $bookedTimeSlot[] = $bookedTime->time_slot;//Agregar la ranura de tiempo a la ranura de tiempo reservada
+                    }
+                }
+            }
+    
+            $availableSlot = array_diff($availabletimeSlot, $bookedTimeSlot);//Obtener la diferencia entre la ranura de tiempo disponible y la ranura de tiempo reservada
+        } else {//Si hay vacaciones
+            $availableSlot = array();//Si hay vacaciones, no hay ranura de tiempo disponible
+        }
+    
+        // Obtener los días disponibles
+        $this->db->select('weekday');//Seleccionar el día de la semana
+        $this->db->where('doctor', $doctor);//Obtener el doctor
+        $this->db->group_by('weekday');//Agrupar por día de la semana
+        $query_days = $this->db->get('time_slot')->result();//Obtener los días de la semana
+    
+        $availableDays = array();//Días disponibles
+        foreach ($query_days as $day) {//Para cada día
+            $availableDays[] = $day->weekday;//Agregar el día a los días disponibles
+        }
+    
+        return array(//Retornar
+            'availableSlot' => $availableSlot,//Ranura de tiempo disponible
+            'availableDays' => $availableDays//Días disponibles
+        );
+    }
 
     function getAvailableSlotByDoctorByDateByAppointmentId($date, $doctor, $appointment_id) {
        
@@ -339,8 +393,23 @@ class Schedule_model extends CI_model {
         } else {
             $availableSlot = array();
         }
+        // Obtener los días disponibles
+        $this->db->select('weekday');//Seleccionar el día de la semana
+        $this->db->where('doctor', $doctor);//Obtener el doctor
+        $this->db->group_by('weekday');//Agrupar por día de la semana
+        $query_days = $this->db->get('time_slot')->result();//Obtener los días de la semana
+    
+        $availableDays = array();//Días disponibles
+        foreach ($query_days as $day) {//Para cada día
+            $availableDays[] = $day->weekday;//Agregar el día a los días disponibles
+        }
+    
+        return array(//Retornar
+            'availableSlot' => $availableSlot,//Ranura de tiempo disponible
+            'availableDays' => $availableDays//Días disponibles
+        );
 
-        return $availableSlot;
+        //return $availableSlot;
     }
 
     function updateIonUser($username, $email, $password, $ion_user_id) {

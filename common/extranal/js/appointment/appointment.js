@@ -438,6 +438,7 @@ $(document).ready(function () {
     fetchAvailableDates(doctorId); // fetchAvailableDates llamará a initializeDatePicker
   });
 
+
   // Inicializar al cargar la página (si hay un doctor seleccionado)
   var initialDoctorId = $("#adoctors").val();
   if (initialDoctorId) {
@@ -575,6 +576,7 @@ $(document).ready(function () {
     fetchAvailableDates1(doctorId);
   });
 
+
   /////////////////////termina datepicker para la edición de citas//////////////////////////////////////////////////////////
 
   // Inicializar al cargar la página para date1 (si hay un doctor seleccionado)
@@ -633,6 +635,7 @@ $(document).ready(function () {
       },
     });
   });
+
 
 
 
