@@ -13,6 +13,7 @@ $(document).ready(function () {
       dataType: "json",
       success: function (response) {
         "use strict";
+        console.log("Respuesta del controlador:", response); // para depurar
         var date = new Date(response.medical_history.date * 1000);
         var de =
           date.getDate() +
@@ -26,11 +27,13 @@ $(document).ready(function () {
           .val(response.medical_history.id)
           .end();
         $("#medical_historyEditForm").find('[name="date"]').val(de).end();
-        $("#medical_historyEditForm")
+        /* $("#medical_historyEditForm")
           .find('[name="title"]')
           .val(response.medical_history.title)
-          .end();
-        myEditor.setData(response.medical_history.description);
+          .end(); */
+        myEditor.setData(response.medical_history.title);
+        myEditor1.setData(response.medical_history.description);
+        myEditor2.setData(response.medical_history.indicaciones);
       },
     });
   });
@@ -89,35 +92,98 @@ $(document).ready(function () {
 
 var myEditor;
 var myEditor1;
+var myEditor2;
+var myAdd1;
+var myAdd2;
+var myAdd3;
+
 
 $(document).ready(function () {
-
+    //campo para editar historia clinica
     ClassicEditor
         .create(document.querySelector('#editor'))
         .then(editor => {
             editor.model.document.on('change:data', () => {
                 $("#editor").html(editor.getData());;
             });
-            editor.ui.view.editable.element.style.height = '200px';
+            editor.ui.view.editable.element.style.height = '50px';
             myEditor = editor;
         })
         .catch(error => {
             console.error(error);
         });
+    
+        ClassicEditor
+        .create(document.querySelector('#editor_1'))
+        .then(editor => {
+            editor.model.document.on('change:data', () => {
+                $("#editor_1").html(editor.getData());;
+            });
+            editor.ui.view.editable.element.style.height = '50px';
+            myEditor1 = editor;
+        })
+        .catch(error => {
+            console.error(error);
+        });
+        ClassicEditor
+        .create(document.querySelector('#editor_2'))
+        .then(editor => {
+            editor.model.document.on('change:data', () => {
+                $("#editor_2").html(editor.getData());;
+            });
+            editor.ui.view.editable.element.style.height = '50px';
+            myEditor2 = editor;
+        })
+        .catch(error => {
+            console.error(error);
+        });
+        //fin campo para editar historia clinica
+
+
+        //campos para añadir historia clinica
     ClassicEditor
         .create(document.querySelector('#editor_case'))
         .then(editor1 => {
             editor1.model.document.on('change:data', () => {
                 $("#editor_case").html(editor1.getData());;
             });
-            editor1.ui.view.editable.element.style.height = '200px';
-            myEditor1 = editor1;
+            editor1.ui.view.editable.element.style.height = '50px';
+            myAdd1 = myadd;
 
         })
 
         .catch(error => {
             console.error(error);
         });
+    ClassicEditor
+        .create(document.querySelector('#editor_case_1'))
+        .then(editor1 => {
+            editor1.model.document.on('change:data', () => {
+                $("#editor_case_1").html(editor1.getData());;
+            });
+            editor1.ui.view.editable.element.style.height = '50px';
+            myAdd2 = myadd;
+
+        })
+
+        .catch(error => {
+            console.error(error);
+        });
+    ClassicEditor
+        .create(document.querySelector('#editor_case_2'))
+        .then(editor1 => {
+            editor1.model.document.on('change:data', () => {
+                $("#editor_case_2").html(editor1.getData());;
+            });
+            editor1.ui.view.editable.element.style.height = '50px';
+            myAdd3 = myadd;
+
+        })
+
+        .catch(error => {
+            console.error(error);
+        });
+        //fin campos para añadir historia clinica
 });
 
 $(document).ready(function () {

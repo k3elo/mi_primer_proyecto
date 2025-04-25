@@ -143,7 +143,7 @@
                                 <?php echo $settings->appointment_description; ?>
                             </p>
                             <a type="button" data-toggle="modal" data-target="#exampleModal" href="#" class="btn btn-light"><?php echo lang('book_an_appointment'); ?></a>
-                            <!-- Modal -->
+                            <!-- Modal toma de hora medica -->
                             <div class="modal fade" id="exampleModal"  role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                 <div class="modal-dialog" role="document">
                                     <div class="modal-content bg-success text-custom">
@@ -306,17 +306,17 @@
                                                     </div>
 
 
-                                                </div>
-                                                  <?php $twocheckout = $this->db->get_where('paymentGateway', array('name =' => '2Checkout'))->row(); ?>
-                                                <button type="submit" name="pay_now" id="submit-btn" class="btn btn-primary mt-3 pull-right" <?php if ($settings1->payment_gateway == 'Stripe') {
-                                                            ?>onClick="stripePay(event);"<?php }
-                                                        ?> <?php if ($settings1->payment_gateway == '2Checkout' && $twocheckout->status == 'live') {
-                                                            ?>onClick="twoCheckoutPay(event);"<?php }
-                                                        ?>> <?php echo lang('submit'); ?></button>
+                                                 </div>
+                                                        <?php $twocheckout = $this->db->get_where('paymentGateway', array('name =' => '2Checkout'))->row(); ?>
+                                                        <button type="submit" name="pay_now" id="submit-btn" class="btn btn-primary mt-3 pull-right" <?php if ($settings1->payment_gateway == 'Stripe') {
+                                                                ?>onClick="stripePay(event);"<?php }
+                                                            ?> <?php if ($settings1->payment_gateway == '2Checkout' && $twocheckout->status == 'live') {
+                                                                ?>onClick="twoCheckoutPay(event);"<?php }
+                                                            ?>> <?php echo lang('submit'); ?>
+                                                        </button>
 
-                                                </form>
+                                            </form>
                                         </div>
-
                                     </div>
                                 </div>
                             </div>

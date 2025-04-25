@@ -890,6 +890,8 @@ class Patient extends MX_Controller {
         }
 
         $description = $this->input->post('description');
+        $indicaciones = $this->input->post('indicaciones');
+
         $this->load->library('form_validation');
         $this->form_validation->set_error_delimiters('<div class="error">', '</div>');
 
@@ -901,10 +903,11 @@ class Patient extends MX_Controller {
 
         $this->form_validation->set_rules('date', 'Date', 'trim|min_length[1]|max_length[100]|xss_clean');
 
-
-        $this->form_validation->set_rules('title', 'Title', 'trim|min_length[1]|max_length[100]|xss_clean');
+        $this->form_validation->set_rules('title', 'Title', 'trim|min_length[5]|max_length[10000]|xss_clean');
 
         $this->form_validation->set_rules('description', 'Description', 'trim|min_length[5]|max_length[10000]|xss_clean');
+
+        $this->form_validation->set_rules('indicaciones', 'Indicaciones', 'trim|min_length[5]|max_length[10000]|xss_clean');
 
 
         if ($this->form_validation->run() == FALSE) {
@@ -935,6 +938,7 @@ class Patient extends MX_Controller {
                 'date' => $date,
                 'title' => $title,
                 'description' => $description,
+                'indicaciones' => $indicaciones,
                 'patient_name' => $patient_name,
                 'patient_phone' => $patient_phone,
                 'patient_address' => $patient_address,
@@ -1147,6 +1151,7 @@ class Patient extends MX_Controller {
         $this->load->view('medical_history', $data);
         $this->load->view('home/footer');
     }
+
 
     function editMedicalHistoryByJason() {
         $id = $this->input->get('id');
