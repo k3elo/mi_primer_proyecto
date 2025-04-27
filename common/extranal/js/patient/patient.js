@@ -73,7 +73,7 @@ $(document).ready(function () {
                 $('.emailClass').append(response.patient.email).end();
                 $('.addressClass').append(response.patient.address).end();
                 $('.phoneClass').append(response.patient.phone).end();
-                $('.genderClass').append(response.patient.sex).end();
+                $('.genderClass').append(translations[response.patient.sex.toLowerCase()] || response.patient.sex).end();
                 $('.birthdateClass').append(response.patient.birthdate).end();
                 $('.ageClass').append(response.age).end();
                 $('.bloodgroupClass').append(response.patient.bloodgroup).end();
@@ -99,6 +99,7 @@ $(document).ready(function () {
     });
 
 });
+
 
 $(document).ready(function () {
     "use strict";

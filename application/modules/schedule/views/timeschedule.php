@@ -37,7 +37,7 @@
                                 ?>
                                 <tr class="">
                                     <td> <?php echo $i; ?></td> 
-                                    <td> <?php echo $schedule->weekday; ?></td> 
+                                    <td> <?php echo lang(strtolower($schedule->weekday)); ?></td> 
                                     <td><?php echo $schedule->s_time; ?></td>
                                     <td><?php echo $schedule->e_time; ?></td>
                                     <td><?php echo $schedule->duration * 5 . ' ' . lang('minitues'); ?></td>
@@ -58,7 +58,6 @@
 </section>
 <!--main content end-->
 <!--footer start-->
-
 
 
 
@@ -117,7 +116,7 @@
                                     echo 'selected';
                                 }
                             }
-                            ?> > 15 Minitues </option>
+                            ?> > 15 <?php echo lang('minitues') ?> </option>
 
                             <option value="4" <?php
                             if (!empty($settings->duration)) {
@@ -125,7 +124,7 @@
                                     echo 'selected';
                                 }
                             }
-                            ?> > 20 Minitues </option>
+                            ?> > 20 <?php echo lang('minitues') ?> </option>
 
                             <option value="6" <?php
                             if (!empty($settings->duration)) {
@@ -133,7 +132,7 @@
                                     echo 'selected';
                                 }
                             }
-                            ?> > 30 Minitues </option>
+                            ?> > 30 <?php echo lang('minitues') ?> </option>
 
                             <option value="9" <?php
                             if (!empty($settings->duration)) {
@@ -141,7 +140,7 @@
                                     echo 'selected';
                                 }
                             }
-                            ?> > 45 Minitues </option>
+                            ?> > 45 <?php echo lang('minitues') ?> </option>
 
                             <option value="12" <?php
                             if (!empty($settings->duration)) {
@@ -149,7 +148,7 @@
                                     echo 'selected';
                                 }
                             }
-                            ?> > 60 Minitues </option>
+                            ?> > 60 <?php echo lang('minitues') ?> </option>
 
                         </select>
                     </div>
@@ -227,7 +226,7 @@
                                     echo 'selected';
                                 }
                             }
-                            ?> > 15 Minitues </option>
+                            ?> > 15 <?php echo lang('minitues') ?> </option>
 
                             <option value="4" <?php
                             if (!empty($settings->duration)) {
@@ -235,7 +234,7 @@
                                     echo 'selected';
                                 }
                             }
-                            ?> > 20 Minitues </option>
+                            ?> > 20 Minutos </option>
 
                             <option value="6" <?php
                             if (!empty($settings->duration)) {
@@ -243,7 +242,7 @@
                                     echo 'selected';
                                 }
                             }
-                            ?> > 30 Minitues </option>
+                            ?> > 30 <?php echo lang('minitues') ?> </option>
 
                             <option value="9" <?php
                             if (!empty($settings->duration)) {
@@ -251,7 +250,7 @@
                                     echo 'selected';
                                 }
                             }
-                            ?> > 45 Minitues </option>
+                            ?> > 45 <?php echo lang('minitues') ?> </option>
 
                             <option value="12" <?php
                             if (!empty($settings->duration)) {
@@ -259,7 +258,7 @@
                                     echo 'selected';
                                 }
                             }
-                            ?> > 60 Minitues </option>
+                            ?> > 60 <?php echo lang('minitues') ?> </option>
 
                         </select>
                     </div>

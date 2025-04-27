@@ -374,10 +374,6 @@
                     </div>
 
 
-
-
-
-
                     <div class="form-group col-md-4">    
                     </div>
                     <div class="form-group col-md-4">    
@@ -410,6 +406,14 @@
 <script src="common/extranal/js/patient/patient.js"></script>
 <script src="common/extranal/campo_telefono/js/utils.js"></script> <!-- aqui inicializo utils.js para que el campo telefono funcione -->
 <script src="common/extranal/campo_telefono/js/intlTelInputWithUtils.min.js"></script>
+<script>
+    var translations = {
+        male: "<?php echo lang('male'); ?>",
+        female: "<?php echo lang('female'); ?>",
+        other: "<?php echo lang('others'); ?>"
+    };
+</script>
+
 
 <!-- para validar el campo telefono -->
 <script>
@@ -429,39 +433,6 @@
   });
 </script>
 <script>
-
-/* var Fn = {
-    validaRut : function (rutCompleto) {
-        rutCompleto = rutCompleto.replace("‐","-");
-        if (!/^[0-9]+[-|‐]{1}[0-9kK]{1}$/.test( rutCompleto ))
-            return false;
-        var tmp     = rutCompleto.split('-');
-        var digv    = tmp[1]; 
-        var rut     = tmp[0];
-        if ( digv == 'K' ) digv = 'k' ;
-        
-        return (Fn.dv(rut) == digv );
-    },
-    dv : function(T){
-        var M=0,S=1;
-        for(;T;T=Math.floor(T/10))
-            S=(S+T%10*(9-M++%6))%11;
-        return S?S-1:'k';
-    }
-}; */
-
-/* $(document).ready(function() {
-    
-    $("#rut").on("input", function() {  // Escuchar el evento 'input' en #rut
-        var rutCompleto = $(this).val(); // Obtener el valor del campo #rut
-
-        if (Fn.validaRut(rutCompleto)) {
-            $("#rut-error").text(""); // Limpiar mensaje de error si es válido
-        } else {
-            $("#rut-error").text("RUT inválido"); // Mostrar mensaje de error si no es válido
-        }
-    });
-}); */
 
 $(document).ready(function() {
     var inputRut = document.getElementById('rut');
