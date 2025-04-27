@@ -149,7 +149,7 @@
                                                     <?php if (!$this->ion_auth->in_group(array('Patient'))) { ?>
                                                         <td class="no-print vitalSignTable">
                                                             <button type="button" class="btn btn-info btn-xs btn_width editbutton" title="<?php echo lang('edit'); ?>" data-toggle="modal" data-id="<?php echo $vital_sign->id; ?>"><i class="fa fa-edit"></i> </button>   
-                                                            <a class="btn btn-info btn-xs btn_width delete_button" title="<?php echo lang('delete'); ?>" href="patient/deleteVitalSign?id=<?php echo $vital_sign->id; ?>" onclick="return confirm('Are you sure you want to delete this item?');"><i class="fa fa-trash"></i> </a>
+                                                            <a class="btn btn-info btn-xs btn_width delete_button" title="<?php echo lang('delete'); ?>" href="patient/deleteVitalSign?id=<?php echo $vital_sign->id; ?>" onclick="return confirm('¿Estás seguro(a) de que quieres eliminar este artículo?');"><i class="fa fa-trash"></i> </a>
                                                         </td>
                                                     <?php } ?>
                                                 </tr>
@@ -685,7 +685,7 @@
                                                     <?php if (!$this->ion_auth->in_group('Patient')) { ?>
                                                         <td class="no-print edit_appointment_button">
                                                             <button type="button" class="btn btn-info btn-xs btn_width editAppointmentButton" title="<?php echo lang('edit'); ?>" data-toggle="modal" data-id="<?php echo $appointment->id; ?>"><i class="fa fa-edit"></i> </button>   
-                                                            <a class="btn btn-info btn-xs btn_width delete_button" title="<?php echo lang('delete'); ?>" href="appointment/delete?id=<?php echo $appointment->id; ?>" onclick="return confirm('Are you sure you want to delete this item?');"><i class="fa fa-trash"></i> </a>
+                                                            <a class="btn btn-info btn-xs btn_width delete_button" title="<?php echo lang('delete'); ?>" href="appointment/delete?id=<?php echo $appointment->id; ?>" onclick="return confirm('¿Estás seguro(a) de que quieres eliminar este artículo?');"><i class="fa fa-trash"></i> </a>
                                                         </td>
                                                     <?php } ?>
                                                 </tr>
@@ -731,7 +731,7 @@
                                                     <?php if (!$this->ion_auth->in_group(array('Patient'))) { ?>
                                                         <td class="no-print medical_history_button">
                                                             <button type="button" class="btn btn-info btn-xs btn_width editbutton" title="<?php echo lang('edit'); ?>" data-toggle="modal" data-id="<?php echo $medical_history->id; ?>"><i class="fa fa-edit"></i> </button>   
-                                                            <a class="btn btn-info btn-xs btn_width delete_button" title="<?php echo lang('delete'); ?>" href="patient/deleteCaseHistory?id=<?php echo $medical_history->id; ?>" onclick="return confirm('Are you sure you want to delete this item?');"><i class="fa fa-trash"></i> </a>
+                                                            <a class="btn btn-info btn-xs btn_width delete_button" title="<?php echo lang('delete'); ?>" href="patient/deleteCaseHistory?id=<?php echo $medical_history->id; ?>" onclick="return confirm('¿Estás seguro(a) de que quieres eliminar este artículo?');"><i class="fa fa-trash"></i> </a>
                                                         </td>
                                                     <?php } ?>
                                                 </tr>
@@ -807,7 +807,7 @@
                                                             if ($prescription->doctor == $doctor_table_id) {
                                                                 ?>
                                                                 <a type="button" class="btn-info btn btn-xs btn_width" data-toggle="modal" href="prescription/editPrescription?id=<?php echo $prescription->id; ?>"><i class="fa fa-edit"></i> <?php echo lang('edit'); ?></a>   
-                                                                <a class="btn-info btn-xs btn_width btn delete_button" href="prescription/delete?id=<?php echo $prescription->id; ?>" onclick="return confirm('Are you sure you want to delete this item?');"><i class="fa fa-trash"></i> <?php echo lang('delete'); ?></a>
+                                                                <a class="btn-info btn-xs btn_width btn delete_button" href="prescription/delete?id=<?php echo $prescription->id; ?>" onclick="return confirm('¿Estás seguro(a) de que quieres eliminar este artículo?');"><i class="fa fa-trash"></i> <?php echo lang('delete'); ?></a>
                                                                 <?php
                                                             }
                                                         }
@@ -906,7 +906,7 @@
                                                             <a class="btn btn-blue btn-xs btn_width" href="<?php echo $patient_material->url; ?>" download><i class="fa fa-download"></i> </a>
                                                             <?php if (!$this->ion_auth->in_group(array('Patient'))) { ?>
                                                                 <a class="btn btn-info btn-xs btn_width delete_button " title="<?php echo lang('delete'); ?>" href="patient/deletePatientMaterial?id=<?php echo $patient_material->id; ?>"
-                                                                   onclick="return confirm('Are you sure you want to delete this item?');"> <i class="fa fa-trash"></i> </a>
+                                                                   onclick="return confirm('¿Estás seguro(a) de que quieres eliminar este artículo?');"> <i class="fa fa-trash"></i> </a>
                                                                <?php } ?>
                                                         </div>
                                                     </div>
@@ -949,7 +949,7 @@
                                                         </button>
                                                         <ul class="dropdown-menu folder_div" role="menu">
                                                             <li> <a type="" class="edittbutton" data-toggle="modal" data-id="<?php echo $folder->id; ?>"><?php echo lang('edit'); ?></a></li>
-                                                            <li><a class="" href="patient/deleteFolder?id=<?php echo $folder->id; ?>" onclick="return confirm('Are you sure you want to delete this item?');"><?php echo lang('delete'); ?></a></li>
+                                                            <li><a class="" href="patient/deleteFolder?id=<?php echo $folder->id; ?>" onclick="return confirm('¿Estás seguro(a) de que quieres eliminar este artículo?');"><?php echo lang('delete'); ?></a></li>
                                                             <li><a class="uploadbutton"  data-toggle="modal" data-id="<?php echo $folder->id; ?>"> <?php echo lang('upload'); ?> </a></li>
                                                             <li><a class=""  href="patient/medicalHistoryByFolder?id=<?php echo $folder->id; ?>"><?php echo lang('view_files'); ?></a></li>
                                                         </ul>
@@ -1298,10 +1298,7 @@
                         <label for="exampleInputEmail1"><?php echo lang('date'); ?> &#42;</label>
                         <input type="text" class="form-control form-control-inline input-medium default-date-picker readonly" required="" name="date" id="exampleInputEmail1" value='' placeholder="" readonly>
                     </div>
-                    <!-- <div class="form-group col-md-12">
-                        <label for="exampleInputEmail1"><?php echo lang('title'); ?> &#42;</label>
-                        <input type="text" class="form-control form-control-inline input-medium" required="" name="title" id="exampleInputEmail1" value='' placeholder="">
-                    </div> -->
+                    
                     <div class="form-group col-md-12">
                         <label class=""><?php echo lang('historia_clinica'); ?> &#42;</label>
                         <div class="">
