@@ -230,7 +230,7 @@
                                                    
                                                    
                                                     <label for=""><?php echo lang('date'); ?></label>
-                                                    <input type="text" class="form-control default-date-picker" readonly="" id="date" name="date" id="" value='' placeholder="">
+                                                    <input type="text" class="form-control " readonly="" id="date" name="date" id="" value='' placeholder="">
                                                     <label for=""><?php echo lang('available_slots'); ?></label>
                                                     <select class="form-control m-bot15" name="time_slot" id="aslots" value=''> 
 
@@ -536,7 +536,8 @@
         <script src="<?php echo site_url('front/js/script.js'); ?>"></script>
         <script type="text/javascript" src="<?php echo site_url('common/assets/bootstrap-datepicker/js/bootstrap-datepicker.js'); ?>"></script>
         <script type="text/javascript" src="<?php echo site_url('common/assets/bootstrap-timepicker/js/bootstrap-timepicker.js'); ?>"></script>
-       
+        <script type="text/javascript" src="<?php echo site_url('common/assets/bootstrap-datepicker/locales/bootstrap-datepicker.es.min.js'); ?>"></script>
+        <script type="text/javascript" src="common/assets/bootstrap-datetimepicker/js/bootstrap-datetimepicker.js"></script>                           
 
         <script>
             
@@ -554,6 +555,11 @@
             <script type="text/javascript">var publishable = "<?php echo $twocheckout->publishablekey; ?>";</script>
             <script type="text/javascript">var merchant = "<?php echo $twocheckout->merchantcode; ?>";</script>
         <?php } ?>
+
+        
+
+
+
         <script src="common/extranal/js/frontend/frontend.js"></script>
     </body>
 </html>

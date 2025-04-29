@@ -196,7 +196,7 @@ $(document).ready(function () {
     }
 
     $.ajax({
-        url: "schedule/getAvailableDatesByDoctor?doctor=" + doctorId,
+        url: "frontend/getAvailableDatesByDoctor?doctor=" + doctorId,
         method: "GET",
         dataType: "json",
         success: function (response) {
@@ -280,7 +280,7 @@ $(document).ready(function () {
     if (iid && doctorr) {
       $.ajax({
         url:
-          "frontend/getAvailableSlotByDoctorByDateByJason?date=" +
+          "frontend/getAvailableSlotByDoctorByDateByJason_1?date=" +
           iid +
           "&doctor=" +
           doctorr,

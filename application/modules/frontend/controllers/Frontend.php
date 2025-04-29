@@ -1,5 +1,6 @@
 <?php
 
+
 if (!defined('BASEPATH'))
     exit('No direct script access allowed');
 
@@ -24,6 +25,8 @@ class Frontend extends MX_Controller
         $this->load->model('finance/finance_model');
         $this->load->model('pgateway/pgateway_model');
         $this->load->model('doctor/doctorvisit_model');
+        $this->load->model('schedule/schedule_model');//agregue esto desde el modelo de schedule
+               
         $language = $this->db->get('settings')->row()->language;
         $this->lang->load('system_syntax', $language);
     }
@@ -1082,6 +1085,20 @@ class Frontend extends MX_Controller
         }
         echo json_encode($data);
     }
+
+    function getAvailableSlotByDoctorByDateByJason_1() {
+        $data = array();
+        $date = $this->input->get('date'); 
+        if (!empty($date)) {
+            $date = strtotime($date);
+        }
+        $doctor = $this->input->get('doctor');
+        /* $data['aslots'] = $this->schedule_model->getAvailableSlotByDoctorByDate($date, $doctor);
+        echo json_encode($data); */
+        $data['aslots'] = array_values($this->schedule_model->getAvailableSlotByDoctorByDate($date, $doctor));
+        echo json_encode($data);
+    }
+
     public function getDoctorVisit()
     {
         $id = $this->input->get('id');
@@ -1102,6 +1119,26 @@ class Frontend extends MX_Controller
         $data['response'] = $this->doctorvisit_model->getDoctorvisitById($id);
 
         echo json_encode($data);
+    }
+
+    public function getAvailableDatesByDoctor() {
+        $doctor_id = $this->input->get('doctor'); // Obtener el ID del doctor desde la solicitud GET
+        if (empty($doctor_id)) {
+            echo json_encode(['error' => 'Doctor ID is required']);
+            return;
+        }
+    
+        // Llamar al modelo para obtener las fechas disponibles
+        $available_dates = $this->schedule_model->getAvailableDatesByDoctor($doctor_id);
+    
+        // Verificar si el modelo devolvió resultados
+        if ($available_dates === false) {
+            echo json_encode(['error' => 'Error fetching available dates']);
+            return;
+        }
+    
+        // Devolver las fechas disponibles en formato JSON
+        echo json_encode(['availableDates' => $available_dates]);
     }
 }
 
