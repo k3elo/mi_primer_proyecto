@@ -26,6 +26,7 @@ class Frontend extends MX_Controller
         $this->load->model('pgateway/pgateway_model');
         $this->load->model('doctor/doctorvisit_model');
         $this->load->model('schedule/schedule_model');//agregue esto desde el modelo de schedule
+        $this->load->model('department/department_model');
                
         $language = $this->db->get('settings')->row()->language;
         $this->lang->load('system_syntax', $language);
@@ -1139,6 +1140,22 @@ class Frontend extends MX_Controller
     
         // Devolver las fechas disponibles en formato JSON
         echo json_encode(['availableDates' => $available_dates]);
+    }
+
+    public function getDoctorsByDepartment() {
+        $department_id = $this->input->get('department_id');
+        if (empty($department_id)) {
+            echo json_encode(['error' => 'Department ID is required']);
+            return;
+        }
+    
+        $doctors = $this->doctor_model->getDoctorsByDepartment($department_id);
+        echo json_encode($doctors);
+    }
+
+    public function getDepartments() {
+        $departments = $this->department_model->getDepartment(); // Método del modelo para obtener los departamentos
+        echo json_encode($departments);
     }
 }
 

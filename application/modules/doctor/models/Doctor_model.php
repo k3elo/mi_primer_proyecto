@@ -236,4 +236,12 @@ class Doctor_model extends CI_model {
         $query = $this->db->get('doctor_visit');
         return $query->result();
     }
+    // Reemplaza 'department' con el nombre de tu tabla de departamentos
+    public function getDoctorsByDepartment($department_id) {
+        $this->db->where('department', $department_id);
+        $query = $this->db->get('doctor');
+        return $query->result();
+    }
+    
+
 }

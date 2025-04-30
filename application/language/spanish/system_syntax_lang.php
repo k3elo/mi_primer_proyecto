@@ -806,7 +806,7 @@ $lang['logs'] = 'Registros';
 $lang['transaction_logs'] = 'Registros de transacciones';
 $lang['deposited'] = 'Depositado';
 $lang['action'] = 'Acción';
-$lang['doctor_visit'] = 'Visita al docto';
+$lang['doctor_visit'] = 'Visita al doctor';
 $lang['add_doctor_visit'] = 'Añadir visita al médico';
 $lang['edit_doctor_visit'] = 'Editar visita al médico';
 $lang['visit'] = 'Visita';
@@ -871,5 +871,6 @@ $lang['select_date'] = 'Seleccione fecha';
 $lang['historia_clinica'] = 'Historia clínica';
 $lang['examen_fisico'] = 'Examen físico';
 $lang['indicaciones'] = 'Indicaciones';
+$lang['specialty'] = 'Especialidad';
 
 

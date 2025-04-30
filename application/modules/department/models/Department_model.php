@@ -14,7 +14,7 @@ class Department_model extends CI_model {
 
         $this->db->insert('department', $data);
     }
-
+    //funcion para obtener todos los departamentos
     function getDepartment() {
         $query = $this->db->get('department');
         return $query->result();
@@ -41,5 +41,6 @@ class Department_model extends CI_model {
         $this->db->where('id', $id);
         $this->db->delete('department');
     }
+
 
 }

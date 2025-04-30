@@ -160,7 +160,7 @@
                                                 <form action="frontend/addNew"  method="post" id="addAppointmentForm">
                                                     <label for="exampleInputEmail1"> <?php echo lang('patient'); ?></label>
                                                     <select class="form-control m-bot15 js-example-basic-single pos_select" id="pos_select" name="patient" value=''> 
-                                                        <option value=" ">Select .....</option>
+                                                        <option value=" "><?php echo lang('select'); ?> .....</option>
                                                         <option class="patient_add" value="patient_id"><?php echo lang('patient_id'); ?></option>
                                                         <option class="patient_add_new" value="add_new"><?php echo lang('add_new'); ?></option>
                                                     </select>
@@ -212,10 +212,22 @@
                                                             ?> > Others </option>
                                                         </select>
                                                     </div>
+
+                                                    <div class="form-group">
+                                                        <label for="department"><?php echo lang('specialty'); ?></label>
+                                                        <select class="form-control" name="department" id="department">
+                                                            <option value=""><?php echo lang('select'); ?> .....</option>
+                                                            <?php foreach ($departments as $department) { ?>
+                                                                <option value="<?php echo $department->id; ?>"><?php echo $department->name; ?></option>
+                                                            <?php } ?>
+                                                        </select>
+                                                    </div>
+
+
                                                     <div class="doctor_div">
                                                     <label for=""> <?php echo lang('doctor'); ?></label>
                                                     <select class="form-control" name="doctor" id="adoctors">
-                                                        <option value="">Select .....</option>
+                                                        <option value=""><?php echo lang('select'); ?> .....</option>
                                                         <?php foreach ($doctors as $doctor) { ?>
                                                             <option value="<?php echo $doctor->id; ?>"<?php
                                                             if (!empty($payment->doctor)) {
@@ -232,9 +244,7 @@
                                                     <label for=""><?php echo lang('date'); ?></label>
                                                     <input type="text" class="form-control " readonly="" id="date" name="date" id="" value='' placeholder="">
                                                     <label for=""><?php echo lang('available_slots'); ?></label>
-                                                    <select class="form-control m-bot15" name="time_slot" id="aslots" value=''> 
-
-                                                    </select>
+                                                    <select class="form-control m-bot15" name="time_slot" id="aslots" value=''></select>
                                                     <label class=""><?php echo lang('visit'); ?> <?php echo lang('description'); ?></label>
 
                                                     <select class="form-control m-bot15" name="visit_description" id="visit_description" value=''></select>
