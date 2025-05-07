@@ -649,10 +649,34 @@ $(document).ready(function () {
         }
     };
 
-    // Validación del RUT en tiempo real
+    // Formatear el RUT en tiempo real mientras el usuario escribe
     inputRut.on('input', function () {
+      let rut = $(this).val(); // Obtener el valor del campo RUT
+
+      // Eliminar caracteres no válidos (solo números, K/k y guion)
+      rut = rut.replace(/[^0-9kK]/g, '');
+
+      // Agregar el guion antes del dígito verificador si el RUT tiene más de un carácter
+      if (rut.length > 1) {
+          rut = rut.slice(0, -1) + '-' + rut.slice(-1);
+      }
+
+      // Actualizar el valor del campo con el RUT formateado
+      $(this).val(rut);
+    });
+
+    // Validación del RUT en tiempo real
+    inputRut.on('blur', function () {
         let rut = $(this).val(); // Obtener el valor del campo RUT
 
+        /* // Formatear el RUT en tiempo real
+        rut = rut.replace(/[^0-9kK]/g, ''); // Eliminar caracteres no válidos
+        if (rut.length > 1) {
+            rut = rut.slice(0, -1) + '-' + rut.slice(-1); // Agregar el guion antes del dígito verificador
+        }
+        $(this).val(rut); // Actualizar el valor del campo con el RUT formateado */
+
+        // Validar el RUT  
         if (!Fn.validaRut(rut)) {
             errorSpan.text("RUT inválido");
             return;
@@ -671,12 +695,19 @@ $(document).ready(function () {
             .then(response => response.json())
             .then(data => {
                 if (data.exists) {
-                    errorSpan.text("Este RUT ya está registrado");
-                } else {
                     errorSpan.text("");
-                    // Mostrar el modal de registro encima del modal actual
-                    modalAppointment.modal('hide'); // Ocultar el modal actual
-                    modalRegister.modal('show'); // Mostrar el modal de registro
+                    inputRut.removeClass("rut-invalid").addClass("rut-valid");
+                } else {
+                  // Mostrar mensaje con enlace para abrir el modal
+                  errorSpan.html('<span style="color: black;">Completar datos</span> <a href="#" id="openRegisterModal" style="text-decoration: underline;">AQUÍ</a>.');
+                  inputRut.removeClass("rut-valid").addClass("rut-invalid");
+
+                  // Agregar evento para abrir el modal al hacer clic en el enlace
+                  $("#openRegisterModal").on("click", function (e) {
+                      e.preventDefault(); // Evitar el comportamiento predeterminado del enlace
+                      modalAppointment.modal('hide'); // Ocultar el modal actual
+                      modalRegister.modal('show'); // Mostrar el modal de registro
+                  });
                 }
             })
             .catch(error => {
@@ -687,7 +718,7 @@ $(document).ready(function () {
 
     // Cuando se cierra el modal de registro, volver al modal de cita
     modalRegister.on('hidden.bs.modal', function () {
-      modalAppointment.modal('show'); // Mostrar el modal de cita nuevamente
+    modalAppointment.modal('show'); // Mostrar el modal de cita nuevamente
     });
 
     // Validación del formulario al enviarlo////////////////

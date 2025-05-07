@@ -99,3 +99,12 @@ and open the template in the editor.
 #registerPatientModal {
   z-index: 1051; /* Más alto que el modal base */
 }
+/* Borde verde para RUT existente */
+.rut-valid {
+  border: 2px solid green !important;
+}
+
+/* Borde rojo para RUT inválido */
+.rut-invalid {
+  border: 1px solid red !important;
+}
