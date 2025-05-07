@@ -196,6 +196,9 @@ $(document).ready(function () {
         return;
     }
 
+    // Limpiar el campo #date
+    $("#date").val(''); // Restablecer el valor del campo a vacío
+
     $.ajax({
         url: "frontend/getAvailableDatesByDoctor?doctor=" + doctorId,
         method: "GET",
@@ -221,11 +224,17 @@ $(document).ready(function () {
             // Inicializar o re-inicializar el datepicker con los nuevos datos
             if (availableDates.length > 0) {
               initializeDatePicker(availableDates); // Siempre inicializar aquí
+              $("#date").attr("placeholder", "Seleccione un día disponible");
           } else {
-              if ($("#date").data('datepicker')) {
-                  $("#date").datepicker('destroy');
+              if ($("#date").data('datepicker')) {// Verificar si el datepicker ya existe
+                  $("#date").datepicker('destroy');// Destruir el datepicker existente
+                  
               }
               datepickerInitialized = false;
+              $("#date").attr("placeholder", "No hay días disponibles");
+              // Limpiar las opciones existentes y agregar el mensaje de "No hay horas disponibles"
+              $("#aslots").empty(); // Limpiar las opciones existentes
+              $("#aslots").append('<option value="" disabled selected>No hay horas disponibles</option>');
               alert("No hay días disponibles...");
           }
         },
@@ -238,6 +247,17 @@ $(document).ready(function () {
 
   function initializeDatePicker(availableDatesArray) {
     console.log("initializeDatePicker llamada con:", availableDatesArray);
+
+    /* // Verificar si hay días disponibles
+    if (availableDatesArray.length > 0) {
+        // Mostrar mensaje en el campo #date
+        $("#date").attr("placeholder", "Seleccione un día disponible");
+    } else {
+        // Si no hay días disponibles, mostrar mensaje de advertencia
+        $("#date").attr("placeholder", "No hay días disponibles");
+    } */
+
+    // Inicializar el datepicker
     $("#date").datepicker({
         format: 'dd-mm-yyyy',
         autoclose: true,
@@ -296,7 +316,7 @@ $(document).ready(function () {
           } else {
             $("#aslots")
               .append(
-                $("<option>").text("No hay más franjas horarias").val("No seleccionado")
+                $("<option>").text("No hay más horas horarias").val("No seleccionado")
               )
               .end();
           }
@@ -570,7 +590,7 @@ $(document).ready(function () {
 
         // Limpia el campo de doctores
         doctorSelect.empty();
-        doctorSelect.append('<option value="">Select .....</option>');
+        doctorSelect.append('<option value="">Seleccionar Médico .....</option>');
 
         if (departmentId) {
             $.ajax({
@@ -594,6 +614,148 @@ $(document).ready(function () {
         }
     });
 
+    //valida campo rut y campo email//////////////////////////////////////////////////////////////////////////////////////////
+
+    "use strict";
+
+    // Variables para los campos de RUT y email
+    var inputRut = $('#rut'); // Usando jQuery para seleccionar el campo RUT
+    var errorSpan = $('#rut-error'); // Asegúrate de tener un elemento con este ID para mostrar errores
+    var modalRegister = $('#registerPatientModal'); // Modal para registrar datos del paciente
+    var modalAppointment = $('#exampleModal'); // Modal de la cita médica
+    var emailInput = $('#email'); // Usando jQuery para seleccionar el campo email
+    var emailError = $('#email-error'); // Asegúrate de tener un elemento con este ID para mostrar errores
+    const form = $('#miFormulario'); // Usando jQuery para seleccionar el formulario
+
+    // Funciones para validar el RUT
+    var Fn = {
+        validaRut: function (rutCompleto) {
+            rutCompleto = rutCompleto.replace("‐", "-");
+            if (!/^[0-9]+[-|‐]{1}[0-9kK]{1}$/.test(rutCompleto))
+                return false;
+            var tmp = rutCompleto.split('-');
+            var digv = tmp[1];
+            var rut = tmp[0];
+            if (digv == 'K') digv = 'k';
+
+            return (Fn.dv(rut) == digv);
+        },
+        dv: function (T) {
+            var M = 0,
+                S = 1;
+            for (; T; T = Math.floor(T / 10))
+                S = (S + T % 10 * (9 - M++ % 6)) % 11;
+            return S ? S - 1 : 'k';
+        }
+    };
+
+    // Validación del RUT en tiempo real
+    inputRut.on('input', function () {
+        let rut = $(this).val(); // Obtener el valor del campo RUT
+
+        if (!Fn.validaRut(rut)) {
+            errorSpan.text("RUT inválido");
+            return;
+        } else {
+            errorSpan.text("");
+        }
+
+        // Verificar si el RUT ya está registrado
+        let formData = new FormData();
+        formData.append('rut', rut);
+
+        fetch('frontend/check_rut', { // Cambia la URL según tu configuración
+            method: 'POST',
+            body: formData
+        })
+            .then(response => response.json())
+            .then(data => {
+                if (data.exists) {
+                    errorSpan.text("Este RUT ya está registrado");
+                } else {
+                    errorSpan.text("");
+                    // Mostrar el modal de registro encima del modal actual
+                    modalAppointment.modal('hide'); // Ocultar el modal actual
+                    modalRegister.modal('show'); // Mostrar el modal de registro
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                errorSpan.text("Error al verificar el RUT");
+            });
+    });
+
+    // Cuando se cierra el modal de registro, volver al modal de cita
+    modalRegister.on('hidden.bs.modal', function () {
+      modalAppointment.modal('show'); // Mostrar el modal de cita nuevamente
+    });
+
+    // Validación del formulario al enviarlo////////////////
+    form.on('submit', function (event) {
+        event.preventDefault(); // Evitar el envío del formulario por defecto
+
+        // Validación del RUT
+        if (!Fn.validaRut(inputRut.val())) {
+            errorSpan.text("RUT inválido");
+            return;
+        } else {
+            errorSpan.text("");
+        }
+
+        // Validación del email
+        $.ajax({
+            url: 'frontend/validar_email', // Cambia la URL según tu configuración
+            type: 'POST',
+            data: { email: emailInput.val() },
+            dataType: 'json',
+            success: function (response) {
+                if (response.status === false) {
+                    console.log("Email inválido:", response.message);
+                    emailError.text(response.message);
+                    return; // Detener el envío si el email es inválido
+                } else {
+                    emailError.text("");
+
+                    // Si el email es válido, verificar el RUT y enviar el formulario
+                    let formData = new FormData();
+                    formData.append('rut', inputRut.val());
+
+                    fetch('frontend/check_rut', { // Cambia la URL según tu configuración
+                        method: 'POST',
+                        body: formData
+                    })
+                        .then(response => {
+                            if (!response.ok) {
+                                console.error("Error HTTP:", response.status, response.statusText);
+                                throw new Error('Error en la petición');
+                            }
+                            return response.json();
+                        })
+                        .then(data => {
+                            if (data && data.exists) {
+                                errorSpan.text("Este RUT ya está registrado");
+                            } else if (data && data.error) {
+                                console.error("Error del servidor:", data.error);
+                                errorSpan.text(data.error);
+                            } else {
+                                console.log("RUT válido y no registrado. Enviando formulario.");
+                                form[0].submit(); // Enviar el formulario
+                            }
+                        })
+                        .catch(error => {
+                            console.error('Error en la petición fetch:', error);
+                            errorSpan.text("Error al verificar el RUT (intenta nuevamente)");
+                        });
+                }
+            },
+            error: function (error) {
+                console.error('Error en la petición AJAX:', error);
+                emailError.text("Error al validar el email");
+            }
+        });
+    });
+    // Fin de la validación del formulario rut y email//////////////////////////////////////////////////////////////////////////////////////////
+    
     //termina el campo toma de cita//////////////////////////////////////////////////////////
 
 

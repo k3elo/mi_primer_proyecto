@@ -21,7 +21,7 @@ if (!defined('BASEPATH'))
  */
 // Errors
 $lang['error_csrf'] = 'This form post did not pass our security checks.';
-$lang['doctor'] = 'Medico';
+$lang['doctor'] = 'Médico';
 $lang['patient'] = 'Paciente';
 $lang['nurse'] = 'Enfermera';
 $lang['pharmacist'] = 'Farmacéutico';
@@ -872,5 +872,10 @@ $lang['historia_clinica'] = 'Historia clínica';
 $lang['examen_fisico'] = 'Examen físico';
 $lang['indicaciones'] = 'Indicaciones';
 $lang['specialty'] = 'Especialidad';
+$lang['select_image'] = 'Seleccionar imagen';
+$lang['change'] = 'Cambiar';
+$lang['remove'] = 'Eliminar';
+$lang['image_upload'] = 'Carga de imagen';
+$lang['available_hour'] = 'Horas disponibles';
 
 

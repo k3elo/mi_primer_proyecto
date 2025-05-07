@@ -156,9 +156,11 @@
                                             </button>
                                         </div>
                                         <div class="modal-body appointment_modal_body">
-                                            <form action="<?php echo site_url('frontend/addNew'); ?>" method="post">
-                                                <form action="frontend/addNew"  method="post" id="addAppointmentForm">
-                                                    <label for="exampleInputEmail1"> <?php echo lang('patient'); ?></label>
+                                            <form action="<?php echo site_url('frontend/addNew'); ?>" method="post" id="addAppointmentForm">
+                                                <!-- <form action="frontend/addNew"  method="post" id="addAppointmentForm"> -->
+                                                    
+
+                                                    <!-- <label for="exampleInputEmail1"> <?php echo lang('patient'); ?></label>
                                                     <select class="form-control m-bot15 js-example-basic-single pos_select" id="pos_select" name="patient" value=''> 
                                                         <option value=" "><?php echo lang('select'); ?> .....</option>
                                                         <option class="patient_add" value="patient_id"><?php echo lang('patient_id'); ?></option>
@@ -211,7 +213,7 @@
                                                             }
                                                             ?> > Others </option>
                                                         </select>
-                                                    </div>
+                                                    </div> -->
 
                                                     <div class="form-group">
                                                         <label for="department"><?php echo lang('specialty'); ?></label>
@@ -225,26 +227,31 @@
 
 
                                                     <div class="doctor_div">
-                                                    <label for=""> <?php echo lang('doctor'); ?></label>
-                                                    <select class="form-control" name="doctor" id="adoctors">
-                                                        <option value=""><?php echo lang('select'); ?> .....</option>
-                                                        <?php foreach ($doctors as $doctor) { ?>
-                                                            <option value="<?php echo $doctor->id; ?>"<?php
-                                                            if (!empty($payment->doctor)) {
-                                                                if ($payment->doctor == $doctor->id) {
-                                                                    echo 'selected';
+                                                        <label for=""> <?php echo lang('doctor'); ?></label>
+                                                        <select class="form-control" name="doctor" id="adoctors">
+                                                            <option value=""><?php echo lang('select'); ?> .....</option>
+                                                            <?php foreach ($doctors as $doctor) { ?>
+                                                                <option value="<?php echo $doctor->id; ?>"<?php
+                                                                if (!empty($payment->doctor)) {
+                                                                    if ($payment->doctor == $doctor->id) {
+                                                                        echo 'selected';
+                                                                    }
                                                                 }
-                                                            }
-                                                            ?>><?php echo $doctor->name; ?> </option>
-                                                                <?php } ?>
+                                                                ?>><?php echo $doctor->name; ?> </option>
+                                                                    <?php } ?>
 
-                                                    </select></div>
-                                                   
-                                                   
+                                                        </select>
+                                                    </div>                                                   
                                                     <label for=""><?php echo lang('date'); ?></label>
-                                                    <input type="text" class="form-control " readonly="" id="date" name="date" id="" value='' placeholder="">
-                                                    <label for=""><?php echo lang('available_slots'); ?></label>
+                                                    <input type="text" class="form-control " readonly="" id="date" name="date" id="" value='' placeholder="Seleccione un médico para ver los días disponibles">
+                                                    <label for=""><?php echo lang('available_hour'); ?></label>
                                                     <select class="form-control m-bot15" name="time_slot" id="aslots" value=''></select>
+                                                    <!-- modificacion de campo rut -->
+                                                    <div class="form-group m-bot15">
+                                                        <label for="rut"><?php echo lang('patient_id'); ?> &#42;</label>
+                                                        <input type="text" class="form-control" name="rut" id="rut" value='' placeholder="Ej: 12345678-k" required="">
+                                                        <span id="rut-error" class="text-danger small"></span>
+                                                    </div>
                                                     <label class=""><?php echo lang('visit'); ?> <?php echo lang('description'); ?></label>
 
                                                     <select class="form-control m-bot15" name="visit_description" id="visit_description" value=''></select>
@@ -324,7 +331,46 @@
                                                                 ?>onClick="twoCheckoutPay(event);"<?php }
                                                             ?>> <?php echo lang('submit'); ?>
                                                         </button>
+                                                
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
+                            <!-- Modal para registrar datos del paciente -->
+                            <div class="modal fade" id="registerPatientModal" tabindex="-1" role="dialog" aria-labelledby="registerPatientModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="registerPatientModalLabel"><?php echo lang('register_new_patient'); ?></h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form id="registerPatientForm" action="frontend/registerPatient" method="post">
+                                                <div class="form-group">
+                                                    <label for="p_name"><?php echo lang('patient'); ?> <?php echo lang('name'); ?></label>
+                                                    <input type="text" class="form-control" name="p_name" id="p_name" required>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="p_email"><?php echo lang('patient'); ?> <?php echo lang('email'); ?></label>
+                                                    <input type="email" class="form-control" name="p_email" id="p_email" required>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="p_phone"><?php echo lang('patient'); ?> <?php echo lang('phone'); ?></label>
+                                                    <input type="text" class="form-control" name="p_phone" id="p_phone" required>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="p_gender"><?php echo lang('patient'); ?> <?php echo lang('gender'); ?></label>
+                                                    <select class="form-control" name="p_gender" id="p_gender" required>
+                                                        <option value="Male"><?php echo lang('male'); ?></option>
+                                                        <option value="Female"><?php echo lang('female'); ?></option>
+                                                        <option value="Others"><?php echo lang('others'); ?></option>
+                                                    </select>
+                                                </div>
+                                                <button type="submit" class="btn btn-primary"><?php echo lang('submit'); ?></button>
                                             </form>
                                         </div>
                                     </div>

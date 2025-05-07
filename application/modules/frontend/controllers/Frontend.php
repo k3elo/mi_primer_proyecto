@@ -1157,6 +1157,39 @@ class Frontend extends MX_Controller
         $departments = $this->department_model->getDepartment(); // Método del modelo para obtener los departamentos
         echo json_encode($departments);
     }
+    //check campo rut del formulario cita
+    public function check_rut() {   // Método para verificar si el RUT existe en la base de datos
+        $rut = $this->input->post('rut');
+    
+        // Sanitización (usando prepared statements - lo más recomendable)
+        $this->db->where('id', $rut);
+        $query = $this->db->get('patient');
+        $exists = $query->num_rows() > 0;
+    
+        header('Content-Type: application/json');
+        echo json_encode(['exists' => $exists]);
+    }
+
+    public function validar_email() {
+        if ($this->input->post('email')) {
+            $email = $this->input->post('email');
+    
+            if ($this->validar_formato_email($email)) {
+                echo json_encode(array('status' => true));
+            } else {
+                echo json_encode(array('status' => false, 'message' => 'El formato del email es inválido.'));
+            }
+        } else {
+            echo json_encode(array('status' => false, 'message' => 'No se recibió el email.'));
+        }
+    }
+
+    private function validar_formato_email($email) {
+        // Puedes usar una expresión regular más compleja o una biblioteca de validación
+        return preg_match('/^[^@]+@[^@]+\.[a-zA-Z]{2,}$/', $email);
+    }
+    //fin check campo rut del formulario cita y formato email
+    
 }
 
 /* End of file appointment.php */

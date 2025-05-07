@@ -96,3 +96,6 @@ and open the template in the editor.
   color: #721c24 !important;
   cursor: not-allowed !important;
 }
+#registerPatientModal {
+  z-index: 1051; /* Más alto que el modal base */
+}

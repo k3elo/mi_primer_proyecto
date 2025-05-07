@@ -64,7 +64,8 @@
                         <label for="rut"><?php echo lang('patient_id'); ?> &#42;</label>
                         <input type="text" class="form-control" name="rut" id="rut" value='' placeholder="Ej: 12345678-k" required="">
                         <span id="rut-error" class="text-danger small"></span>
-                    </div>           
+                    </div> 
+                    <!-- fin campo rut -->          
                     <div class="form-group col-md-6">
                         <label for="exampleInputEmail1"><?php echo lang('name'); ?> &#42;</label>
                         <input type="text" class="form-control" name="name"  value='' placeholder="" required="">
@@ -133,7 +134,7 @@
 
 
                     <div class="form-group last col-md-6">
-                        <label class="control-label">Image Upload</label>
+                        <label class="control-label"><?php echo lang('image_upload') ?></label>
                         <div class="">
                             <div class="fileupload fileupload-new" data-provides="fileupload">
                                 <div class="fileupload-new thumbnail img_class">
@@ -143,11 +144,11 @@
                                 <div class="fileupload-preview fileupload-exists thumbnail img_thumb"></div>
                                 <div>
                                     <span class="btn btn-white btn-file">
-                                        <span class="fileupload-new"><i class="fa fa-paper-clip"></i> Select image</span>
-                                        <span class="fileupload-exists"><i class="fa fa-undo"></i> Change</span>
+                                        <span class="fileupload-new"><i class="fa fa-paper-clip"></i> <?php echo lang('select_image') ?></span>
+                                        <span class="fileupload-exists"><i class="fa fa-undo"></i><?php echo lang('change') ?></span>
                                         <input type="file" class="default" name="img_url"/>
                                     </span>
-                                    <a href="#" class="btn btn-danger fileupload-exists" data-dismiss="fileupload"><i class="fa fa-trash"></i> Remove</a>
+                                    <a href="#" class="btn btn-danger fileupload-exists" data-dismiss="fileupload"><i class="fa fa-trash"></i><?php echo lang('remove') ?></a>
                                 </div>
                             </div>
 
@@ -264,7 +265,7 @@
 
 
                     <div class="form-group last col-md-6">
-                        <label class="control-label">Image Upload</label>
+                        <label class="control-label"><?php echo lang('image_upload') ?></label>
                         <div class="">
                             <div class="fileupload fileupload-new" data-provides="fileupload">
                                 <div class="fileupload-new thumbnail img_class">
@@ -274,11 +275,11 @@
                                 <div class="fileupload-preview fileupload-exists thumbnail img_thumb"></div>
                                 <div>
                                     <span class="btn btn-white btn-file">
-                                        <span class="fileupload-new"><i class="fa fa-paper-clip"></i> Select image</span>
-                                        <span class="fileupload-exists"><i class="fa fa-undo"></i> Change</span>
+                                        <span class="fileupload-new"><i class="fa fa-paper-clip"></i> <?php echo lang('select_image') ?></span>
+                                        <span class="fileupload-exists"><i class="fa fa-undo"></i> <?php echo lang('change'); ?></span>
                                         <input type="file" class="default" name="img_url"/>
                                     </span>
-                                    <a href="#" class="btn btn-danger fileupload-exists" data-dismiss="fileupload"><i class="fa fa-trash"></i> Remove</a>
+                                    <a href="#" class="btn btn-danger fileupload-exists" data-dismiss="fileupload"><i class="fa fa-trash"></i> <?php echo lang('remove') ?></a>
                                 </div>
                             </div>
 
