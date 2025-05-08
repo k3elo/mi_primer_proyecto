@@ -1330,7 +1330,7 @@
     </div><!-- /.modal-dialog -->
 </div>
 
-<div class="modal fade" id="myModal2" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal fade" id="myModal2" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"> 
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -1363,13 +1363,13 @@
                     <div class="form-group col-md-12">
                         <label class=""><?php echo lang('examen_fisico'); ?> &#42;</label>
                         <div class="">
-                            <textarea class="ckeditor form-control" id="editor_1" name="description_1" required="" value="" rows="10"></textarea>
+                            <textarea class="ckeditor form-control" id="editor_1" name="description" required="" value="" rows="10"></textarea>
                         </div>
                     </div>
                     <div class="form-group col-md-12">
                         <label class=""><?php echo lang('indicaciones'); ?> &#42;</label>
                         <div class="">
-                            <textarea class="ckeditor form-control" id="editor_2" name="description_2" required="" value="" rows="10"></textarea>
+                            <textarea class="ckeditor form-control" id="editor_2" name="indicaciones" required="" value="" rows="10"></textarea>
                         </div>
                     </div>
 
