@@ -2,6 +2,22 @@
 
 $(document).ready(function () {
   "use strict";
+
+  // Restaurar la pestaña activa desde localStorage
+  var activeTab = localStorage.getItem("activeTab");
+  if (activeTab) {
+    $('a[href="' + activeTab + '"]').tab("show");
+  }
+
+  // Guardar la pestaña activa en localStorage al hacer clic
+  $('a[data-toggle="tab"]').on("shown.bs.tab", function (e) {
+    var tabId = $(e.target).attr("href");
+    localStorage.setItem("activeTab", tabId);
+  });
+});
+
+$(document).ready(function () {
+  "use strict";
   $(".medical_history_button").on("click", ".editbutton", function () {
     "use strict";
     var iid = $(this).attr("data-id");

@@ -873,7 +873,7 @@ if ($this->ion_auth->in_group('Doctor')) {
                                     echo 'selected';
                                 }
                             }
-                            ?> > 15 Minitues </option>
+                            ?> > 15 <?php echo lang('minitues') ?> </option>
 
                             <option value="4" <?php
                             if (!empty($settings->duration)) {
@@ -881,7 +881,7 @@ if ($this->ion_auth->in_group('Doctor')) {
                                     echo 'selected';
                                 }
                             }
-                            ?> > 20 Minitues </option>
+                            ?> > 20 <?php echo lang('minitues') ?> </option>
 
                             <option value="6" <?php
                             if (!empty($settings->duration)) {
@@ -889,7 +889,7 @@ if ($this->ion_auth->in_group('Doctor')) {
                                     echo 'selected';
                                 }
                             }
-                            ?> > 30 Minitues </option>
+                            ?> > 30 <?php echo lang('minitues') ?> </option>
 
                             <option value="9" <?php
                             if (!empty($settings->duration)) {
@@ -897,7 +897,7 @@ if ($this->ion_auth->in_group('Doctor')) {
                                     echo 'selected';
                                 }
                             }
-                            ?> > 45 Minitues </option>
+                            ?> > 45 <?php echo lang('minitues') ?> </option>
 
                             <option value="12" <?php
                             if (!empty($settings->duration)) {
@@ -905,7 +905,7 @@ if ($this->ion_auth->in_group('Doctor')) {
                                     echo 'selected';
                                 }
                             }
-                            ?> > 60 Minitues </option>
+                            ?> > 60 <?php echo lang('minitues') ?> </option>
 
                         </select>
                     </div>
@@ -985,7 +985,7 @@ if ($this->ion_auth->in_group('Doctor')) {
                                     echo 'selected';
                                 }
                             }
-                            ?> > 15 Minitues </option>
+                            ?> > 15 <?php echo lang('minitues') ?> </option>
 
                             <option value="4" <?php
                             if (!empty($settings->duration)) {
@@ -993,7 +993,7 @@ if ($this->ion_auth->in_group('Doctor')) {
                                     echo 'selected';
                                 }
                             }
-                            ?> > 20 Minitues </option>
+                            ?> > 20 <?php echo lang('minitues') ?> </option>
 
                             <option value="6" <?php
                             if (!empty($settings->duration)) {
@@ -1001,7 +1001,7 @@ if ($this->ion_auth->in_group('Doctor')) {
                                     echo 'selected';
                                 }
                             }
-                            ?> > 30 Minitues </option>
+                            ?> > 30 <?php echo lang('minitues') ?> </option>
 
                             <option value="9" <?php
                             if (!empty($settings->duration)) {
@@ -1009,7 +1009,7 @@ if ($this->ion_auth->in_group('Doctor')) {
                                     echo 'selected';
                                 }
                             }
-                            ?> > 45 Minitues </option>
+                            ?> > 45 <?php echo lang('minitues') ?> </option>
 
                             <option value="12" <?php
                             if (!empty($settings->duration)) {
@@ -1017,7 +1017,7 @@ if ($this->ion_auth->in_group('Doctor')) {
                                     echo 'selected';
                                 }
                             }
-                            ?> > 60 Minitues </option>
+                            ?> > 60 <?php echo lang('minitues') ?> </option>
 
                         </select>
                     </div>

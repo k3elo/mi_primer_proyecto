@@ -85,3 +85,26 @@ and open the template in the editor.
 .form-control {
   margin-bottom: 6px;
 }
+.available-day {
+  background-color: #d4edda; /* Fondo verde claro */
+  color: #155724; /* Texto verde oscuro */
+  border-radius: 50%; /* Opcional: hacer los días redondeados */
+}
+
+.unavailable-day {
+  background-color: #f8d7da !important;
+  color: #721c24 !important;
+  cursor: not-allowed !important;
+}
+#registerPatientModal {
+  z-index: 1051; /* Más alto que el modal base */
+}
+/* Borde verde para RUT existente */
+.rut-valid {
+  border: 2px solid green !important;
+}
+
+/* Borde rojo para RUT inválido */
+.rut-invalid {
+  border: 1px solid red !important;
+}

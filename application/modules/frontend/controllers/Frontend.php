@@ -1,5 +1,6 @@
 <?php
 
+
 if (!defined('BASEPATH'))
     exit('No direct script access allowed');
 
@@ -24,6 +25,9 @@ class Frontend extends MX_Controller
         $this->load->model('finance/finance_model');
         $this->load->model('pgateway/pgateway_model');
         $this->load->model('doctor/doctorvisit_model');
+        $this->load->model('schedule/schedule_model');//agregue esto desde el modelo de schedule
+        $this->load->model('department/department_model');
+               
         $language = $this->db->get('settings')->row()->language;
         $this->lang->load('system_syntax', $language);
     }
@@ -1082,6 +1086,20 @@ class Frontend extends MX_Controller
         }
         echo json_encode($data);
     }
+
+    function getAvailableSlotByDoctorByDateByJason_1() {
+        $data = array();
+        $date = $this->input->get('date'); 
+        if (!empty($date)) {
+            $date = strtotime($date);
+        }
+        $doctor = $this->input->get('doctor');
+        /* $data['aslots'] = $this->schedule_model->getAvailableSlotByDoctorByDate($date, $doctor);
+        echo json_encode($data); */
+        $data['aslots'] = array_values($this->schedule_model->getAvailableSlotByDoctorByDate($date, $doctor));
+        echo json_encode($data);
+    }
+
     public function getDoctorVisit()
     {
         $id = $this->input->get('id');
@@ -1103,6 +1121,75 @@ class Frontend extends MX_Controller
 
         echo json_encode($data);
     }
+
+    public function getAvailableDatesByDoctor() {
+        $doctor_id = $this->input->get('doctor'); // Obtener el ID del doctor desde la solicitud GET
+        if (empty($doctor_id)) {
+            echo json_encode(['error' => 'Doctor ID is required']);
+            return;
+        }
+    
+        // Llamar al modelo para obtener las fechas disponibles
+        $available_dates = $this->schedule_model->getAvailableDatesByDoctor($doctor_id);
+    
+        // Verificar si el modelo devolvió resultados
+        if ($available_dates === false) {
+            echo json_encode(['error' => 'Error fetching available dates']);
+            return;
+        }
+    
+        // Devolver las fechas disponibles en formato JSON
+        echo json_encode(['availableDates' => $available_dates]);
+    }
+
+    public function getDoctorsByDepartment() {
+        $department_id = $this->input->get('department_id');
+        if (empty($department_id)) {
+            echo json_encode(['error' => 'Department ID is required']);
+            return;
+        }
+    
+        $doctors = $this->doctor_model->getDoctorsByDepartment($department_id);
+        echo json_encode($doctors);
+    }
+
+    public function getDepartments() {
+        $departments = $this->department_model->getDepartment(); // Método del modelo para obtener los departamentos
+        echo json_encode($departments);
+    }
+    //check campo rut del formulario cita
+    public function check_rut() {   // Método para verificar si el RUT existe en la base de datos
+        $rut = $this->input->post('rut');
+    
+        // Sanitización (usando prepared statements - lo más recomendable)
+        $this->db->where('id', $rut);
+        $query = $this->db->get('patient');
+        $exists = $query->num_rows() > 0;
+    
+        header('Content-Type: application/json');
+        echo json_encode(['exists' => $exists]);
+    }
+
+    public function validar_email() {
+        if ($this->input->post('email')) {
+            $email = $this->input->post('email');
+    
+            if ($this->validar_formato_email($email)) {
+                echo json_encode(array('status' => true));
+            } else {
+                echo json_encode(array('status' => false, 'message' => 'El formato del email es inválido.'));
+            }
+        } else {
+            echo json_encode(array('status' => false, 'message' => 'No se recibió el email.'));
+        }
+    }
+
+    private function validar_formato_email($email) {
+        // Puedes usar una expresión regular más compleja o una biblioteca de validación
+        return preg_match('/^[^@]+@[^@]+\.[a-zA-Z]{2,}$/', $email);
+    }
+    //fin check campo rut del formulario cita y formato email
+    
 }
 
 /* End of file appointment.php */
