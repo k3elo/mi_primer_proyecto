@@ -569,8 +569,15 @@ class CI_Input {
 				break;
 		}
 
-		return (bool) filter_var($ip, FILTER_VALIDATE_IP, $which);
+
+		//return (bool) filter_var($ip, FILTER_VALIDATE_IP);// antes esta asi: return (bool) filter_var($ip, FILTER_VALIDATE_IP, $which); 
+		return (bool) ($which !== null
+    ? filter_var($ip, FILTER_VALIDATE_IP, $which)
+    : filter_var($ip, FILTER_VALIDATE_IP));
+	
 	}
+
+
 
 	// --------------------------------------------------------------------
 
