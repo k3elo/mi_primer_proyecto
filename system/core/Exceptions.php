@@ -268,7 +268,7 @@ class CI_Exceptions {
 		include($templates_path.$template.'.php');
 		$buffer = ob_get_contents();
 		ob_end_clean();
-		echo $buffer;
+		//echo $buffer; //comente esta linea y se fueron los errores de pantalla
 	}
 
 }
